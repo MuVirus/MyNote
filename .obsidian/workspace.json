@@ -1,0 +1,251 @@
+{
+  "main": {
+    "id": "373b86a52c83225c",
+    "type": "split",
+    "children": [
+      {
+        "id": "47c82ec1dc60dfdb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f43a2a13301bc438",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件/开发环境/esp-idf/ESP-IDF基础.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ESP-IDF基础"
+            }
+          },
+          {
+            "id": "9bf59e919922ce40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "English/Grammer/五大句型.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "五大句型"
+            }
+          },
+          {
+            "id": "0527a049b3b329b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件/开发板/STM32/HAL/基于系统嘀嗒器简单按键.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "基于系统嘀嗒器简单按键"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9c0fad20fa22a77f",
+    "type": "split",
+    "children": [
+      {
+        "id": "899fb6fa34aed4ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68532c3565305125",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "586ba03f1754ce3e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#1、",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "bb07fd16e5edd5e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.501522064209
+  },
+  "right": {
+    "id": "03a66aea4a160681",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a94c970fef99c2d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c060d522d89feceb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计划/2025/4/25-30.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "25-30 的反向链接列表"
+            }
+          },
+          {
+            "id": "8be47e02aa874d92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计划/2025/4/25-30.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "25-30 的出链列表"
+            }
+          },
+          {
+            "id": "02332d022e275f0b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "015f4856bc5639b0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "硬件/开发板/STM32/HAL/基于系统嘀嗒器简单按键.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "基于系统嘀嗒器简单按键 的大纲"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "0527a049b3b329b4",
+  "lastOpenFiles": [
+    "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
+    "编程/Dart/Primer.md",
+    "English/Grammer/五大句型.md",
+    "硬件/开发环境/esp-idf/ESP-IDF基础.md",
+    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+    "硬件/开发板/STM32/HAL/基于系统嘀嗒器简单按键.md",
+    "硬件/开发板/ESP32/实战派S3/hhh.md",
+    "未命名.canvas",
+    "硬件/开发板/ESP32/实战派S3/嘉立创实战派资料.md",
+    "硬件/开发环境/esp-idf/学习资料.md",
+    "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
+    "编程/Flutter/配置Flutter.md",
+    "编程/Dart",
+    "编程/Flutter/img/Pasted image 20250621203358.png",
+    "编程/Flutter/img/Pasted image 20250621202935.png",
+    "编程/Flutter/img/Pasted image 20250621201130.png",
+    "编程/Flutter/img/Pasted image 20250621200741.png",
+    "编程/Flutter/img/Pasted image 20250621200048.png",
+    "编程/Flutter/img/Pasted image 20250621195815.png",
+    "编程/Flutter/img/Pasted image 20250621195638.png",
+    "编程/Flutter/img/Pasted image 20250621195130.png",
+    "编程/Flutter/img/Pasted image 20250621194841.png",
+    "编程/Flutter/img/Pasted image 20250621194657.png",
+    "编程/Flutter/img",
+    "编程/Android/Android Primer.md",
+    "编程/Flutter",
+    "未命名",
+    "编程/Android/img",
+    "编程/Java/Java基础.md",
+    "编程/Android",
+    "编程/Regex/Regex Primer.md",
+    "编程/Regex",
+    "硬件/实用电子基础/元件选型/连接器.md",
+    "English/Grammer",
+    "English",
+    "编程/Java/Java Swing.md",
+    "编程/Java/img",
+    "硬件/实用电子基础/元件选型/LED.md",
+    "硬件/实用电子基础/元件选型/三极管.md",
+    "硬件/实用电子基础/元件选型/电容.md",
+    "硬件/实用电子基础/元件选型/电阻.md",
+    "硬件/实用电子基础/元件选型/MOS管.md",
+    "硬件/实用电子基础/元件选型/LDO.md",
+    "硬件/实用电子基础/元件选型/按钮.md",
+    "硬件/实用电子基础/元件选型/开关.md",
+    "硬件/实用电子基础/元件选型/开机芯片.md",
+    "编程/Java/项目/PrimerClubManager/数据库构建.md"
+  ]
+}
