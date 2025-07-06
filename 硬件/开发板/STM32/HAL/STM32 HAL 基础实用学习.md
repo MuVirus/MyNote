@@ -81,7 +81,12 @@ uint8_t B1_last_status = 1;
 
 void key_scan()
 {
-	B1_status = HAL_GPIO_ReadPin(GPIO_)
+	B1_status = HAL_GPIO_ReadPin(GPIO_PIN_A, GPIO_PIN_0);
+	if(B1_status) {
+		HAL_Delay(10);
+		B1_status = HAL_GPIO_ReadPin(GPIO_PIN_A, GPIO_PIN_0);
+		if()
+	}
 }
 ```
 ### 非阻塞式
