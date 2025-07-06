@@ -85,12 +85,15 @@ void key_scan()
 	if(B1_status) {
 		HAL_Delay(10);
 		B1_status = HAL_GPIO_ReadPin(GPIO_PIN_A, GPIO_PIN_0);
-		if()
+		if(B1_status) {
+			task_fun();
+		}
 	}
 }
 ```
 ### 非阻塞式
-
+非阻塞式我一般喜欢直接用系统嘀嗒器(uwTick)
+第一种方法是直接外部定义计时变量，第二种方法是定义一个带有计时变量的结构体按钮类型。
 # 定时器
 ## 定时中断
 
