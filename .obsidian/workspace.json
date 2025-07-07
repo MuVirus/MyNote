@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+                "file": "硬件/开发板/Jetson/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32 HAL 基础实用学习"
+              "title": "未命名"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+                "file": "硬件/开发板/Jetson/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32 HAL 基础实用学习 的大纲"
+              "title": "未命名 的大纲"
             }
           }
         ],
@@ -171,12 +171,17 @@
   },
   "active": "f43a2a13301bc438",
   "lastOpenFiles": [
+    "硬件/开发板/Jetson/img/Pasted image 20250707175942.png",
+    "硬件/开发板/Jetson/img",
+    "硬件/实用电子基础/元件选型/LDO.md",
+    "硬件/开发板/Jetson/未命名.md",
+    "硬件/开发板/Jetson",
+    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
     "硬件/开发板/STM32/HAL/基于系统嘀嗒器简单按键.md",
     "硬件/开发板/STM32/HAL/GPIO模拟UART.md",
     "硬件/开发板/STM32/HAL/延时函数.md",
     "硬件/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
-    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/开发板/STM32/HAL/程序调度器.md",
     "硬件/开发环境/esp-idf/ESP-IDF基础.md",
     "English/Grammer/五大句型.md",
@@ -210,13 +215,8 @@
     "编程/Regex",
     "硬件/实用电子基础/元件选型/连接器.md",
     "English/Grammer",
-    "English",
     "编程/Java/Java Swing.md",
-    "编程/Java/img",
     "硬件/实用电子基础/元件选型/LED.md",
-    "硬件/实用电子基础/元件选型/三极管.md",
-    "硬件/实用电子基础/元件选型/电容.md",
-    "硬件/实用电子基础/元件选型/电阻.md",
-    "硬件/实用电子基础/元件选型/MOS管.md"
+    "硬件/实用电子基础/元件选型/三极管.md"
   ]
 }
