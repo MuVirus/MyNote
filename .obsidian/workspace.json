@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "47c82ec1dc60dfdb",
+        "id": "583cacce91d5cb32",
         "type": "tabs",
         "children": [
           {
-            "id": "f43a2a13301bc438",
+            "id": "d2fdf1b0bb87c5cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/开发板/Jetson/未命名.md",
+                "file": "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "实战派S3教程学习"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/Jetson/未命名.md",
+                "file": "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "实战派S3教程学习 的大纲"
             }
           }
         ],
@@ -169,12 +169,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f43a2a13301bc438",
+  "active": "d2fdf1b0bb87c5cf",
   "lastOpenFiles": [
+    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
+    "操作系统/Linux/基础/Linux命令入门.md",
+    "编程/Regex/Regex Primer.md",
+    "硬件/开发板/Jetson/未命名.md",
     "硬件/开发板/Jetson/img/Pasted image 20250707175942.png",
     "硬件/开发板/Jetson/img",
     "硬件/实用电子基础/元件选型/LDO.md",
-    "硬件/开发板/Jetson/未命名.md",
     "硬件/开发板/Jetson",
     "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
@@ -203,7 +206,6 @@
     "编程/Flutter/img/Pasted image 20250621195638.png",
     "编程/Flutter/img/Pasted image 20250621195130.png",
     "编程/Flutter/img/Pasted image 20250621194841.png",
-    "编程/Flutter/img/Pasted image 20250621194657.png",
     "编程/Flutter/img",
     "编程/Android/Android Primer.md",
     "编程/Flutter",
@@ -211,12 +213,10 @@
     "编程/Android/img",
     "编程/Java/Java基础.md",
     "编程/Android",
-    "编程/Regex/Regex Primer.md",
     "编程/Regex",
     "硬件/实用电子基础/元件选型/连接器.md",
     "English/Grammer",
     "编程/Java/Java Swing.md",
-    "硬件/实用电子基础/元件选型/LED.md",
-    "硬件/实用电子基础/元件选型/三极管.md"
+    "硬件/实用电子基础/元件选型/LED.md"
   ]
 }
