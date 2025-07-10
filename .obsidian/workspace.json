@@ -171,7 +171,11 @@
   },
   "active": "d2fdf1b0bb87c5cf",
   "lastOpenFiles": [
+    "硬件/开发板/STM32/FreeRTOS/img/Pasted image 20250710092900.png",
+    "硬件/开发板/STM32/FreeRTOS/img/Pasted image 20250710092715.png",
+    "硬件/开发板/STM32/FreeRTOS/img",
     "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+    "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
     "硬件/开发板/STM32/FreeRTOS/STM32 FreeRTOS基础.md",
     "硬件/开发板/STM32/FreeRTOS",
     "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
@@ -183,7 +187,6 @@
     "硬件/开发板/Jetson/img",
     "硬件/实用电子基础/元件选型/LDO.md",
     "硬件/开发板/Jetson",
-    "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
     "硬件/开发板/STM32/HAL/基于系统嘀嗒器简单按键.md",
     "硬件/开发板/STM32/HAL/GPIO模拟UART.md",
     "硬件/开发板/STM32/HAL/延时函数.md",
@@ -207,7 +210,6 @@
     "编程/Flutter/img/Pasted image 20250621195815.png",
     "编程/Flutter/img/Pasted image 20250621195638.png",
     "编程/Flutter/img/Pasted image 20250621195130.png",
-    "编程/Flutter/img/Pasted image 20250621194841.png",
     "编程/Flutter/img",
     "编程/Android/Android Primer.md",
     "编程/Flutter",
@@ -215,8 +217,6 @@
     "编程/Android/img",
     "编程/Java/Java基础.md",
     "编程/Android",
-    "编程/Regex",
-    "硬件/实用电子基础/元件选型/连接器.md",
-    "编程/Java/Java Swing.md"
+    "硬件/实用电子基础/元件选型/连接器.md"
   ]
 }
