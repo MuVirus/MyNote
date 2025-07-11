@@ -70,6 +70,15 @@ uint8_t USART2_Tx_Buff[200];
 2. HAL_UART_Transmit()第三个参数这里直接使用了 sprintf 是因为 sprintf 返回值为字符个数，sprintf 还可以处理字符串的参数写入问题。
 3. 0xffff 表示一个比较大的时间延迟，也可以使用 HAL_MAX_DELAY（更大）
 
+### 其他
+在usart.c加入stdio.h
+在usart.c的最下方加入
+```
+int fputc(int ch, FILE *f) {
+    HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+    return ch;
+}
+```
 # 按键 Key
 
 ## 消抖
