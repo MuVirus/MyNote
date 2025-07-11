@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/开发环境/esp-idf/学习资料.md",
+                "file": "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习资料"
+              "title": "实战派S3教程学习"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发环境/esp-idf/学习资料.md",
+                "file": "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "学习资料 的大纲"
+              "title": "实战派S3教程学习 的大纲"
             }
           }
         ],
@@ -171,6 +171,7 @@
   },
   "active": "d2fdf1b0bb87c5cf",
   "lastOpenFiles": [
+    "硬件/开发环境/esp-idf/学习资料.md",
     "硬件/开发环境/esp-idf/ESP-IDF基础.md",
     "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
     "硬件/开发板/ESP32/实战派S3/嘉立创实战派资料.md",
@@ -199,7 +200,6 @@
     "编程/Dart/Primer.md",
     "硬件/开发板/ESP32/实战派S3/hhh.md",
     "未命名.canvas",
-    "硬件/开发环境/esp-idf/学习资料.md",
     "编程/Flutter/配置Flutter.md",
     "编程/Dart",
     "编程/Flutter/img/Pasted image 20250621203358.png",
