@@ -1,4 +1,4 @@
-# 下载VSCode
+# VSCode
 ## 安装VSCode
 ![](img/Pasted%20image%2020250621182223.png)
 ![](img/Pasted%20image%2020250621182311.png)
@@ -6,14 +6,15 @@
 ![](img/Pasted%20image%2020250621182527.png)
 最好都选中，以后用方便。
 ![](img/Pasted%20image%2020250621182607.png)
-## 配置中文（非必须）
+## 配置
+### 汉化
 ![](img/Pasted%20image%2020250621182837.png)
 重启VSCode
 ![](img/Pasted%20image%2020250621182914.png)
-## 缩放修改
+### 缩放修改
+使用ctrl+滚轮中键
 ![](img/Pasted%20image%2020250621200048.png)
 输入zoom
-
 ## 安装Flutter
 ### 安装Flutter插件
 ![](img/Pasted%20image%2020250621183048.png)
