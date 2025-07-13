@@ -41,3 +41,12 @@ void delay_us(uint32_t nus)
 3. 将sys.h改为main.h（或者如果自己有system.h之类的头文件也行）。
 4. 数据格式缺失用stdint.h，如果sprintf找不到用stdio.h。
 ### 背光灯
+可以在gpio.c中找到背光部分的引脚定义，位LCD_BL_GPIO_Port，LCD_BL_Pin，这里与正点原子设置的不同，我们需要改正点原子的。
+![](img/Pasted%20image%2020250713131112.png)
+在lcd.h中，改以下代码（这里需要引入main.h头文件，不然找不到引脚定义了）
+![](img/Pasted%20image%2020250713131253.png)
+### lcd_init部分修改
+在delay_ms(50)之前的代码全部注释，我们cubemx生成的代码代替了这个步骤。
+![](img/Pasted%20image%2020250713131501.png)
+弄完之后使用一下，发现还是有问题，好像是多重定义的问题。
+我们可以看到是HAL_SRAM_Init惹的祸，海岸在
