@@ -49,4 +49,32 @@ void delay_us(uint32_t nus)
 在delay_ms(50)之前的代码全部注释，我们cubemx生成的代码代替了这个步骤。
 ![](img/Pasted%20image%2020250713131501.png)
 弄完之后使用一下，发现还是有问题，好像是多重定义的问题。
-我们可以看到是HAL_SRAM_Init惹的祸，海岸在
+我们可以看到是HAL_SRAM_MspInit惹的祸，发现在lcd.c中，也定义了HAL_SRAM_MspInit，明显与fsmc.c定义的冲突了。我们把lcd.c中的这段函数注释一下。
+![](img/Pasted%20image%2020250713131746.png)
+因为上面的初始化fsmc代码我们注释了，所以句柄也不需要了，在lcd.c可以找到注释一下
+![](img/Pasted%20image%2020250713131844.png)
+### main函数部分
+就跟着用就行了，没什么不同的。
+## 拓展
+### delay_us
+``` c
+void delay_us(uint32_t nus)
+{
+    uint32_t ticks;
+    uint32_t told,tnow,tcnt=0;
+    uint32_t reload=SysTick->LOAD;
+    ticks=nus*72;
+    told=SysTick->VAL;
+    while(1)
+    {
+        tnow=SysTick->VAL;
+        if(tnow!=told)
+        {
+            if(tnow<told)tcnt+=told-tnow;
+            else tcnt+=reload-tnow+told;
+            told=tnow;
+            if(tcnt>=ticks)break;
+        }
+    }
+}
+```
