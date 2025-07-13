@@ -21,4 +21,23 @@ LCD引脚图
 最后就是背光了，将PB0设成GPIO_OUTPUT，标签改成LCD_BL即可。
 ![](img/Pasted%20image%2020250713130232.png)
 ## 代码部分
-将正点原子的LCD示例代码中的LCD库导进去，注意不要往工程（也就是keil工程文件）导入lcd_ex.c文件（也可以先导入，修改后，之后再在keil中移除即可
+将正点原子的LCD示例代码中的LCD库导进去，注意不要往工程（也就是keil工程文件）导入lcd_ex.c文件（也可以先导入，修改后，之后再在keil中移除即可）。
+### delay部分
+在lcd_ex.c中的最上面写入两个函数，us函数先用HAL_Delay(1)先代替，之后改也不迟。
+``` c
+void delay_ms(uint32_t nms)
+{
+	HAL_Delay(nms);
+}
+
+void delay_us(uint32_t nus)
+{
+	HAL_Delay(1);
+}
+```
+### include引用部分
+1. 有路径去掉路径，在keil工具中配置。
+2. 将usart.h先去掉，代码中的printf也通通先去掉（注释）。
+3. 将sys.h改为main.h（或者如果自己有system.h之类的头文件也行）。
+4. 数据格式缺失用stdint.h，如果sprintf找不到用stdio.h。
+### 背光灯
