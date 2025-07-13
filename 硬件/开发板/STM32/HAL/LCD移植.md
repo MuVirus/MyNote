@@ -9,3 +9,4 @@ LCD引脚图
 ![](img/Pasted%20image%2020250713105839.png)
 ![](img/Pasted%20image%2020250713105845.png)
 ![](img/Pasted%20image%2020250713105852.png)
+![](img/Pasted%20image%2020250713113021.png)
