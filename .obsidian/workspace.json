@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/开发板/STM32/HAL/LCD移植.md",
+                "file": "硬件/实用电子基础/元件选型/连接器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LCD移植"
+              "title": "连接器"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/STM32/HAL/LCD移植.md",
+                "file": "硬件/实用电子基础/元件选型/连接器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "LCD移植 的大纲"
+              "title": "连接器 的大纲"
             }
           }
         ],
@@ -171,6 +171,7 @@
   },
   "active": "d2fdf1b0bb87c5cf",
   "lastOpenFiles": [
+    "硬件/开发板/STM32/HAL/LCD移植.md",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713131844.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713131746.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713131501.png",
@@ -181,10 +182,8 @@
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713130050.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713125943.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250713124616.png",
-    "硬件/开发板/STM32/HAL/img/Pasted image 20250713113021.png",
     "硬件/开发板/STM32/HAL/img",
     "编程/Flutter/Flutter环境.md",
-    "硬件/开发板/STM32/HAL/LCD移植.md",
     "硬件/开发板/STM32/FreeRTOS/STM32 FreeRTOS基础.md",
     "硬件/开发板/ESP32/实战派S3/嘉立创实战派资料.md",
     "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
