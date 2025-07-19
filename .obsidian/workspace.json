@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Flutter/Study/使用串口.md",
+                "file": "编程/Flutter/Study/基础学习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用串口"
+              "title": "基础学习"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Flutter/Study/使用串口.md",
+                "file": "编程/Flutter/Study/基础学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用串口 的大纲"
+              "title": "基础学习 的大纲"
             }
           }
         ],
@@ -171,8 +171,8 @@
   },
   "active": "d2fdf1b0bb87c5cf",
   "lastOpenFiles": [
-    "编程/Flutter/Study/基础学习.md",
     "编程/Flutter/Study/使用串口.md",
+    "编程/Flutter/Study/基础学习.md",
     "编程/Flutter/Flutter环境.md",
     "编程/Flutter/Study",
     "硬件/实用电子基础/元件选型/连接器.md",
