@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "583cacce91d5cb32",
+        "id": "58c063cfec86eb8b",
         "type": "tabs",
         "children": [
           {
-            "id": "d2fdf1b0bb87c5cf",
+            "id": "1bf4419a9b6d1845",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -169,11 +169,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d2fdf1b0bb87c5cf",
+  "active": "1bf4419a9b6d1845",
   "lastOpenFiles": [
-    "图形设计/3D/SoildWorks/img/Pasted image 20250722101527.png",
     "编程/Flutter/Study/基础学习.md",
     "图形设计/3D/SoildWorks/基础.md",
+    "图形设计/3D/SoildWorks/img/Pasted image 20250722102647.png",
+    "图形设计/3D/SoildWorks/img/Pasted image 20250722101527.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722101201.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722100117.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722095827.png",
@@ -183,8 +184,6 @@
     "编程/Flutter/Study/img/Pasted image 20250721191745.png",
     "编程/Flutter/Study/img/Pasted image 20250721173854.png",
     "编程/Flutter/Study/img/Pasted image 20250721173450.png",
-    "编程/Flutter/Study/img/Pasted image 20250721173449.png",
-    "编程/Flutter/Study/img/Pasted image 20250721164334.png",
     "编程/Flutter/Study/img",
     "编程/Flutter/Study/使用串口.md",
     "编程/Flutter/Flutter环境.md",
