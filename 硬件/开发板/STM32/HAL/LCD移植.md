@@ -81,3 +81,4 @@ void delay_us(uint32_t nus)
 
 # LCD SPI
 [全注解_stm32标准库TFT_ST7735S驱动完整代码,极易理解-CSDN博客](https://blog.csdn.net/riversuer/article/details/145291688)
+[【强烈推荐】基于STM32的TFT-LCD各种显示实现（内容详尽含代码）_tftlcd屏幕 dc引脚可以和其他引脚共用吗-CSDN博客](https://blog.csdn.net/black_sneak/article/details/125583293)
