@@ -114,3 +114,42 @@ void key_scan()
 ## 信号输入（读取频率）
 
 ## 信号输入（读取占空比）
+
+# 调度器
+## 时间轮询
+``` c
+#include "scheduler.h"
+
+typedef struct {
+	void (*task_fun)(void);
+	uint32_t rate_time;
+	uint32_t last_time;
+} task_t;
+
+static task_t tasks[] = {
+	{},
+};
+
+uint8_t taskNum;
+
+void scheduler_init()
+{
+	taskNum = sizeof(tasks) / sizeof(tasks[0]);
+}
+
+void scheduler_loop()
+{	
+	for(uint8_t i = 0; i < taskNum; i++)
+	{
+		uint32_t now_time = uwTick;
+		
+		if(now_time >= tasks[i].rate_time + tasks[i].last_time)
+		{
+			tasks[i].last_time = now_time;
+			
+			tasks[i].task_fun();
+		}
+	}
+}
+
+```
