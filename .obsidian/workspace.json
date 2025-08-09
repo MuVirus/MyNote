@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Flutter/Study/基础学习.md",
+                "file": "硬件/实用电子基础/元件选型/晶振.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "基础学习"
+              "title": "晶振"
             }
           },
           {
@@ -63,8 +63,7 @@
               "title": "8-15"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/2025/8/8-15.md",
+                "file": "硬件/实用电子基础/元件选型/晶振.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "8-15 的大纲"
+              "title": "晶振 的大纲"
             }
           }
         ],
@@ -212,14 +211,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "1bf4419a9b6d1845",
   "lastOpenFiles": [
+    "硬件/实用电子基础/元件选型/连接器.md",
+    "硬件/实用电子基础/元件选型/MOS管.md",
+    "硬件/实用电子基础/元件选型/三极管.md",
+    "硬件/实用电子基础/元件选型/电容.md",
+    "硬件/实用电子基础/元件选型/电阻.md",
+    "编程/Flutter/Study/基础学习.md",
     "计划_记录/2025/8/8-15.md",
     "计划_记录/2025/8",
     "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
     "硬件/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
-    "编程/Flutter/Study/基础学习.md",
     "编程/Flutter/Study/学习资料.md",
     "硬件/开发板/WCH/BLE/基础.md",
     "编程/Flutter/Study/实践.md",
@@ -233,7 +237,6 @@
     "图形设计/3D/SoildWorks/基础.md",
     "硬件/实用电子基础/元件选型/晶振.md",
     "硬件/实用电子基础/元件选型/开关.md",
-    "硬件/实用电子基础/元件选型/连接器.md",
     "硬件/实用电子基础/元件选型/LED.md",
     "硬件/仿真/proteus/常见元器件名称.md",
     "硬件/实用电子基础/元件选型/晶振",
@@ -252,10 +255,6 @@
     "编程/Flutter/Study",
     "硬件/开发板/STM32/HAL/img",
     "硬件/开发板/STM32/FreeRTOS/STM32 FreeRTOS基础.md",
-    "硬件/开发板/ESP32/实战派S3/嘉立创实战派资料.md",
-    "硬件/开发板/ESP32/实战派S3/实战派S3教程学习.md",
-    "硬件/开发环境/esp-idf/学习资料.md",
-    "硬件/开发环境/esp-idf/ESP-IDF基础.md",
     "硬件/开发板/STM32/FreeRTOS/img",
     "硬件/开发板/STM32/FreeRTOS",
     "硬件/开发板/Jetson/img",
