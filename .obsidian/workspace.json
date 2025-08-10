@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/实用电子基础/元件选型/晶振.md",
+                "file": "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "晶振"
+              "title": "HMI USART 串口屏"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/实用电子基础/元件选型/晶振.md",
+                "file": "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "晶振 的大纲"
+              "title": "HMI USART 串口屏 的大纲"
             }
           }
         ],
@@ -213,6 +213,10 @@
   },
   "active": "1bf4419a9b6d1845",
   "lastOpenFiles": [
+    "硬件/实用电子基础/元件选型/img/Pasted image 20250810150921.png",
+    "硬件/实用电子基础/元件选型/img",
+    "硬件/实用电子基础/元件选型/晶振.md",
+    "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
     "硬件/实用电子基础/元件选型/连接器.md",
     "硬件/实用电子基础/元件选型/MOS管.md",
     "硬件/实用电子基础/元件选型/三极管.md",
@@ -235,13 +239,11 @@
     "硬件/开发板/STM32/HAL/IDE.md",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250727164905.png",
     "图形设计/3D/SoildWorks/基础.md",
-    "硬件/实用电子基础/元件选型/晶振.md",
     "硬件/实用电子基础/元件选型/开关.md",
     "硬件/实用电子基础/元件选型/LED.md",
     "硬件/仿真/proteus/常见元器件名称.md",
     "硬件/实用电子基础/元件选型/晶振",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722104722.png",
-    "README.md",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722102647.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722101527.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722101201.png",
@@ -254,11 +256,9 @@
     "编程/Flutter/Study/img",
     "编程/Flutter/Study",
     "硬件/开发板/STM32/HAL/img",
-    "硬件/开发板/STM32/FreeRTOS/STM32 FreeRTOS基础.md",
     "硬件/开发板/STM32/FreeRTOS/img",
     "硬件/开发板/STM32/FreeRTOS",
     "硬件/开发板/Jetson/img",
-    "硬件/开发板/Jetson",
     "未命名.canvas"
   ]
 }
