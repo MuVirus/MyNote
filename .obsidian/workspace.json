@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "android studio",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -198,7 +197,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1bf4419a9b6d1845",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
     "编程/Android/Android Primer.md",
     "编程/Flutter/Study/基础学习.md",
