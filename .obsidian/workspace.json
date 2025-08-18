@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Python/Lib/FastAPI.md",
+                "file": "Games/UE5/Primer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FastAPI"
+              "title": "Primer"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Python/Lib/FastAPI.md",
+                "file": "Games/UE5/Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FastAPI 的大纲"
+              "title": "Primer 的大纲"
             }
           }
         ],
@@ -200,8 +200,11 @@
   },
   "active": "a003126e40a03424",
   "lastOpenFiles": [
-    "计划_记录/2025/8/8-15.md",
     "编程/Python/Lib/FastAPI.md",
+    "Games/UE5/Primer.md",
+    "Games/UE5",
+    "Games",
+    "计划_记录/2025/8/8-15.md",
     "编程/Python/Lib",
     "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
@@ -230,7 +233,6 @@
     "硬件/开发板/STM32/HAL/img/Pasted image 20250727164905.png",
     "图形设计/3D/SoildWorks/基础.md",
     "硬件/实用电子基础/元件选型/开关.md",
-    "硬件/实用电子基础/元件选型/LED.md",
     "硬件/实用电子基础/元件选型/晶振",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722104722.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722102647.png",
@@ -244,8 +246,6 @@
     "编程/Flutter/Study/img",
     "编程/Flutter/Study",
     "硬件/开发板/STM32/HAL/img",
-    "硬件/开发板/STM32/FreeRTOS/img",
-    "硬件/开发板/STM32/FreeRTOS",
     "未命名.canvas"
   ]
 }
