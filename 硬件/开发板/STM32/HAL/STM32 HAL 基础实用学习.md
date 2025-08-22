@@ -172,3 +172,11 @@ void scheduler_loop()
 分为`1Edge`和`2Edge`，表示第一边沿采集和第二边沿采集（采集代表着接收方的正式接收时的状态）（边沿代表着第一次出现的是上升沿还是下降沿，取决于CPOL）。
 ### 6、4种时钟模式
 ![](img/Pasted%20image%2020250822091156.png)
+### 7、传统SPI引脚
+- `MOSI/DI`：主发从收
+- `MISO/DO`：主收从发
+- `SCK/CLK`：串行时钟
+- `NSS/CS`：从机选择
+### 8、数据帧的格式
+我们STM32F407VET6的SPI数据帧的格式只有Motorola，TI是有，但是是灰色的。
+![](img/Pasted%20image%2020250822092914.png)
