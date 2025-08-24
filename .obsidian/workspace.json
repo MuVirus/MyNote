@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+                "file": "编程/Python/Lib/FastAPI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32 HAL 基础实用学习 的大纲"
+              "title": "FastAPI 的大纲"
             }
           }
         ],
@@ -213,18 +213,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7f0237cf417c2294",
+  "active": "e9a794530bf38733",
   "lastOpenFiles": [
+    "Games/UE5/Primer.md",
+    "编程/Python/Lib/FastAPI.md",
+    "编程/Python/Primer/网络编程/Socket编程.md",
+    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092914.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092410.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822091156.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250821204509.png",
-    "编程/Python/Primer/网络编程/Socket编程.md",
     "编程/Python/Primer/星号和双星号.md",
     "编程/Python/Primer/网络编程",
-    "编程/Python/Lib/FastAPI.md",
     "编程/Python/Primer",
-    "Games/UE5/Primer.md",
     "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
     "Games/UE5/img/Pasted image 20250819132259.png",
     "Games/UE5/img",
@@ -232,7 +233,6 @@
     "Games",
     "计划_记录/2025/8/8-15.md",
     "编程/Python/Lib",
-    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "编程/Android/Android Primer.md",
     "编程/Flutter/Study/基础学习.md",
     "编程/Flutter/Study/学习资料.md",
@@ -259,7 +259,6 @@
     "图形设计/3D/SoildWorks/img/Pasted image 20250722104722.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722102647.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722101527.png",
-    "图形设计/3D/SoildWorks/img/Pasted image 20250722101201.png",
     "图形设计/3D/SoildWorks/img",
     "未命名.canvas"
   ]
