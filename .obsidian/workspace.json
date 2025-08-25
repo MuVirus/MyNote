@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/UHomeIOT/RTMP/RTMP Online.md",
+                "file": "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RTMP Online 的大纲"
+              "title": "STM32 HAL 基础实用学习 的大纲"
             }
           }
         ],
@@ -213,10 +213,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9a794530bf38733",
+  "active": "7f0237cf417c2294",
   "lastOpenFiles": [
-    "项目/UHomeIOT/README.md",
     "项目/UHomeIOT/RTMP/RTMP Online.md",
+    "项目/UHomeIOT/README.md",
     "项目/UHomeIOT/RTMP",
     "项目/UHomeIOT/RTMP.md",
     "编程/Python/Lib/FastAPI.md",
