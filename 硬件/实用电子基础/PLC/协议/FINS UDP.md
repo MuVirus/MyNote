@@ -28,3 +28,18 @@ FINS command
 读为01 01
 
 01 01 82 00 64 00  00 01
+
+
+
+快速实例
+读CIO
+
+写CIO
+send data:
+80 00 02 00 01 00 00 02 00 00 01 02 30 00 64 00 00 01 01
+
+fins udp header: 80 00 02 00 01 00 00 02 00 00
+fins udp command: 01 02 30 00 64 00 00 01 01
+解析：（2byte功能+3byte地址+2byte大小+?byte数据）
+response data:
+C0 00 02 00 02 00 00 01 00 00 01 02 00 40
