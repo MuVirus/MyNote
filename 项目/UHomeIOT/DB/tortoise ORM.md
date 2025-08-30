@@ -80,3 +80,27 @@ iexact - 不区分大小写的等于
 
 search - 全文搜索
 ```
+
+# 添加
+## 1、save
+
+## 2、create
+```
+async classmethod create(using_db=None, **kwargs)[source]¶
+在 DB 中创建记录并返回对象。
+
+user = await User.create(name="...", email="...")
+等同于
+
+user = User(name="...", email="...")
+await user.save()
+参数¶
+using_db=None¶
+特定 DB 连接，用于替代默认绑定
+
+**kwargs¶
+模型参数。
+
+返回类型¶
+Model
+```
