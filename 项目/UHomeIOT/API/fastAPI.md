@@ -14,12 +14,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 ## 拓展用法
 ### 1、如何提供其他层次文件夹的静态文件？
 比如使用上一级image文件夹的图片
+给directory赋值给images_url。
 ``` python
-from fastapi import FastAPI
-from fastapi.staticfiles import StaticFiles
-from lib
-
-app = FastAPI()
-
-app.mount("/static", StaticFiles(directory="static"), name="static")
+images_url = Path(__file__).parent / "images"
 ```
