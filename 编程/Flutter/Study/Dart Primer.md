@@ -133,10 +133,16 @@ var s = r'In a raw string, not even \n gets special treatment.';
 ```
 ### 3) 表示方式
 单行表示可以用`'`、`"`，多行表示可以用`'''`、`"""`。
-
 ### 4、bool
 只有两个值`true`、`false`。
 Dart是强类型语言，`bool`和`num`不能混用。
+### 5、List
+在 Dart 中，数组是 `List` 对象，所以大多数人只是称它们为列表。
+
+### 6、Set
+
+### 7、Map
+
 
 ## 三、控制流
 
