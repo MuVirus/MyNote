@@ -98,21 +98,35 @@ required一般用在调用函数或者创建对象时必须传的参数。
 | `var`<br>`var x = 10;`         | ❌（由初始值推断）        | 编译器推断为 `int`  | 只能是 `int`  | ❌            | 当右侧表达式已能唯一确定类型时，可少敲几个字。                    |
 | `dynamic`<br>`dynamic x = 10;` | ✅ 明确写出 `dynamic` | 被视为 `dynamic` | 任意类型，运行时可变 | ✅            | 与 JavaScript 交互、反射、JSON 解析等极少数需要“彻底动态”的地方。 |
 补充要点
-
 1. `var` **不是**动态类型，只是“语法糖”。一旦初始化，其静态类型就固定下来，之后不能赋其它类型：
 ``` dart
 var x = 1;
 x = 'hello'; // 编译错误：A value of type 'String' can't be assigned to a variable of type 'int'.
 ```
+
 2. `dynamic` 会**关闭**静态检查，写错成员名要等到运行时才抛 `NoSuchMethodError`：
 ``` dart
-
+dynamic d = 1;
+d.foo(); // 编译通过，运行时报错
 ```
+
 3. 推荐顺序  
 能写显式类型就写显式 → 若嫌啰嗦且右侧已能推断，可用 `var` → 只有真正需要动态化时才用 `dynamic`。
-``` dart
 
-```
+### 2、`num`类型
+#### 1) int
+整数值不大于 64 位，具体取决于平台。在本机平台上，值可以是 -2<sup>63</sup> 到 2<sup>63 - 1</sup>。
+#### 2) double
+64 位（双精度）浮点数，如 IEEE 754 标准所指定。
+
+### 3、String
+Dart 字符串（对象）包含一系列 UTF-16 代码单元。您可以使用单引号或双引号来创建字符串：`String`
+#### 1) 插值
+
+#### 2) 原生
+
+
+
 ## 三、控制流
 
 ## 四、函数
