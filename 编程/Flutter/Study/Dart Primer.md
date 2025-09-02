@@ -122,10 +122,21 @@ d.foo(); // 编译通过，运行时报错
 ### 3、String
 Dart 字符串（对象）包含一系列 UTF-16 代码单元。您可以使用单引号或双引号来创建字符串：`String`
 #### 1) 插值
+1. 使用`+`连接
+2. 使用`$`引用变量
+3. 使用`${expression}`执行`expression`表达式
+#### 2) 原生`Raw`
+如果要保留全部信息（包括表达式或者其他符号），在引号前加入`r`。
+``` dart
+var s = r'In a raw string, not even \n gets special treatment.';
+// In a raw string, not even \n gets special treatment.
+```
+### 3) 表示方式
+单行表示可以用`'`、`"`，多行表示可以用`'''`、`"""`。
 
-#### 2) 原生
-
-
+### 4、bool
+只有两个值`true`、`false`。
+Dart是强类型语言，`bool`和`num`不能混用。
 
 ## 三、控制流
 
