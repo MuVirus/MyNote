@@ -158,9 +158,31 @@ void log(String msg) => print(msg);      // OK，返回 void
 // int foo(x) => { return x * 2; };      // ❌ 编译错误
 ```
 ### 2、可选参数
+将一组函数参数包装在`[]`将它们标记为可选位置参数。如果未提供默认值，则其类型必须为可为空，因为它们的默认值为：`null`。放在必选字段后。
+``` dart
+String say(String from, String msg, [String? device]) {
+  var result = '$from says $msg';
+  if (device != null) {
+    result = '$result with a $device';
+  }
+  return result;
+}
+```
 
 ### 3、匿名函数
-
+匿名函数就是**没有函数名**的函数，通常用于临时定义简单逻辑，作为参数传递给其他函数。
+匿名函数类似于命名函数，因为它具有：
+- 零个或多个参数，以逗号分隔
+- 括号之间的可选类型注释。
+以下代码块包含函数的正文：
+``` dart
+([[Type] param1[, ...]]) {
+  codeBlock;
+}
+```
 ### 4、typedef
+
+### 5、立即执行函数(IIFE)
+
 
 ## 四、函数
