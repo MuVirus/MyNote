@@ -257,3 +257,9 @@ String say(String from, String msg, [String? device]) {
 ## 五、常见函数用法
 
 
+# 二、面向对象
+
+
+# 三、异步
+
+
