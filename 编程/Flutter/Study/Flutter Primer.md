@@ -32,6 +32,27 @@ abstract class StatefulWidget extends Widget
 @factory
 State createState();
 ```
+## Widget 生命周期
+
+虽然 Widget 本身是不可变的，但 StatefulWidget 关联的 State 对象有明确的生命周期：
+
+1. **创建阶段**
+- `createState()`：创建 State 对象
+- `initState()`：初始化状态，只调用一次
+
+2. **构建阶段**
+- `build()`：构建 Widget 树，每次状态变化都会调用
+- `didUpdateWidget()`：当父 Widget 重建导致子 Widget 变化时调用
+
+3. **活跃阶段**
+- `setState()`：触发状态更新和重建
+- `didChangeDependencies()`：当依赖的 InheritedWidget 变化时调用
+
+4. **销毁阶段**
+- `deactivate()`：Widget 即将从树中移除时调用
+- `dispose()`：Widget 被永久移除时调用，用于清理资源
+
+理解生命周期有助于正确管理资源和状态，避免内存泄漏。
 
 # 组件
 ## 基础组件

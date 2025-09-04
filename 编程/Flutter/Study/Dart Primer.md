@@ -22,7 +22,7 @@ late 修饰符有两种用法：
 
 ### 2、final / const
 
-一个 final 变量只能设置一次，const 变量是编译时常量。（const 常量隐式包含了 final，也就是说 const 自带 final 的消息）
+一个 final 变量只能设置一次，const 变量是编译时常量。（const 常量隐式包含了 final）
 > [!注意]
 > 实例变量 可以是 final 但不能是 const。
 
