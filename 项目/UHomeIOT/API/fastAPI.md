@@ -20,6 +20,7 @@ images_url = Path(__file__).parent / "images"
 ```
 
 # 依赖项
+## 类作为依赖项
 
 
 # 安全性
