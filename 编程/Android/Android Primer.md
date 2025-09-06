@@ -14,6 +14,10 @@ https://gradle.org/releases/
 ``` 
 mirrors.cloud.tencent.com
 ```
+2025改成下面这样子，最好还是去腾讯云镜像看一下。
+```
+https\://mirrors.cloud.tencent.com/gradle/gradle-8.12-all.zip
+```
 ![](img/Pasted%20image%2020250621155200.png)
 # 二、调试
 ## 1. USB
