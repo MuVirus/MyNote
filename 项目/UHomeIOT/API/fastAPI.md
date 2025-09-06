@@ -18,3 +18,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 ``` python
 images_url = Path(__file__).parent / "images"
 ```
+
+# 依赖项
+
+
+# 安全性
