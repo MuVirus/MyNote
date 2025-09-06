@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/UHomeIOT/RTMP/RTMP Online.md",
+                "file": "项目/UHomeIOT/API/typing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RTMP Online"
+              "title": "typing"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "STM32 HAL 基础实用学习"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Flutter/Study/Dart Primer.md",
+                "file": "项目/UHomeIOT/API/typing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Dart Primer 的大纲"
+              "title": "typing 的大纲"
             }
           }
         ],
@@ -212,11 +213,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "e9a794530bf38733",
   "lastOpenFiles": [
-    "编程/Android/Android Primer.md",
+    "项目/UHomeIOT/API/FastAPI.md",
+    "项目/UHomeIOT/API/typing.md",
+    "项目/UHomeIOT/API/未命名",
+    "编程/Python/Lib/FastAPI.md",
+    "编程/Python/Primer/网络编程/Socket编程.md",
     "项目/UHomeIOT/RTMP/RTMP Online.md",
     "编程/Flutter/Study/Dart Primer.md",
+    "编程/Android/Android Primer.md",
     "编程/Flutter/Study/路线.md",
     "编程/Flutter/Study/Flutter环境.md",
     "编程/Flutter/Study/Flutter Primer.md",
@@ -227,7 +233,6 @@
     "编程/Flutter/Study/实践.md",
     "编程/Flutter/Study/Dart 核心库.md",
     "编程/Flutter/Study/使用串口.md",
-    "项目/UHomeIOT/API/FastAPI.md",
     "项目/UHomeIOT/DB/tortoise ORM.md",
     "未命名 2.base",
     "未命名 1.base",
@@ -235,7 +240,6 @@
     "项目/UHomeIOT/API/pydantic.md",
     "项目/UHomeIOT/DB",
     "项目/UHomeIOT/API",
-    "编程/Python/Primer/网络编程/Socket编程.md",
     "编程/Python/Primer/星号和双星号.md",
     "硬件/开发板/STM32/HAL/STM32 HAL 详细学习.md",
     "硬件/实用电子基础/PLC/协议/img/Pasted image 20250826194709.png",
@@ -245,8 +249,6 @@
     "项目/UHomeIOT/README.md",
     "项目/UHomeIOT/RTMP",
     "项目/UHomeIOT/RTMP.md",
-    "编程/Python/Lib/FastAPI.md",
-    "项目/UHomeIOT",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092914.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092410.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822091156.png",
@@ -256,7 +258,6 @@
     "计划_记录/2025/8/8-15.md",
     "硬件/开发板/WCH/BLE/基础.md",
     "硬件/实用电子基础/元件选型/img/Pasted image 20250810150921.png",
-    "硬件/实用电子基础/元件选型/晶振.md",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250727164905.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722104722.png",
     "图形设计/3D/SoildWorks/img/Pasted image 20250722102647.png",
