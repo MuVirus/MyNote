@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/UHomeIOT/API/Project/百度智能云——菜品识别.md",
+                "file": "项目/UHomeIOT/API/Project/PocketNutriAI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "百度智能云——菜品识别"
+              "title": "PocketNutriAI"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/UHomeIOT/API/Project/百度智能云——菜品识别.md",
+                "file": "项目/UHomeIOT/API/Project/PocketNutriAI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "百度智能云——菜品识别 的大纲"
+              "title": "PocketNutriAI 的大纲"
             }
           }
         ],
@@ -220,7 +220,7 @@
     "项目/UHomeIOT/API/Project/img/Pasted image 20250907155709.png",
     "项目/UHomeIOT/API/Project/img",
     "项目/UHomeIOT/API/FastAPI.md",
-    "项目/UHomeIOT/API/Project/百度智能云——菜品识别.md",
+    "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "项目/UHomeIOT/API/Project",
     "项目/UHomeIOT/API/pydantic.md",
     "项目/UHomeIOT/API/typing.md",
