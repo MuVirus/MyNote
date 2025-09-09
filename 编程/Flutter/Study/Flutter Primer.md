@@ -340,6 +340,27 @@ Row类的**成员**
 #### Expanded
 Expanded 只能作为 Flex 的孩子（否则会报错），它可以按比例“扩伸”`Flex`子组件所占用的空间。因为 `Row`和`Column` 都继承自 Flex，所以 Expanded 也可以作为它们的孩子。
 
+### floatingActionButton
+
+#### 自定义大小
+
+``` dart
+      floatingActionButton: Container(
+        child: Theme(
+          data: Theme.of(context).copyWith(
+            floatingActionButtonTheme: FloatingActionButtonThemeData(
+              shape: CircleBorder(),          // 正圆
+              sizeConstraints: BoxConstraints.tight(Size(70, 70)), // 自定义 70×70
+            ),
+          ),
+          child: FloatingActionButton(
+            onPressed: _incrementCounter,
+            child: Icon(Icons.add),
+          ),
+        ),
+      ),
+```
+
 # Flutter问题以及语法疑难杂症
 
 
