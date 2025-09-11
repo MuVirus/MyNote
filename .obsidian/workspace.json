@@ -63,8 +63,7 @@
               "title": "STM32 HAL 基础实用学习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/UHomeIOT/API/Project/PocketNutriAI.md",
+                "file": "编程/Flutter/Study/Flutter Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PocketNutriAI 的大纲"
+              "title": "Flutter Primer 的大纲"
             }
           }
         ],
@@ -213,13 +212,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9a794530bf38733",
+  "active": "a003126e40a03424",
   "lastOpenFiles": [
+    "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "项目/UHomeIOT/API/typing.md",
     "项目/UHomeIOT/API/FastAPI.md",
     "项目/UHomeIOT/API/pydantic.md",
     "项目/UHomeIOT/DB/tortoise ORM.md",
-    "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "编程/Python/环境配置/Python2.md",
     "编程/Flutter/Study/Flutter Primer.md",
     "编程/Flutter/Study/Dart Primer.md",
