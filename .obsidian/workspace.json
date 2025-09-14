@@ -27,26 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/UHomeIOT/API/Project/PocketNutriAI.md",
+                "file": "Games/UE5/Primer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PocketNutriAI"
-            }
-          },
-          {
-            "id": "7f0237cf417c2294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "硬件/实用电子基础/PLC/协议/FINS UDP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FINS UDP"
+              "title": "Primer"
             }
           },
           {
@@ -63,7 +49,8 @@
               "title": "STM32 HAL 基础实用学习"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Flutter/Study/Flutter Primer.md",
+                "file": "Games/UE5/Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Flutter Primer 的大纲"
+              "title": "Primer 的大纲"
             }
           }
         ],
@@ -212,8 +199,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "e9a794530bf38733",
   "lastOpenFiles": [
+    "计划_记录/2025/5/19-25.md",
+    "未命名 1.base",
+    "未命名.base",
+    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+    "未命名 2.base",
+    "硬件/实用电子基础/PLC/协议/FINS UDP.md",
     "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "编程/Flutter/Study/Flutter Primer.md",
     "项目/UHomeIOT/API/typing.md",
@@ -235,15 +228,10 @@
     "编程/Flutter/Study/路线.md",
     "编程/Flutter/Study/Flutter环境.md",
     "Games/UE5/Primer.md",
-    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
-    "硬件/实用电子基础/PLC/协议/FINS UDP.md",
     "编程/Flutter/Study/学习资料.md",
     "编程/Flutter/Study/实践.md",
     "编程/Flutter/Study/Dart 核心库.md",
     "编程/Flutter/Study/使用串口.md",
-    "未命名 2.base",
-    "未命名 1.base",
-    "未命名.base",
     "项目/UHomeIOT/DB",
     "项目/UHomeIOT/API",
     "编程/Python/Primer/星号和双星号.md",
@@ -252,12 +240,10 @@
     "硬件/实用电子基础/PLC/协议/img",
     "硬件/实用电子基础/PLC/协议",
     "项目/UHomeIOT/README.md",
-    "项目/UHomeIOT/RTMP.md",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092914.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092410.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822091156.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250821204509.png",
-    "硬件/实用电子基础/元件选型/HMI USART 串口屏.md",
     "Games/UE5/img/Pasted image 20250819132259.png",
     "硬件/实用电子基础/元件选型/img/Pasted image 20250810150921.png",
     "未命名.canvas"
