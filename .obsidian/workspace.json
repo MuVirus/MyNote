@@ -49,8 +49,7 @@
               "title": "STM32 HAL 基础实用学习"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/Primer.md",
+                "file": "编程/Flutter/Study/Flutter Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Primer 的大纲"
+              "title": "Flutter Primer 的大纲"
             }
           }
         ],
@@ -199,15 +198,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e9a794530bf38733",
+  "active": "a003126e40a03424",
   "lastOpenFiles": [
+    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
+    "Games/UE5/Primer.md",
     "Games/UE5/img/Pasted image 20250914101416.png",
     "Games/UE5/img/Pasted image 20250914101354.png",
     "Games/UE5/img/Pasted image 20250914100321.png",
     "计划_记录/2025/5/19-25.md",
     "未命名 1.base",
     "未命名.base",
-    "硬件/开发板/STM32/HAL/STM32 HAL 基础实用学习.md",
     "未命名 2.base",
     "硬件/实用电子基础/PLC/协议/FINS UDP.md",
     "项目/UHomeIOT/API/Project/PocketNutriAI.md",
@@ -230,7 +230,6 @@
     "编程/Android/Android Primer.md",
     "编程/Flutter/Study/路线.md",
     "编程/Flutter/Study/Flutter环境.md",
-    "Games/UE5/Primer.md",
     "编程/Flutter/Study/学习资料.md",
     "编程/Flutter/Study/实践.md",
     "编程/Flutter/Study/Dart 核心库.md",
@@ -246,7 +245,6 @@
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092914.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822092410.png",
     "硬件/开发板/STM32/HAL/img/Pasted image 20250822091156.png",
-    "硬件/开发板/STM32/HAL/img/Pasted image 20250821204509.png",
     "未命名.canvas"
   ]
 }

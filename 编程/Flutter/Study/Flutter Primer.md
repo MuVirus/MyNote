@@ -20,7 +20,6 @@ lib
 |bootstrap.dart
 |main.dart
 ```
-
 # Widget
 Flutter中几乎所有的对象都是由Widget（部件，控件）构成的。
 可以看到Widget是一个抽象类，继承于DiagonosticableTree，然后要实现的方法是createElement。
