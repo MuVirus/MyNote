@@ -19,7 +19,15 @@
 
 **将物体紧贴地面**：选中一个物体，按下**End键**，会将该物体向下贴到第一个接触的平面上
 # 蓝图基础知识
+生成一个蓝图默认有三个界面：`视口`、`构造脚本`、`事件图表`。
+![](img/Pasted%20image%2020250922162950.png)
 
+## 事件图表
+一个actor默认有三个事件(Event)，分别为`Event BeginPlay`、`Event ActorBeginOverlap`、`Event Tick` 。
+![](img/Pasted%20image%2020250922162129.png)
+- `Event BeginPlay`：此actor的播放开始时调用的事件。
+- `Event ActorBeginOverlap`：此actor与另一个actor重叠(Overlap)时调用的事件。
+- `Event Tick`：启用了tick后每帧调用的事件。
 # 蓝图与面向对象
 
 # 蓝图之间的通讯
