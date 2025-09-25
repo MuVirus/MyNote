@@ -20,6 +20,19 @@ lib
 |bootstrap.dart
 |main.dart
 ```
+
+### 打包
+# Android
+
+生成realse安装包
+```
+flutter build apk --release
+```
+
+如果你希望分别为不同架构（如 arm32、arm64、x86_64）生成 APK，可以使用：
+```
+flutter build apk --split-per-abi
+```
 # Widget
 Flutter中几乎所有的对象都是由Widget（部件，控件）构成的。
 可以看到Widget是一个抽象类，继承于DiagonosticableTree，然后要实现的方法是createElement。
