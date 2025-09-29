@@ -104,6 +104,9 @@
 ### 分支语句（Branch)
 判断玩家状态（是否死亡）
 ![](img/Pasted%20image%2020250929172854.png)
+### Flow Control
+![](img/Pasted%20image%2020250929173530.png)
+
 
 # 蓝图与面向对象
 
