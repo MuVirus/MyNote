@@ -74,18 +74,26 @@
 ![](img/Pasted%20image%2020250929151816.png)
 
 ### 枚举
-
+#### 创建
 创建枚举类型
 ![](img/Pasted%20image%2020250929154545.png)
 创建命名：E_xxx（E为前缀为枚举类型）
 ![](img/Pasted%20image%2020250929155210.png)
 定义枚举类型
 ![](img/Pasted%20image%2020250929155105.png)
+#### 使用
+##### 1、判断当前玩家状态
+创建变量PlayerStatusVar，类型为E_PlayerEnum（自己设置的枚举类型）。
+然后可以使用Switch进行判断。
+![](img/Pasted%20image%2020250929155413.png)
 
 ### Object
 
 ### 结构体
+#### 创建
 
+创建，然后命名S开头（S_xxxx）
+![](img/Pasted%20image%2020250929161024.png)
 
 # 蓝图与面向对象
 
