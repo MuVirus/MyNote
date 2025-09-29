@@ -60,14 +60,22 @@
 可以分为**Location**、**Rotaion**和**Scale**。
 ![](img/Pasted%20image%2020250929143407.png)
 其中**Location**和**Scale**都是**Vector**类型的，然后**Rotaion**是旋转体**Rotator**。
+### 容器
+
+![](img/Pasted%20image%2020250929150952.png)
+#### 数组 Array
+![](img/Pasted%20image%2020250929151444.png)
+#### 集 Set
+不能有重复的元素。
+![](img/Pasted%20image%2020250929151548.png)
+#### 映射 Map
+可选键(key)、值(value)的数据类型。
+![](img/Pasted%20image%2020250929151716.png)
+![](img/Pasted%20image%2020250929151816.png)
+
 ### 枚举与Object
 
 ### 结构体
-
-### 容器
-数组、集、映射
-
-![](img/Pasted%20image%2020250929150952.png)
 
 
 # 蓝图与面向对象
