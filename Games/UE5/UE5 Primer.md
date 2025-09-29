@@ -86,14 +86,19 @@
 创建变量PlayerStatusVar，类型为E_PlayerEnum（自己设置的枚举类型）。
 然后可以使用Switch进行判断。
 ![](img/Pasted%20image%2020250929155413.png)
-
-### Object
-
 ### 结构体
 #### 创建
-
-创建，然后命名S开头（S_xxxx）
+创建，然后命名S开头（S_xxxx）。
 ![](img/Pasted%20image%2020250929161024.png)
+#### 结构
+![](img/Pasted%20image%2020250929161928.png)
+#### 默认值
+![](img/Pasted%20image%2020250929161955.png)
+#### 分隔
+![](img/Pasted%20image%2020250929161727.png)
+#### 使用
+![](img/Pasted%20image%2020250929163249.png)
+### Object
 
 # 蓝图与面向对象
 
