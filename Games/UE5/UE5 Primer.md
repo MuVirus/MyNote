@@ -73,7 +73,16 @@
 ![](img/Pasted%20image%2020250929151716.png)
 ![](img/Pasted%20image%2020250929151816.png)
 
-### 枚举与Object
+### 枚举
+
+创建枚举类型
+![](img/Pasted%20image%2020250929154545.png)
+创建命名：E_xxx（E为前缀为枚举类型）
+![](img/Pasted%20image%2020250929155210.png)
+定义枚举类型
+![](img/Pasted%20image%2020250929155105.png)
+
+### Object
 
 ### 结构体
 
