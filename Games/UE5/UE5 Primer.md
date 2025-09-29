@@ -40,9 +40,7 @@
 ### 基础数据类型
 
 ![](img/Pasted%20image%2020250929143146.png)
-## 变量类型
-
-变量能够以各种不同的类型创建，其中包括数据类型（例如布尔、整数和浮点），以及用于保存对象、Actor和特定类等对象的引用类型。 此外，您还可以创建每种变量类型的数组。每种类型都采用颜色编码，以便于识别：
+#### 简介
 
 | 变量类型                 | 颜色    | 范例                                                                                                                                   | 表示                                                                  |
 | -------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
@@ -58,8 +56,10 @@
 | **旋转体（Rotator）**     | 菊蓝色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/dd5bcc68-65b5-4e26-847e-8f65147b00d8/purplewire.png)                  | 定义3D空间中旋转的一组数字。                                                     |
 | **变形（Transform）**    | 橙色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c2864573-a89e-4bc3-baad-6b45aa86d8bf/orangewire.png)                  | 结合平移（3D位置）、旋转和缩放的数据集。                                               |
 | **对象（Object）**       | 蓝色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/35463b63-1d09-4b5a-8eb7-11fb68039c02/bluewire.png)                    | 如光源、Actor、静态网格体、摄像机和SoundCue等蓝图对象。                                  |
-
-## 我的蓝图（My Blueprint）选项卡中的变量
+#### Transform
+可以分为**Location**、**Rotaion**和**Scale**。
+![](img/Pasted%20image%2020250929143407.png)
+其中**Location**和**Scale**都是**Vector**类型的，然后**Rotaion**是旋转体**Rotator**。
 ### 枚举与Object
 
 ### 结构体
