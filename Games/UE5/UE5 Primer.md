@@ -39,6 +39,27 @@
 
 ### 基础数据类型
 
+![](img/Pasted%20image%2020250929143146.png)
+## 变量类型
+
+变量能够以各种不同的类型创建，其中包括数据类型（例如布尔、整数和浮点），以及用于保存对象、Actor和特定类等对象的引用类型。 此外，您还可以创建每种变量类型的数组。每种类型都采用颜色编码，以便于识别：
+
+| 变量类型                 | 颜色    | 范例                                                                                                                                   | 表示                                                                  |
+| -------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| **布尔（Boolean）**      | 栗色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f111d278-e8b4-4ca9-9eb2-659d6e2bb4b0/redwire.png)                     | true或false值（`bool`）。                                                |
+| **字节（Byte）**         | 夏尔巴蓝色 | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d126e7e3-4ccd-4658-8050-726aacf69ade/get-byte-variable-icon.png)      | 0与255之间的整数值（`unsigned char`）。                                       |
+| **整数（Integer）**      | 海绿色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ef633ada-e995-45a2-bfb3-45122b4acd43/cyanwire.png)                    | −2,147,483,648与2,147,483,647之间的整数值（`int`）。                          |
+| **64位整数（Integer64）** | 苔绿色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f922826a-6383-4647-be55-9336e9cfe3e8/get-integer64-variable-icon.png) | −9,223,372,036,854,775,808与9,223,372,036,854,775,807之间的整数值（`long`）。 |
+| **浮点（Float）**        | 黄绿色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bbef53fc-9da9-42e5-bcdc-8cde6a99b52a/greenwire.png)                   | 例如0.0553、101.2887、-78.322等带小数的数值（`float`）。                          |
+| **命名（Name）**         | 淡紫色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/e45ace01-7225-4be8-a2d0-1ef6b3cf916b/get-name-variable-icon.png)      | 用于在游戏中识别事物的一段文本。                                                    |
+| **字符串（String）**      | 洋红色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/e7c1b819-b2d9-4581-9edf-fa2ae77c70fb/magentawire.png)                 | 例如 `Hello World` 之类的一组字母数字字符（`string`）。                             |
+| **文本（Text）**         | 粉色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3d5893d5-c9a5-4e00-8a31-0238632e6ca2/pinkwire.png)                    | 向用户显示的文本。针对要本地化的文本使用此类型。                                            |
+| **矢量（Vector）**       | 金色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/5e4c00e2-0156-43bf-8c07-bd60121debe2/goldwire.png)                    | 三个数字组成的集（X、Y、Z）。此类型对3D坐标和RGB颜色数据很有用。                                |
+| **旋转体（Rotator）**     | 菊蓝色   | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/dd5bcc68-65b5-4e26-847e-8f65147b00d8/purplewire.png)                  | 定义3D空间中旋转的一组数字。                                                     |
+| **变形（Transform）**    | 橙色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c2864573-a89e-4bc3-baad-6b45aa86d8bf/orangewire.png)                  | 结合平移（3D位置）、旋转和缩放的数据集。                                               |
+| **对象（Object）**       | 蓝色    | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/35463b63-1d09-4b5a-8eb7-11fb68039c02/bluewire.png)                    | 如光源、Actor、静态网格体、摄像机和SoundCue等蓝图对象。                                  |
+
+## 我的蓝图（My Blueprint）选项卡中的变量
 ### 枚举与Object
 
 ### 结构体
