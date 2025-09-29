@@ -20,6 +20,11 @@ lib
 |bootstrap.dart
 |main.dart
 ```
+### 清理
+清理构建文件
+```
+flutter clean
+```
 
 ### 打包
 # Android
