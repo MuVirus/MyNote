@@ -137,7 +137,21 @@ For loop当中如果index等于15的时候触发break，导致直接completed。
 	2. **Completed**：当while执行完了之后(Condition为false)之后，执行该路。
 
 ![](img/Pasted%20image%2020250929205653.png)
+##### Do N
+
+
+##### Do Once
+
+
+##### Flip Flop
+
+
+##### Gate
+
+
 # 蓝图与面向对象
+
+
 
 # 蓝图之间的通讯
 
