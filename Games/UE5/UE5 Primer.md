@@ -111,6 +111,15 @@
 
 >[!tip]
 
+- **输入**
+	1. **First Index**：
+	2. **Last Index**：
+- **输出**
+	1. **Loop Body**：
+	2. **Index**：
+	3. **Completed**：
+
+![](img/Pasted%20image%2020250930081450.png)
 #### For Loop with Break
 
 >[!tip]
