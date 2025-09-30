@@ -124,6 +124,8 @@
 
 >[!tip]
 
+For loop当中如果index等于15的时候触发break，导致直接completed。
+![](img/Pasted%20image%2020250930084901.png)
 #### While Loop
 
 > [!tip]
