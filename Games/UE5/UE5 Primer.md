@@ -109,9 +109,23 @@
 
 #### For Loop
 
+>[!tip]
+
 #### For Loop with Break
 
+>[!tip]
 
+#### While Loop
+
+> [!tip]
+> 注意：最好不用这个，使用或者处理不当会导致程序崩溃。
+
+- **输入**：判断条件**Condition**
+- **输出**
+	1. **Loop Body**：当condition条件为帧时，就运行，然后z
+	2. **Completed**：当while执行完了之后(Condition为false)之后，执行该路。
+
+![](img/Pasted%20image%2020250929205653.png)
 # 蓝图与面向对象
 
 # 蓝图之间的通讯
