@@ -149,6 +149,9 @@ For loop当中如果index等于15的时候触发break，导致直接completed。
 ##### Gate
 
 
+## 函数
+
+
 # 蓝图与面向对象
 
 
