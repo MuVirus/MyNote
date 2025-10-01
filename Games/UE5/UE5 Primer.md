@@ -210,8 +210,13 @@ For loop当中如果index等于15的时候触发break，导致直接completed。
 ### Pawn
 
 ## Character
-
-
+默认创建的Character的组件，如下所示。
+- 箭头组件：说明对象朝向的方向。
+![](img/Pasted%20image%2020251001110230.png)
+- 网格体（骨骼网格体组件）：动画+骨骼+网格体
+![](img/Pasted%20image%2020251001110321.png)
+![](img/Pasted%20image%2020251001105615.png)
+![](img/Pasted%20image%2020251001105652.png)
 ## 生成和销毁Actor
 
 
