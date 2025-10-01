@@ -217,6 +217,9 @@ For loop当中如果index等于15的时候触发break，导致直接completed。
 ![](img/Pasted%20image%2020251001110321.png)
 ![](img/Pasted%20image%2020251001105615.png)
 ![](img/Pasted%20image%2020251001105652.png)
+如果要添加相机的时候，一般需要加入这两个组件。
+![](img/Pasted%20image%2020251001111535.png)
+![](img/Pasted%20image%2020251001112154.png)
 ## 生成和销毁Actor
 
 
