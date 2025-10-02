@@ -48,8 +48,23 @@
               "icon": "lucide-file",
               "title": "FastAPI"
             }
+          },
+          {
+            "id": "a004a2708f7ea48d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件/开发板/Jetson/未命名 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名 1"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/UE5 Primer.md",
+                "file": "硬件/开发板/Jetson/未命名 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE5 Primer 的大纲"
+              "title": "未命名 1 的大纲"
             }
           }
         ],
@@ -198,8 +213,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "a004a2708f7ea48d",
   "lastOpenFiles": [
+    "硬件/开发板/Jetson/未命名.md",
+    "硬件/开发板/Jetson/未命名 1.md",
+    "Games/UE5/UE5 Primer.md",
     "Games/UE5/img/Pasted image 20251001112154.png",
     "Games/UE5/img/Pasted image 20251001111535.png",
     "Games/UE5/img/Pasted image 20251001110321.png",
@@ -208,12 +226,10 @@
     "Games/UE5/img/Pasted image 20251001105615.png",
     "项目/UHomeIOT/API/FastAPI.md",
     "编程/Flutter/Study/Flutter Primer.md",
-    "Games/UE5/UE5 Primer.md",
     "Games/UE5/img/Pasted image 20250930132721.png",
     "Games/UE5/img/Pasted image 20250930133018.png",
     "Games/UE5/img/Pasted image 20250930131952.png",
     "Games/UE5/img/Pasted image 20250930084901.png",
-    "Games/UE5/img/Pasted image 20250930081450.png",
     "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "项目/UHomeIOT/API/typing.md",
     "项目/UHomeIOT/API/pydantic.md",
@@ -244,7 +260,6 @@
     "编程/Flutter/Study/使用串口.md",
     "项目/UHomeIOT/DB",
     "项目/UHomeIOT/API",
-    "编程/Python/Primer/星号和双星号.md",
     "硬件/实用电子基础/PLC/协议/img",
     "未命名.canvas"
   ]
