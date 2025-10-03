@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件/开发板/Jetson/未命名 1.md",
+                "file": "操作系统/虚拟化/docker/安装软件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名 1"
+              "title": "安装软件"
             }
           }
         ],
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/Jetson/未命名 1.md",
+                "file": "操作系统/虚拟化/docker/安装软件.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 1 的大纲"
+              "title": "安装软件 的大纲"
             }
           }
         ],
@@ -215,8 +215,13 @@
   },
   "active": "a004a2708f7ea48d",
   "lastOpenFiles": [
-    "硬件/开发板/Jetson/未命名.md",
+    "操作系统/虚拟化/docker/常用命令.md",
+    "操作系统/虚拟化/docker/常见问题.md",
+    "操作系统/虚拟化/docker/参考网站.md",
+    "计划_记录/2025/5/1-5.md",
+    "操作系统/虚拟化/docker/安装软件.md",
     "硬件/开发板/Jetson/未命名 1.md",
+    "硬件/开发板/Jetson/未命名.md",
     "Games/UE5/UE5 Primer.md",
     "Games/UE5/img/Pasted image 20251001112154.png",
     "Games/UE5/img/Pasted image 20251001111535.png",
@@ -253,11 +258,6 @@
     "项目/UHomeIOT/API/Project/img",
     "项目/UHomeIOT/API/Project",
     "编程/Python/Primer/网络编程/Socket编程.md",
-    "编程/Android/Android Primer.md",
-    "编程/Flutter/Study/路线.md",
-    "编程/Flutter/Study/学习资料.md",
-    "编程/Flutter/Study/实践.md",
-    "编程/Flutter/Study/使用串口.md",
     "项目/UHomeIOT/DB",
     "项目/UHomeIOT/API",
     "硬件/实用电子基础/PLC/协议/img",
