@@ -76,9 +76,19 @@
               "icon": "lucide-file",
               "title": "Jetson 常见使用"
             }
+          },
+          {
+            "id": "5b0b07eae6ad59af",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,13 +209,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/Jetson/Jetson 常见使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Jetson 常见使用 的大纲"
+              "title": "大纲"
             }
           }
         ],
@@ -227,24 +236,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eee6e83c77fe738c",
+  "active": "5b0b07eae6ad59af",
   "lastOpenFiles": [
+    "Games/UE5/UE5 Primer.md",
+    "编程/Flutter/Study/Flutter Primer.md",
+    "项目/UHomeIOT/API/FastAPI.md",
     "操作系统/虚拟化/docker/安装软件.md",
+    "硬件/开发板/Jetson/Jetson 常见使用.md",
     "操作系统/虚拟化/docker/常用命令.md",
     "操作系统/虚拟化/docker/常见问题.md",
     "操作系统/虚拟化/docker/参考网站.md",
     "计划_记录/2025/5/1-5.md",
-    "硬件/开发板/Jetson/Jetson 常见使用.md",
     "硬件/开发板/Jetson/未命名.md",
-    "Games/UE5/UE5 Primer.md",
     "Games/UE5/img/Pasted image 20251001112154.png",
     "Games/UE5/img/Pasted image 20251001111535.png",
     "Games/UE5/img/Pasted image 20251001110321.png",
     "Games/UE5/img/Pasted image 20251001110230.png",
     "Games/UE5/img/Pasted image 20251001105652.png",
     "Games/UE5/img/Pasted image 20251001105615.png",
-    "项目/UHomeIOT/API/FastAPI.md",
-    "编程/Flutter/Study/Flutter Primer.md",
     "Games/UE5/img/Pasted image 20250930132721.png",
     "Games/UE5/img/Pasted image 20250930133018.png",
     "Games/UE5/img/Pasted image 20250930131952.png",
