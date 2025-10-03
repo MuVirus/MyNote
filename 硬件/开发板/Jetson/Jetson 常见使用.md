@@ -1,8 +1,7 @@
-# 品立常见问题
+# 品立/丽台 常见问题
 [plink-ai.com/cn/list-5-92.html](http://www.plink-ai.com/cn/list-5-92.html)
 
-# 品立/  Jetson Orin 
-Nano 4GB 更新到L4T 36.4.0 版本
+# 品立/丽台  Jetson Orin Nano 4GB 更新到L4T 36.4.0 版本
 
 L4T 36.4.0对应的系统版本是Ubuntu22.04，5.15.148-tegra。
 
@@ -17,7 +16,7 @@ L4T 36.4.0对应的系统版本是Ubuntu22.04，5.15.148-tegra。
 # 输入法
 [jetson nano 超详细安装中文输入法包括找不到安装包换源_jetson nano 中文输入法-CSDN博客](https://blog.csdn.net/m0_75034220/article/details/139084367)
 
-# 还原
+# Jetson Orin Nano还原
 当然可以！将 Ubuntu 的软件源更换为国内镜像（如清华、中科大、阿里云等）可以**显著提升软件下载和更新速度**，尤其在国内网络环境下。
 
 以下是针对您当前使用 `ubuntu-ports`（适用于 ARM 等架构）的系统，更换为国内镜像的详细步骤：
@@ -162,3 +161,5 @@ uname -m          # 查看系统架构（如 aarch64）
 ```
 
 如有问题，欢迎继续提问！😊
+
+# 虚拟内存
