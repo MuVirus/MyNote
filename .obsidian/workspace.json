@@ -62,9 +62,21 @@
               "icon": "lucide-file",
               "title": "未命名 1"
             }
+          },
+          {
+            "id": "4c96f957e6edfb4e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.9.14"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,7 +225,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a004a2708f7ea48d",
+  "active": "4c96f957e6edfb4e",
   "lastOpenFiles": [
     "硬件/开发板/Jetson/未命名.md",
     "硬件/开发板/Jetson/未命名 1.md",
