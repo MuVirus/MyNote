@@ -77,8 +77,7 @@
               "title": "Jetson 常见使用"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/开发板/Jetson/Jetson 常见使用.md",
+                "file": "Games/UE5/UE5 Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Jetson 常见使用 的大纲"
+              "title": "UE5 Primer 的大纲"
             }
           }
         ],
@@ -227,7 +226,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "eee6e83c77fe738c",
+  "active": "a003126e40a03424",
   "lastOpenFiles": [
     "硬件/开发板/Jetson/Jetson 常见使用.md",
     "Games/UE5/UE5 Primer.md",

@@ -249,3 +249,5 @@ For loop当中如果index等于15的时候触发break，导致直接completed。
 ![](img/Pasted%20image%2020250819132259.png)
 ## 3、资产(Asset)打开之后跳出新窗口，怎么解决？
 在编辑->编辑器偏好设置->通用->外观(Appearance)->资产打开路径->主窗口(Main Window)
+
+
