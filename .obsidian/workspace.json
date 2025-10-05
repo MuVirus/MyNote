@@ -91,7 +91,8 @@
               "title": "整体技术框架 v0"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -212,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/物体操控/简单带物理的物体操控.md",
+                "file": "项目/UHomeIOT/整体技术框架 v0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "简单带物理的物体操控 的大纲"
+              "title": "整体技术框架 v0 的大纲"
             }
           }
         ],
@@ -240,10 +241,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "88f7b1ced494d106",
   "lastOpenFiles": [
-    "Games/UE5/UE5 Primer.md",
     "Games/UE5/物体操控/简单带物理的物体操控.md",
+    "Games/UE5/UE5 Primer.md",
     "Games/UE5/物体操控",
     "项目/UHomeIOT/整体技术框架 v0.md",
     "硬件/开发板/Jetson/Jetson 常见使用.md",
