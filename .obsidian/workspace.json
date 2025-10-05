@@ -77,7 +77,8 @@
               "title": "Jetson 常见使用"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -198,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/UE5 Primer.md",
+                "file": "硬件/开发板/Jetson/Jetson 常见使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE5 Primer 的大纲"
+              "title": "Jetson 常见使用 的大纲"
             }
           }
         ],
@@ -226,10 +227,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "eee6e83c77fe738c",
   "lastOpenFiles": [
-    "硬件/开发板/Jetson/Jetson 常见使用.md",
     "Games/UE5/UE5 Primer.md",
+    "硬件/开发板/Jetson/Jetson 常见使用.md",
     "编程/Flutter/Study/Flutter Primer.md",
     "项目/UHomeIOT/API/FastAPI.md",
     "操作系统/虚拟化/docker/安装软件.md",
