@@ -91,7 +91,8 @@
               "title": "整体技术框架 v0"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -212,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/物体操控/简单带物理的物体操控.md",
+                "file": "项目/UHomeIOT/整体技术框架 v0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "简单带物理的物体操控 的大纲"
+              "title": "整体技术框架 v0 的大纲"
             }
           }
         ],
@@ -240,14 +241,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "88f7b1ced494d106",
   "lastOpenFiles": [
+    "Games/UE5/物体操控/简单带物理的物体操控.md",
     "Games/UE5/物体操控/img/Pasted image 20251007114401.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113751.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113122.png",
     "Games/UE5/物体操控/img/Pasted image 20251007112641.png",
     "Games/UE5/物体操控/img/Pasted image 20251007112550.png",
-    "Games/UE5/物体操控/简单带物理的物体操控.md",
     "Games/UE5/物体操控/img/Pasted image 20251007111606.png",
     "Games/UE5/物体操控/img/Pasted image 20251007110945.png",
     "Games/UE5/物体操控/img/Pasted image 20251007110910.png",
@@ -266,7 +267,6 @@
     "操作系统/虚拟化/docker/参考网站.md",
     "计划_记录/2025/5/1-5.md",
     "硬件/开发板/Jetson/未命名.md",
-    "Games/UE5/img/Pasted image 20251001112154.png",
     "项目/UHomeIOT/API/Project/PocketNutriAI.md",
     "项目/UHomeIOT/API/typing.md",
     "项目/UHomeIOT/API/pydantic.md",
