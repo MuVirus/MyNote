@@ -91,7 +91,8 @@
               "title": "整体技术框架 v0"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -212,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/通用/运行世界场景停止模拟.md",
+                "file": "硬件/开发板/Jetson/Jetson 常见使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "运行世界场景停止模拟 的大纲"
+              "title": "Jetson 常见使用 的大纲"
             }
           }
         ],
@@ -240,24 +241,25 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
+    "操作系统/HA",
+    "操作系统/虚拟化/docker/安装软件.md",
+    "项目/UHomeIOT/API/FastAPI.md",
+    "硬件/开发板/Jetson/Jetson 常见使用.md",
+    "项目/UHomeIOT/整体技术框架 v0.md",
+    "Games/UE5/通用/运行世界场景停止模拟.md",
     "Games/UE5/通用/img/Pasted image 20251009182020.png",
     "Games/UE5/通用/img",
     "Games/UE5/UE5 Primer.md",
-    "Games/UE5/通用/运行世界场景停止模拟.md",
     "Games/UE5/通用",
     "Games/UE5/物体操控/简单带物理的物体操控.md",
     "Games/UE5/数据/UE5 JSON MQTT.md",
-    "项目/UHomeIOT/整体技术框架 v0.md",
     "Games/UE5/数据/img/Pasted image 20251007170350.png",
     "Games/UE5/数据/img/Pasted image 20251007170251.png",
     "Games/UE5/数据/img",
     "Games/UE5/数据",
     "编程/Flutter/Study/Flutter Primer.md",
-    "项目/UHomeIOT/API/FastAPI.md",
-    "操作系统/虚拟化/docker/安装软件.md",
-    "硬件/开发板/Jetson/Jetson 常见使用.md",
     "Games/UE5/物体操控/img/Pasted image 20251007114401.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113751.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113122.png",
@@ -265,7 +267,6 @@
     "Games/UE5/物体操控/img/Pasted image 20251007112550.png",
     "Games/UE5/物体操控/img/Pasted image 20251007111606.png",
     "Games/UE5/物体操控/img/Pasted image 20251007110945.png",
-    "Games/UE5/物体操控/img/Pasted image 20251007110910.png",
     "Games/UE5/物体操控/img",
     "Games/UE5/物体操控",
     "操作系统/虚拟化/docker/常用命令.md",
