@@ -241,12 +241,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "eee6e83c77fe738c",
   "lastOpenFiles": [
+    "操作系统/虚拟化/docker/安装软件.md",
+    "编程/Regex/Regex Primer.md",
     "编程/Java/Java Web.md",
     "硬件/开发板/Jetson/Jetson 常见使用.md",
     "操作系统/HA",
-    "操作系统/虚拟化/docker/安装软件.md",
     "项目/UHomeIOT/API/FastAPI.md",
     "项目/UHomeIOT/整体技术框架 v0.md",
     "Games/UE5/通用/运行世界场景停止模拟.md",
@@ -286,7 +287,6 @@
     "编程/Flutter/Study/Pub/sqflite.md",
     "编程/Flutter/Study/Dart 核心库.md",
     "编程/Flutter/Study/Pub",
-    "编程/Python/环境配置/Python2.md",
     "未命名 1.base",
     "未命名.base",
     "未命名.canvas"
