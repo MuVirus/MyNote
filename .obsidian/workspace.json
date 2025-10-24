@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games/UE5/数据/UE5 JSON MQTT.md",
+                "file": "项目/车牌识别/KNN实现全流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "UE5 JSON MQTT"
+              "title": "KNN实现全流程"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/数据/UE5 JSON MQTT.md",
+                "file": "项目/车牌识别/KNN实现全流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE5 JSON MQTT 的大纲"
+              "title": "KNN实现全流程 的大纲"
             }
           }
         ],
@@ -242,6 +242,10 @@
   },
   "active": "a003126e40a03424",
   "lastOpenFiles": [
+    "项目/车牌识别/README.md",
+    "项目/车牌识别/KNN实现全流程.md",
+    "Games/UE5/数据/UE5 JSON MQTT.md",
+    "项目/车牌识别",
     "Games/UE5/通用/运行世界场景停止模拟.md",
     "编程/Regex/Regex Primer.md",
     "操作系统/虚拟化/docker/安装软件.md",
@@ -255,7 +259,6 @@
     "Games/UE5/UE5 Primer.md",
     "Games/UE5/通用",
     "Games/UE5/物体操控/简单带物理的物体操控.md",
-    "Games/UE5/数据/UE5 JSON MQTT.md",
     "Games/UE5/数据/img/Pasted image 20251007170350.png",
     "Games/UE5/数据/img/Pasted image 20251007170251.png",
     "Games/UE5/数据/img",
@@ -283,11 +286,8 @@
     "项目/UHomeIOT/DB/tortoise ORM.md",
     "编程/Python/Lib/FastAPI.md",
     "编程/Flutter/Study/Flutter环境.md",
-    "编程/Flutter/Study/Pub/sqflite.md",
-    "编程/Flutter/Study/Dart 核心库.md",
     "编程/Flutter/Study/Pub",
     "未命名 1.base",
-    "未命名.base",
     "未命名.canvas"
   ]
 }
