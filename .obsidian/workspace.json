@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目/车牌识别/KNN实现全流程.md",
+                "file": "Games/UE5/数据/UE5 JSON MQTT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "KNN实现全流程"
+              "title": "UE5 JSON MQTT"
             }
           },
           {
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目/车牌识别/KNN实现全流程.md",
+                "file": "Games/UE5/数据/UE5 JSON MQTT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "KNN实现全流程 的大纲"
+              "title": "UE5 JSON MQTT 的大纲"
             }
           }
         ],
@@ -240,10 +240,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
-    "项目/车牌识别/README.md",
     "项目/车牌识别/KNN实现全流程.md",
+    "编程/Flutter/Study/Flutter Primer.md",
+    "项目/UHomeIOT/整体技术框架 v0.md",
+    "项目/车牌识别/README.md",
     "Games/UE5/数据/UE5 JSON MQTT.md",
     "项目/车牌识别",
     "Games/UE5/通用/运行世界场景停止模拟.md",
@@ -253,7 +255,6 @@
     "硬件/开发板/Jetson/Jetson 常见使用.md",
     "操作系统/HA",
     "项目/UHomeIOT/API/FastAPI.md",
-    "项目/UHomeIOT/整体技术框架 v0.md",
     "Games/UE5/通用/img/Pasted image 20251009182020.png",
     "Games/UE5/通用/img",
     "Games/UE5/UE5 Primer.md",
@@ -263,7 +264,6 @@
     "Games/UE5/数据/img/Pasted image 20251007170251.png",
     "Games/UE5/数据/img",
     "Games/UE5/数据",
-    "编程/Flutter/Study/Flutter Primer.md",
     "Games/UE5/物体操控/img/Pasted image 20251007114401.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113751.png",
     "Games/UE5/物体操控/img/Pasted image 20251007113122.png",
