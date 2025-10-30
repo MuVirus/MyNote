@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/虚拟化/docker/安装软件.md",
+                "file": "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安装软件"
+              "title": "安装OpenSSH (基于Ubuntu)"
             }
           },
           {
@@ -91,7 +91,8 @@
               "title": "整体技术框架 v0"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -212,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/UE5 Primer.md",
+                "file": "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE5 Primer 的大纲"
+              "title": "安装OpenSSH (基于Ubuntu) 的大纲"
             }
           }
         ],
@@ -240,24 +241,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a003126e40a03424",
+  "active": "a004a2708f7ea48d",
   "lastOpenFiles": [
+    "操作系统/虚拟化/docker/安装软件.md",
+    "项目/UHomeIOT/API/FastAPI.md",
+    "编程/Flutter/Study/Flutter Primer.md",
+    "Games/UE5/UE5 Primer.md",
     "Games/UE5/数据/UE5 JSON MQTT.md",
     "项目/车牌识别/KNN实现全流程.md",
-    "编程/Flutter/Study/Flutter Primer.md",
     "项目/UHomeIOT/整体技术框架 v0.md",
     "项目/车牌识别/README.md",
     "项目/车牌识别",
     "Games/UE5/通用/运行世界场景停止模拟.md",
     "编程/Regex/Regex Primer.md",
-    "操作系统/虚拟化/docker/安装软件.md",
     "编程/Java/Java Web.md",
     "硬件/开发板/Jetson/Jetson 常见使用.md",
     "操作系统/HA",
-    "项目/UHomeIOT/API/FastAPI.md",
     "Games/UE5/通用/img/Pasted image 20251009182020.png",
     "Games/UE5/通用/img",
-    "Games/UE5/UE5 Primer.md",
     "Games/UE5/通用",
     "Games/UE5/物体操控/简单带物理的物体操控.md",
     "Games/UE5/数据/img/Pasted image 20251007170350.png",
