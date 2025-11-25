@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/应聘/嵌入式软件/大疆.md",
+                "file": "计划_记录/应聘/嵌入式软件/小米.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "大疆"
+              "title": "小米"
             }
           }
         ],
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/应聘/嵌入式软件/大疆.md",
+                "file": "计划_记录/应聘/嵌入式软件/小米.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大疆 的大纲"
+              "title": "小米 的大纲"
             }
           }
         ],
@@ -257,8 +257,9 @@
   },
   "active": "88f7b1ced494d106",
   "lastOpenFiles": [
-    "计划_记录/应聘/嵌入式软件/乐鑫.md",
     "计划_记录/应聘/嵌入式软件/大疆.md",
+    "计划_记录/应聘/嵌入式软件/小米.md",
+    "计划_记录/应聘/嵌入式软件/乐鑫.md",
     "Tools/ComfUI/入门/网站.md",
     "计划_记录/应聘/嵌入式软件",
     "计划_记录/应聘",
@@ -292,7 +293,6 @@
     "项目/车牌识别/KNN实现全流程.md",
     "项目/车牌识别/README.md",
     "项目/车牌识别",
-    "Games/UE5/通用/运行世界场景停止模拟.md",
     "Games/UE5/通用/img/Pasted image 20251009182020.png",
     "Games/UE5/数据/img/Pasted image 20251007170350.png",
     "Games/UE5/数据/img/Pasted image 20251007170251.png",
