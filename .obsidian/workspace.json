@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/计划.md",
+                "file": "计划_记录/秋招前提升.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计划"
+              "title": "秋招前提升"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/计划.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计划 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           }
         ],
@@ -229,18 +229,18 @@
   },
   "active": "308f98581ac8bc52",
   "lastOpenFiles": [
-    "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/计划.md",
+    "计划_记录/秋招前提升.md",
+    "计划_记录/模板.md",
+    "计划_记录/秋招前/12.1~12.7.md",
     "硬件/开发板/STM32/HAL/BootLoader.md",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "硬件/开发板/STM32/HAL/IDE.md",
     "硬件/开发板/STM32/HAL/LCD移植.md",
     "计划_记录/应聘/嵌入式软件/小米.md",
     "计划_记录/应聘/嵌入式软件/资料.md",
-    "计划_记录/模板.md",
     "计划_记录/秋招前",
     "计划_记录/2025/12",
-    "计划_记录/秋招前提升.md",
     "计划_记录/2025/11/11月想做的事——Code.md",
     "编程/Regex/Regex Primer.md",
     "计划_记录/应聘/基础.md",
