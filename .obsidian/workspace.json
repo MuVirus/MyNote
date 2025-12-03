@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/操盘学习.md",
+                "file": "计划_记录/应聘/嵌入式软件/小米.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "操盘学习"
+              "title": "小米"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/操盘学习.md",
+                "file": "计划_记录/应聘/嵌入式软件/小米.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "操盘学习 的大纲"
+              "title": "小米 的大纲"
             }
           }
         ],
@@ -229,8 +229,8 @@
   },
   "active": "586447deb452f7b6",
   "lastOpenFiles": [
-    "算法/数据结构/哈希表.md",
     "计划_记录/操盘学习.md",
+    "算法/数据结构/哈希表.md",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前提升.md",
     "计划_记录/计划.md",
