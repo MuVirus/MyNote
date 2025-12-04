@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/应聘/嵌入式软件/小米.md",
+                "file": "计划_记录/秋招前/12.1~12.7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "小米 的大纲"
+              "title": "12.1~12.7 的大纲"
             }
           }
         ],
@@ -227,8 +227,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "586447deb452f7b6",
+  "active": "308f98581ac8bc52",
   "lastOpenFiles": [
+    "计划_记录/应聘/嵌入式软件/小米.md",
     "计划_记录/操盘学习.md",
     "算法/数据结构/哈希表.md",
     "计划_记录/秋招前/12.1~12.7.md",
@@ -240,7 +241,6 @@
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "硬件/开发板/STM32/HAL/IDE.md",
     "硬件/开发板/STM32/HAL/LCD移植.md",
-    "计划_记录/应聘/嵌入式软件/小米.md",
     "计划_记录/应聘/嵌入式软件/资料.md",
     "计划_记录/秋招前",
     "计划_记录/2025/12",
