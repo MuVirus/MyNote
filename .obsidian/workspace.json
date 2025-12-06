@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Linux/Linux_C/Linux文件IO基础.md",
+                "file": "计划_记录/秋招前/12.1~12.7.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux文件IO基础 的大纲"
+              "title": "12.1~12.7 的大纲"
             }
           }
         ],
@@ -199,10 +199,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9824af821d554daa",
+  "active": "95c894f3dab483fc",
   "lastOpenFiles": [
-    "计划_记录/秋招前/12.1~12.7.md",
     "操作系统/Linux/Linux_C/Linux文件IO基础.md",
+    "计划_记录/秋招前/12.1~12.7.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "操作系统/虚拟化/qemu/参考.md",
     "编程/C_or_Cplusplus/Embedded_C/面向对象/未命名.md",
