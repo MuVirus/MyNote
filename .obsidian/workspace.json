@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/计划.md",
+                "file": "计划_记录/秋招前/12.8~12.14.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "计划"
+              "title": "12.8~12.14"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/计划.md",
+                "file": "计划_记录/秋招前/12.8~12.14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "计划 的大纲"
+              "title": "12.8~12.14 的大纲"
             }
           }
         ],
@@ -201,13 +201,13 @@
   },
   "active": "95c894f3dab483fc",
   "lastOpenFiles": [
+    "计划_记录/计划.md",
     "计划_记录/秋招前/12.8~12.14.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "操作系统/Linux/基础/Makefile.md",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/模板.md",
     "计划_记录/秋招前提升.md",
-    "计划_记录/计划.md",
     "操作系统/Linux/基础/Linux命令入门.md",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统/Linux/Linux_C/Linux文件IO基础.md",
