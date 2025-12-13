@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/12.8~12.14.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "12.8~12.14 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           }
         ],
@@ -213,10 +213,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "95c894f3dab483fc",
+  "active": "d97985679a3e4359",
   "lastOpenFiles": [
-    "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前/12.8~12.14.md",
+    "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前提升.md",
     "计划_记录/计划.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
