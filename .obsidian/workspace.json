@@ -213,8 +213,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "d97985679a3e4359",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
+    "设计",
     "计划_记录/秋招前/12.8~12.14.md",
     "操作系统/Linux/基础/Makefile.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
@@ -247,7 +248,6 @@
     "编程/Regex/Regex Primer.md",
     "计划_记录/应聘/基础.md",
     "项目/UHomeIOT/整体技术框架 v0.md",
-    "计划_记录/应聘/嵌入式软件/乐鑫.md",
     "计划_记录/应聘/嵌入式软件",
     "计划_记录/应聘",
     "Tools/ComfUI/入门",
