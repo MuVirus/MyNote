@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "计划_记录/秋招前/12.8~12.14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "12.8~12.14 的大纲"
             }
           }
         ],
@@ -213,13 +213,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "95c894f3dab483fc",
   "lastOpenFiles": [
+    "计划_记录/秋招前提升.md",
     "设计",
     "计划_记录/秋招前/12.8~12.14.md",
     "操作系统/Linux/基础/Makefile.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
-    "计划_记录/秋招前提升.md",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/计划.md",
     "计划_记录/模板.md",
@@ -250,7 +250,6 @@
     "项目/UHomeIOT/整体技术框架 v0.md",
     "计划_记录/应聘/嵌入式软件",
     "计划_记录/应聘",
-    "Tools/ComfUI/入门",
     "Games/UE5/通用/img/Pasted image 20251009182020.png",
     "Games/UE5/数据/img/Pasted image 20251007170350.png",
     "Games/UE5/数据/img/Pasted image 20251007170251.png",
