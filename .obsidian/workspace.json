@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计/推荐/架构.md",
+                "file": "计划_记录/秋招前/12.8~12.14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "架构 的大纲"
+              "title": "12.8~12.14 的大纲"
             }
           }
         ],
@@ -227,19 +227,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "73ffbd0796d5185f",
+  "active": "95c894f3dab483fc",
   "lastOpenFiles": [
+    "操作系统/Linux/基础/Makefile.md",
+    "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "计划_记录/秋招前/12.8~12.14.md",
+    "计划_记录/秋招前提升.md",
     "设计/推荐/架构.md",
     "设计/推荐/img/Pasted image 20251214105345.png",
     "设计/推荐/img",
     "开发工具/VSCode/常用功能1.md",
     "设计/推荐",
     "开发工具/VSCode",
-    "计划_记录/秋招前提升.md",
     "设计",
-    "操作系统/Linux/基础/Makefile.md",
-    "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/计划.md",
     "计划_记录/模板.md",
