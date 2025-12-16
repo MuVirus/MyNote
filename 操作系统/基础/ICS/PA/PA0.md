@@ -610,6 +610,249 @@ git commit -am "msg"
 
 这在标记开发阶段、触发 CI 流水线、或满足课程流程要求时非常有用 ✅
 
+## 编译运行nemu
+
+这段内容主要描述了如何编译和运行 NEMU（南京大学 ICS 课程中的模拟器项目），并介绍了在遇到问题时如何调试和解决。以下是详细的解释和步骤：
+
+### 1. 编译前配置
+
+在首次编译 NEMU 之前，需要生成一个配置文件：
+
+```bash
+make menuconfig
+```
+
+- 这将弹出一个菜单配置界面。
+- **不要修改任何设置**，直接选择退出并保存新配置。
+
+> **注意**：即使你不想更改任何配置，也需要执行这一步骤来生成必要的配置文件。
+
+### 2. 编译 NEMU
+
+执行以下命令进行编译：
+
+```bash
+make
+```
+
+如果一切正常，NEMU 将被成功编译。
+
+- 如果编译过程中遇到错误，请仔细阅读输出信息，尝试理解问题的根源。
+- 根据提示安装缺少的工具（比如 `make menuconfig` 可能需要 `libncurses5-dev` 等依赖）。
+
+### 3. 清理旧的编译结果
+
+如果你需要重新编译整个项目，可以先清理旧的编译结果：
+
+```bash
+make clean
+```
+
+然后再次执行 `make`。
+
+### 4. 运行 NEMU
+
+编译完成后，可以通过以下命令运行 NEMU：
+
+```bash
+make run
+```
+
+然而，此时你会看到一个错误消息：
+
+```
+[src/monitor/monitor.c:35 welcome] Exercise: Please remove me in the source code and compile NEMU again.
+riscv32-nemu-interpreter: src/monitor/monitor.c:36: welcome: Assertion `0' failed.
+```
+
+这个错误是故意设计的，目的是让学生在 PA1 中修复它。具体来说，你需要编辑 `nemu/src/monitor/monitor.c` 文件，找到并移除或注释掉导致断言失败的代码段，然后重新编译 NEMU。
+
+### 5. 使用 GDB 调试 NEMU
+
+为了使用 GDB 调试 NEMU，可以执行：
+
+```bash
+make gdb
+```
+
+这会启动 GDB 并加载 NEMU，方便你进行调试。
+
+### 6. 开发追踪
+
+一旦编译成功，所有对源代码的修改都会被 Git 自动追踪。你可以通过以下命令查看提交日志：
+
+```bash
+git log
+```
+
+你应该能看到类似如下的提交记录：
+
+```
+commit 4072d39e5b6c6b6837077f2d673cb0b5014e6ef9
+Author: tracer-ics2025 <tracer@njuics.org>
+Date:   Sun Jul 26 14:30:31 2025 +0800
+
+    >  run NEMU
+    241220000 张三
+    Linux 9900k 5.10.0-10-amd64 #1 SMP Debian 5.10.84-1 (2021-12-08) x86_64 GNU/Linux
+    15:57:01 up 22 days,  6:01, 16 users,  load average: 0.00, 0.00, 0.00
+```
+
+这表明你的更改已经被 Git 成功追踪。
+
+#### 特别说明：“一生一芯”分支的日志
+
+如果你参加了“一生一芯”项目，应该使用以下命令查看代码跟踪日志：
+
+```bash
+git log tracer-ysyx
+```
+
+### 7. 解决 `.git/index.lock` 锁定问题
+
+有时，当你执行 `make` 时可能会遇到如下错误：
+
+```
+fatal: Unable to create '/home/user/ics2025/.git/index.lock': File exists.
+
+If no other git process is currently running, this probably means a git process crashed in this repository earlier. Make sure no other git process is running and remove the file manually to continue.
+```
+
+这意味着有一个残留的 `.git/index.lock` 文件阻止了 Git 的操作。解决方法如下：
+
+1. 确保没有其他 Git 进程正在运行。
+2. 手动删除该锁定文件：
+    
+    ```bash
+    rm /home/user/ics2025/.git/index.lock
+    ```
+    
+3. 清理并重新编译：
+    
+    ```bash
+    make clean
+    make
+    ```
+    
+
+如果问题依旧存在，请尽快联系课程支持人员。
+
+---
+
+希望这些解释能帮助你更好地理解和完成 NEMU 的编译与调试任务！如果有更多疑问或遇到特定错误，随时欢迎提问。
+
+# git使用SSH
+
+## Github配置SSH Key的步骤（大白话+原理解释）
+
+在使用 GitHub 时，如果你希望避免每次 `git push` 或 `git pull` 都要输入账号密码，可以配置 **SSH Key**。以下是详细步骤和通俗原理解释。
+
+---
+
+### 第一步：检查本地是否已有 SSH Key
+
+打开终端（或 Git Bash），运行：
+
+```bash
+cd ~/.ssh
+ls
+```
+
+查看是否存在以下两个文件：
+
+- `id_rsa`（私钥）
+- `id_rsa.pub`（公钥）
+
+如果存在，说明你已经生成过 SSH Key，可以直接跳到第三步；如果没有，继续第二步。
+
+---
+
+### 第二步：生成新的 SSH Key
+
+执行以下命令（将邮箱替换为你自己的 GitHub 注册邮箱）：
+
+```bash
+ssh-keygen -t rsa -C "your_email@example.com"
+```
+
+然后一路按回车（使用默认路径和空密码即可）。完成后，会在 `~/.ssh/` 目录下生成 `id_rsa` 和 `id_rsa.pub`。
+
+---
+
+### 第三步：获取公钥内容
+
+运行：
+
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+
+复制输出的全部内容（以 `ssh-rsa AAAAB3...` 开头，到你的邮箱结尾）。
+
+---
+
+### 第四步：将公钥添加到 GitHub 账号
+
+1. 登录 GitHub。
+2. 点击右上角头像 → **Settings**。
+3. 左侧菜单选择 **SSH and GPG keys** → **New SSH key**。
+4. Title 随便填（比如 “My Laptop”），Key 粘贴刚才复制的内容。
+5. 点击 **Add SSH key**。
+
+---
+
+### 第五步：验证配置是否成功
+
+在终端运行：
+
+```bash
+ssh -T git@github.com
+```
+
+如果看到类似以下提示，说明配置成功：
+
+```
+Hi <你的用户名>! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+✅ 此后，**克隆仓库时务必使用 SSH 地址**（形如 `git@github.com:username/repo.git`），而不是 HTTPS 地址。
+
+---
+
+### 原理解释（通俗版）
+
+SSH 使用**非对称加密**：
+
+- **私钥（id_rsa）**：留在你本地电脑，绝对不能泄露。
+- **公钥（id_rsa.pub）**：上传到 GitHub，相当于“门锁”。
+
+**认证过程如下**：
+
+1. 你发起连接请求（比如 `git push`）。
+2. GitHub 用你上传的**公钥**加密一段随机信息，发回给你。
+3. 你的电脑用本地的**私钥**解密，并把结果发回去。
+4. GitHub 验证解密内容是否正确 → 正确就放行！
+
+这就像你有一把独一无二的钥匙（私钥），GitHub 有对应的锁（公钥）。只要钥匙能开锁，就证明你是“自己人”，无需再输密码。
+
+---
+
+### 常见问题解答
+
+1. **为什么要配 SSH Key？**  
+    → 免去每次输入账号密码的麻烦，提升效率。
+    
+2. **每台电脑都要配吗？**  
+    → 是的！SSH Key 是**绑定到具体主机**的。换电脑就得重新生成并添加。
+    
+3. **配了就能随便 push 别人的仓库吗？**  
+    → 不行！你只能 push 到**你有权限的仓库**（自己的 or 被授权的）。
+    
+
+---
+
+> ⚠️ 注意：配置成功后，请始终使用 **SSH URL**（`git@github.com:...`）而非 HTTPS URL（`https://github.com/...`）进行 clone/push 操作，否则仍会要求输入密码。
+
 # 问题
 
 ## 1、为什么要加`bash`执行*.sh文件
