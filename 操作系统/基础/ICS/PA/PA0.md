@@ -188,3 +188,123 @@ git branch -m master   # ← 把刚克隆下来的分支（可能是 "2025" 或 
 ---
 
 💡 小贴士：你可以用 `git branch` 查看当前有哪些本地分支，带 `*` 的就是当前所在分支。
+
+## clone时不能用ssh，如何换https
+
+你贴出的这段脚本是 `init.sh` 的一部分，用于初始化子项目（如 NEMU）。你提到：
+
+> “我这里好像只能 HTTPS 请求”
+
+这非常关键！因为脚本中使用的是 **SSH 方式克隆仓库**：
+
+```bash
+git clone -b $2 git@github.com:$1.git $3
+#                ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+#                这是 SSH 协议（需要配置 SSH 密钥）
+```
+
+而如果你的网络环境 **只允许 HTTPS（比如校园网、公司防火墙、或没配 SSH key）**，那么 `git clone` 会失败，卡在“Permission denied (publickey)”或超时。
+
+---
+
+### ✅ 解决方案：把 SSH 地址改成 HTTPS 地址
+
+你需要修改 `init.sh` 中的克隆命令，将：
+
+```bash
+git@github.com:NJU-ProjectN/nemu.git
+```
+
+改为：
+
+```bash
+https://github.com/NJU-ProjectN/nemu.git
+```
+
+#### 🔧 修改方法（推荐两种）：
+
+---
+
+#### 方法一：直接编辑 `init.sh`（简单粗暴）
+
+找到这一行（在 `init()` 函数里）：
+
+```bash
+git clone -b $2 git@github.com:$1.git $3
+```
+
+改成：
+
+```bash
+git clone -b $2 https://github.com/$1.git $3
+```
+
+✅ 改完后，执行：
+
+```bash
+bash init.sh nemu
+```
+
+就能走 HTTPS 克隆了！
+
+---
+
+#### 方法二：用 Git 的 `insteadOf` 功能（全局替换，一劳永逸）
+
+如果你不想改脚本，可以告诉 Git：“凡是遇到 `git@github.com:`，都自动换成 `https://github.com/`”。
+
+运行一次这个命令（只需一次）：
+
+```bash
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+```
+
+之后，即使脚本写的是 `git@github.com:...`，Git 也会自动用 HTTPS 去拉取。
+
+> 💡 原理：这是 Git 的 URL 重写机制，非常适合不能用 SSH 的环境。
+
+---
+
+### 📌 额外提醒
+
+1. **HTTPS 克隆不需要 SSH key，但推送（push）需要账号密码（或 token）**  
+    不过 PA 实验一般**只需要拉取（clone）和本地提交**，不需要 push 到 NJU 官方仓库，所以 HTTPS 完全够用。
+    
+2. **如果你用 GitHub 的个人 fork**（比如自己 fork 了 nemu），地址要相应改成：
+    
+    ```bash
+    https://github.com/你的用户名/nemu.git
+    ```
+    
+    但根据课程要求，PA0 通常直接用官方仓库，无需 fork。
+    
+3. **确保你能访问 GitHub**  
+    如果连 `https://github.com/NJU-ProjectN/nemu` 都打不开，那可能需要科学上网或使用镜像（但课程一般不建议用镜像，以防代码不一致）。
+    
+
+---
+
+### ✅ 总结
+
+|问题|原因|解决办法|
+|---|---|---|
+|`git clone` 失败，卡住或报权限错|脚本用 SSH (`git@`)，但你只能用 HTTPS|**改脚本为 `https://`** 或 **设置 `insteadOf`**|
+
+推荐你用 **方法二（`insteadOf`）**，因为：
+
+- 不用改官方脚本（避免后续 `git pull` 冲突）
+- 对所有 GitHub 仓库生效
+- 一行命令搞定
+
+```bash
+git config --global url."https://github.com/".insteadOf "git@github.com:"
+```
+
+然后就可以愉快地运行：
+
+```bash
+bash init.sh nemu
+bash init.sh abstract-machine
+```
+
+顺利初始化啦！🎉
