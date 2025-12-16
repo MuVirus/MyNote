@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/基础/ICS/PA/PA0.md",
+                "file": "操作系统/基础/ICS/PA/PA1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PA0"
+              "title": "PA1"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/基础/ICS/PA/PA0.md",
+                "file": "操作系统/基础/ICS/PA/PA1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PA0 的大纲"
+              "title": "PA1 的大纲"
             }
           }
         ],
@@ -201,8 +201,9 @@
   },
   "active": "1af159a2461a01bf",
   "lastOpenFiles": [
-    "操作系统/基础/资料.md",
     "操作系统/基础/ICS/PA/PA0.md",
+    "操作系统/基础/ICS/PA/PA1.md",
+    "操作系统/基础/资料.md",
     "操作系统/基础/ICS/PA",
     "操作系统/基础/ICS",
     "计划_记录/秋招前/12.15~12.21.md",
@@ -246,7 +247,6 @@
     "算法/数据结构/哈希表.md",
     "硬件/开发板/STM32/HAL/BootLoader.md",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
-    "硬件/开发板/STM32/HAL/IDE.md",
     "未命名.canvas"
   ]
 }
