@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "架构"
             }
+          },
+          {
+            "id": "1af159a2461a01bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "操作系统/基础/ICS/PA/PA0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PA0"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/12.15~12.21.md",
+                "file": "操作系统/基础/ICS/PA/PA0.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "12.15~12.21 的大纲"
+              "title": "PA0 的大纲"
             }
           }
         ],
@@ -184,10 +199,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "caaf260b53dd2713",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
-    "计划_记录/模板.md",
+    "操作系统/基础/资料.md",
+    "操作系统/基础/ICS/PA/PA0.md",
+    "操作系统/基础/ICS/PA",
+    "操作系统/基础/ICS",
     "计划_记录/秋招前/12.15~12.21.md",
+    "计划_记录/模板.md",
     "计划_记录/秋招前/12.8~12.14.md",
     "设计/推荐/架构.md",
     "编程/wasm/C++/img/Pasted image 20251214161308.png",
@@ -215,8 +234,6 @@
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "设计/推荐/img",
     "工具/VSCode/常用功能1.md",
-    "设计/推荐",
-    "工具/VSCode",
     "计划_记录/计划.md",
     "操作系统/Linux/基础/Linux命令入门.md",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
@@ -230,8 +247,6 @@
     "硬件/开发板/STM32/HAL/BootLoader.md",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "硬件/开发板/STM32/HAL/IDE.md",
-    "硬件/开发板/STM32/HAL/LCD移植.md",
-    "计划_记录/应聘/嵌入式软件/资料.md",
     "未命名.canvas"
   ]
 }
