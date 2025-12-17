@@ -201,6 +201,8 @@
   },
   "active": "1af159a2461a01bf",
   "lastOpenFiles": [
+    "操作系统/基础/ICS/PA/img/Pasted image 20251217115428.png",
+    "操作系统/基础/ICS/PA/img",
     "操作系统/基础/ICS/PA/PA0.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "操作系统/基础/资料.md",
@@ -233,7 +235,6 @@
     "编程/wasm",
     "操作系统/Linux/基础/Makefile.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
-    "设计/推荐/img",
     "工具/VSCode/常用功能1.md",
     "计划_记录/计划.md",
     "操作系统/Linux/基础/Linux命令入门.md",
@@ -246,7 +247,6 @@
     "计划_记录/操盘学习.md",
     "算法/数据结构/哈希表.md",
     "硬件/开发板/STM32/HAL/BootLoader.md",
-    "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "未命名.canvas"
   ]
 }
