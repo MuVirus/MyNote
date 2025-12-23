@@ -103,7 +103,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,12 +202,12 @@
   },
   "active": "1af159a2461a01bf",
   "lastOpenFiles": [
+    "操作系统/基础/ICS/PA/PA0.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "设计/推荐/架构.md",
     "计划_记录/秋招前/12.15~12.21.md",
     "操作系统/基础/ICS/PA/img/Pasted image 20251217115428.png",
     "操作系统/基础/ICS/PA/img",
-    "操作系统/基础/ICS/PA/PA0.md",
     "操作系统/基础/资料.md",
     "操作系统/基础/ICS/PA",
     "操作系统/基础/ICS",
