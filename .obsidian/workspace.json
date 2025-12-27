@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,8 +117,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,7 +213,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0737e3661b370eb0",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
     "计划_记录/秋招前/12.15~12.21.md",
     "设计/推荐/架构.md",

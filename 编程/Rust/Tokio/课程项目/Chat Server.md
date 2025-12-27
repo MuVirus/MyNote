@@ -65,7 +65,7 @@ async fn main() {
 let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
 ```
 
-使用到了bind函数，输入一个字符串（地址，当前主机地址，加上一个端口号）
+使用到了bind函数，输入一个字符串（地址，当前主机地址，加上一个端口号），被async修饰，所以用上await，又因为返回值为Result，如果返回Err，则panic。
 ``` rust
 tokio::net::tcp::listener::TcpListener
 pub async fn bind<A>(addr: A) -> io::Result<TcpListener>
@@ -76,6 +76,74 @@ A = &str
 Creates a new TcpListener, which will be bound to the specified address.
 
 The returned listener is ready for accepting connections.
+```
+
+### 循环等待客户端连接
+
+非阻塞循环等待，可以支持多个多个客户端的接收与回传。
+
+因为后面使用了`tokio::spawn`，启动一个新的异步任务，达到并发执行，不阻塞Echo Server，达到可以继续循环等待其他客户端连接。
+``` rust
+    loop {
+        let (mut socket, addr) = lisntener.accept().await.unwrap();
+        println!("{:#?}", socket);
+        tokio::spawn(async move {
+        ...
+        }
+    }
+```
+
+### 启动新的异步任务
+
+使用`tokio::spawn`启动一个新的异步任务，达到不同异步任务间并发执行。
+其中`async`后的`move`，用于将捕获到的变量move到异步任务中来。
+其中为什么不能`move`，是因为TcpStream不支持Copy或者Clone。
+
+原型：
+``` rust
+pub async fn accept(&self) -> Result<(TcpStream, SocketAddr)>
+```
+例：
+``` rust
+        let (mut socket, addr) = lisntener.accept().await.unwrap();
+        println!("{:#?}", socket);
+        tokio::spawn(async move {
+            let (stream_reader, mut stream_writer) = socket.split();
+```
+
+
+### 分割读写流
+
+``` rust
+let (stream_reader: ReadHalf<'_>, mut stream_writer: WriteHalf<'_>) = socket.split();
+```
+
+- `socket.split()` 将 `TcpStream` 拆分为两个独立的流：
+    - `stream_reader`：只读部分，用于读取客户端数据。
+    - `stream_writer`：只写部分，用于向客户端发送数据。
+- 这样可以实现非阻塞的读写分离。
+
+### 初始化缓冲读取器
+
+``` rust
+let mut message: String = String::new();
+let mut reader: BufReader<ReadHalf<'_>> = BufReader::new(inner: stream_reader);
+```
+
+- `message` 用于存储从客户端读取的一行文本。
+- `BufReader` 包装 `stream_reader`，提供更高效的读取方式（比如 `read_line`）。
+
+### 循环读取并回显消息
+
+``` rust
+loop {
+    let bytes_read: usize = reader.read_line(buf: &mut message).await.unwrap();
+    if bytes_read == 0 {
+        break;
+    }
+    stream_writer.write_all(src: message.as_bytes()).await.unwrap();
+    message.clear();
+}
 ```
 # 收获
 
