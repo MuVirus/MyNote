@@ -225,5 +225,60 @@ let bytes_read = reader.read_line(&mut message).await.unwrap();
 改进点
 
 只要rx有内容或者接收到客户端tcp消息内容，就执行。
+
+
+``` rust
+use tokio::{
+    io::{AsyncBufReadExt, AsyncWriteExt, BufReader}, net::TcpListener, select, sync::broadcast
+};
+
+#[tokio::main]
+async fn main() {
+    let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
+    let (tx, _) = broadcast::channel(10);
+    loop {
+        let (mut socket, addr) = lisntener.accept().await.unwrap();
+        let tx = tx.clone();
+        let mut rx = tx.subscribe();
+        tokio::spawn(async move {
+            let (stream_reader, mut stream_writer) = socket.split();
+            let mut message = String::new();
+            let mut reader = BufReader::new(stream_reader);
+            loop {
+                tokio::select! {
+                    read_result = reader.read_line(&mut message) => {
+                        match read_result {
+                            Ok(0) => {
+                                break;
+                            }
+                            Ok(_) => {
+                                tx.send((message.clone(), addr)).unwrap();
+                                message.clear();
+                            }
+                            Err(e) => {
+                                println!("{:#?}", e);
+                            }
+                        }
+                    }
+                    recv_result = rx.recv() => {
+                        match recv_result {
+                            Ok((msg, recv_addr)) => {
+                                if recv_addr != addr {
+                                    stream_writer.write_all(msg.as_bytes()).await.unwrap();                    
+                                }
+                            }
+                            Err(e) => {
+                                println!("{:#?}", e);
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+}
+
+```
+
 # 收获
 
