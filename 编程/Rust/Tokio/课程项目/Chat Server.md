@@ -21,7 +21,8 @@ tokio = { version = "1.48.0", features = ["full"] }
 ## Echo Server
 > 实现回传服务器
 
-通过Tcp通信，客户端可以向服务器发送数据，然后服务器将数据返回。可以使用telnet、nc工具当作客户端来使用。
+使用Tokio异步运行时构建一个简单的TCP服务器（Echo Server）。这里的作用是监听`localhost:8080`（本地回环IP地址的8080端口），接收客户端连接，并将客户端每行输出的消息按照原样回显回去。
+
 ### 代码部分
 
 ``` rust
@@ -56,5 +57,12 @@ async fn main() {
 
 ```
 
+### 监听端口
+
+```rust
+let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
+```
+
+使用到了bind函数
 # 收获
 

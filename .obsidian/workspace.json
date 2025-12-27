@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
+                "file": "编程/Rust/Tokio/资料.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chat Server"
+              "title": "资料"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
+                "file": "编程/Rust/Tokio/资料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Chat Server 的大纲"
+              "title": "资料 的大纲"
             }
           }
         ],
@@ -198,10 +198,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "caaf260b53dd2713",
   "lastOpenFiles": [
-    "编程/Rust/Tokio/未命名.md",
     "编程/Rust/Tokio/课程项目/Chat Server.md",
+    "编程/Rust/Tokio/资料.md",
     "编程/Rust/Tokio/课程项目",
     "编程/Rust/未命名.md",
     "编程/Rust/Tokio",
