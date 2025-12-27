@@ -48,8 +48,23 @@
               "icon": "lucide-file",
               "title": "PA0"
             }
+          },
+          {
+            "id": "0737e3661b370eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Chat Server"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rust",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +117,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件/实用电子基础/PLC/协议/FINS UDP.md",
+                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "FINS UDP 的大纲"
+              "title": "Chat Server 的大纲"
             }
           }
         ],
@@ -198,17 +214,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
+    "计划_记录/秋招前/12.15~12.21.md",
+    "设计/推荐/架构.md",
+    "操作系统/基础/ICS/PA/PA0.md",
+    "硬件/实用电子基础/PLC/协议/FINS UDP.md",
     "编程/Rust/Tokio/资料.md",
     "编程/Rust/Tokio/课程项目/Chat Server.md",
     "编程/Rust/Tokio/课程项目",
     "编程/Rust/未命名.md",
     "编程/Rust/Tokio",
-    "计划_记录/秋招前/12.15~12.21.md",
     "编程/Rust",
-    "设计/推荐/架构.md",
-    "操作系统/基础/ICS/PA/PA0.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "操作系统/基础/ICS/PA/img/Pasted image 20251217115428.png",
     "操作系统/基础/ICS/PA/img",
@@ -245,7 +262,6 @@
     "编程/C_or_Cplusplus/Embedded_C/面向对象/未命名.md",
     "项目/UHomeIOT/API/FastAPI.md",
     "计划_记录/应聘/嵌入式软件/小米.md",
-    "计划_记录/操盘学习.md",
     "未命名.canvas"
   ]
 }

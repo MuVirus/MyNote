@@ -1,4 +1,4 @@
-> 课程：Async Rust（软件工艺师）
+> 课程：Async `Rust（软件工艺师）
 
 # 步骤
 
@@ -59,10 +59,23 @@ async fn main() {
 
 ### 监听端口
 
+创建TCP监听器
+例：
 ```rust
 let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
 ```
 
-使用到了bind函数
+使用到了bind函数，输入一个字符串（地址，当前主机地址，加上一个端口号）
+``` rust
+tokio::net::tcp::listener::TcpListener
+pub async fn bind<A>(addr: A) -> io::Result<TcpListener>
+where
+    A: ToSocketAddrs,
+A = &str
+
+Creates a new TcpListener, which will be bound to the specified address.
+
+The returned listener is ready for accepting connections.
+```
 # 收获
 
