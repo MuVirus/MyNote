@@ -164,5 +164,66 @@ loop {
 ### 添加广播
 
 
+### ChatServer1
+
+``` rust
+use tokio::{
+    io::{AsyncBufReadExt, AsyncWriteExt, BufReader}, net::TcpListener, select, sync::broadcast
+};
+
+#[tokio::main]
+async fn main() {
+    let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
+    let (tx, _) = broadcast::channel::<String>(10);
+    loop {
+        let (mut socket, addr) = lisntener.accept().await.unwrap();
+        let tx = tx.clone();
+        let mut rx = tx.subscribe();
+        println!("{:#?}", socket);
+        tokio::spawn(async move {
+            let (stream_reader, mut stream_writer) = socket.split();
+            let mut message = String::new();
+            let mut reader = BufReader::new(stream_reader);
+            loop {
+                let bytes_read = reader.read_line(&mut message).await.unwrap();
+                if bytes_read == 0 {
+                    break;
+                }
+
+                tx.send(message.clone()).unwrap();
+
+                let receviced_message = rx.recv().await.unwrap();
+
+                stream_writer.write_all(receviced_message.as_bytes()).await.unwrap();
+
+                message.clear();
+            }
+        });
+    }
+}
+
+```
+
+缺陷
+
+- 如果**只有一个客户端连接**，那么 `rx.recv()` 会收到自己刚发的消息 ✅（看似正常）
+- 但如果**有多个客户端**：
+    - 客户端 A 发 "hello"
+    - 广播通道会把 "hello" 发送给 **A 的 rx 和 B 的 rx**
+    - 但你的代码中，**A 只调用一次 `rx.recv()`**，它可能收到：
+        - 自己发的 "hello"（期望）
+        - **B 发的 "world"（非期望！）**
+
+原因
+
+``` rust
+let bytes_read = reader.read_line(&mut message).await.unwrap();
+```
+
+该异步任务，必须要等到该客户端发送一行消息才往下执行，否则该异步任务被await阻塞。
+
+改进点
+
+只要rx有内容或者接收到客户端tcp消息内容，就执行。
 # 收获
 
