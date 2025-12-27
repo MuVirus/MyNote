@@ -145,5 +145,24 @@ loop {
     message.clear();
 }
 ```
+
+- `reader.read_line(&mut message)`：
+    - 从客户端读取一行数据（以 `\n` 结尾），并将其追加到 `message` 字符串中。
+    - 返回读取的字节数。
+- `if bytes_read == 0`：
+    - 如果没有读到任何字节，说明客户端关闭了连接，退出循环。
+- `stream_writer.write_all(message.as_bytes())`：
+    - 将读取到的消息原样写回客户端。
+    - `.await.unwrap()` 等待写入完成。
+- `message.clear()`：
+    - 清空字符串，准备下一次读取。
+
+> ⚠️ 注意：`write_all` 不会自动添加换行符，所以客户端收到的是原始内容（无换行）。如果希望回显带换行，应该写 `message.as_bytes()` 并手动加上 `\n`，或使用 `writeln!` 宏。
+
+## ChatServer
+
+### 添加广播
+
+
 # 收获
 
