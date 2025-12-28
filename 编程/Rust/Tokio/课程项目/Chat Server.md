@@ -280,5 +280,92 @@ async fn main() {
 
 ```
 
+
+``` rust
+use tokio::{
+    io::{AsyncBufReadExt, AsyncWriteExt, BufReader},
+    net::TcpListener,
+    select,
+    sync::broadcast,
+    signal,
+};
+use tokio_util::sync::CancellationToken;
+
+#[tokio::main]
+async fn main() {
+    let lisntener = TcpListener::bind("localhost:8080").await.unwrap();
+    let (tx, _) = broadcast::channel(10);
+    let token = CancellationToken::new();
+    let cancel_token = token.clone();
+    tokio::spawn(async move {
+        let sig = signal::ctrl_c().await;
+        match sig {
+            Ok(_) => {
+                println!("Ctrl+C Signal!");
+                cancel_token.cancel();
+            }
+            Err(e) => {
+                println!("err:{:#?}", e);
+            }
+        }
+    });
+    loop {
+        tokio::select! {
+            accept_result = lisntener.accept() => {
+                let (mut socket, addr) = accept_result.unwrap();
+                println!("Client addr: {:#?}", addr);
+                let tx = tx.clone();
+                let mut rx = tx.subscribe();
+                let token = token.clone();
+                tokio::spawn(async move {
+                    let (stream_reader, mut stream_writer) = socket.split();
+                    let mut message = String::new();
+                    let mut reader = BufReader::new(stream_reader);
+                    loop {
+                        tokio::select! {
+                            read_result = reader.read_line(&mut message) => {
+                                match read_result {
+                                    Ok(0) => {
+                                        break;
+                                    }
+                                    Ok(_) => {
+                                        tx.send((message.clone(), addr)).unwrap();
+                                        message.clear();
+                                    }
+                                    Err(e) => {
+                                        println!("{:#?}", e);
+                                    }
+                                }
+                            }
+                            recv_result = rx.recv() => {
+                                match recv_result {
+                                    Ok((msg, recv_addr)) => {
+                                        if recv_addr != addr {
+                                            stream_writer.write_all(msg.as_bytes()).await.unwrap();
+                                        }
+                                    }
+                                    Err(e) => {
+                                        println!("{:#?}", e);
+                                    }
+                                }
+                            }
+                            _ = token.cancelled() => {
+                                println!("Close Connection {addr}");
+                                return;
+                            }
+                        }
+                    }
+                });
+            }
+            _ = token.cancelled() => {
+                println!("Closing...");
+                break;
+            }
+        }
+    }
+}
+
+```
+
 # 收获
 
