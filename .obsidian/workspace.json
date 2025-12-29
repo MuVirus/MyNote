@@ -229,6 +229,12 @@
   },
   "active": "429aec87190090ab",
   "lastOpenFiles": [
+    "嵌入式/Tools/MCU/img/Pasted image 20251229151750.png",
+    "嵌入式/Tools/MCU/img/Pasted image 20251229151657.png",
+    "嵌入式/Tools/MCU/img/Pasted image 20251229151034.png",
+    "嵌入式/Tools/MCU/img/Pasted image 20251229150910.png",
+    "嵌入式/Tools/MCU/img/Pasted image 20251229150908.png",
+    "嵌入式/Tools/MCU/img",
     "嵌入式/控制原理/PID.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Tools/MCU",
@@ -259,12 +265,7 @@
     "编程/wasm/C++/C++ wasm nodejs 环境搭建+简单尝试.md",
     "编程/wasm/C++/Pasted image 20251214161252.png",
     "img/Pasted image 20251214161225.png",
-    "img/Pasted image 20251214161148.png",
-    "img/Pasted image 20251214161145.png",
-    "img/Pasted image 20251214161143.png",
-    "img",
     "工具/Obsidian/主题/Border.md",
-    "工具/Obsidian/主题/img/Pasted image 20251214151257.png",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前提升.md",
     "操作系统/Linux/基础/Makefile.md",
@@ -274,7 +275,6 @@
     "操作系统/Linux/基础/Linux命令入门.md",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统/Linux/Linux_C/Linux文件IO基础.md",
-    "操作系统/虚拟化/qemu/参考.md",
     "未命名.canvas"
   ]
 }
