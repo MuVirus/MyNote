@@ -143,8 +143,18 @@ uv run pyocd pack install STM32L475VETx
 uv run pyocd rtt -t STM32L475VETx
 ```
 
+# API
+
+> 参考：
+> https://www.segger.com/products/debug-probes/j-link/technology/about-real-time-transfer/
 
 # 示例1
 
 > 使用STLink、PyOCD使用RTT，来打印按键日志。
 
+PyOCD上位机
+![](img/Pasted%20image%2020251229154504.png)
+
+MCU代码部分
+
+![](img/Pasted%20image%2020251229154548.png)
