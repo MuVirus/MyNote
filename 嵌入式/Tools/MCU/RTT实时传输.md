@@ -48,7 +48,7 @@ https://www.segger.com/downloads/jlink/
 
 ## STLink RTT上位机
 
-> 我这里使用的是PyOCD，用的是uv包管理工具（可以管理python版本和pip包）
+> 我这里使用的是`PyOCD`，用的是`uv`包管理工具（可以管理python版本和pip包），你要是用全局pip或者其他虚拟工具，按照其他即可，都大同小异。
 
 > 参考:
 > 1、将如何使用PyOCD RTT
@@ -56,5 +56,95 @@ https://www.segger.com/downloads/jlink/
 > 2、PyOCD基本操作（讲了一些坑）
 > https://blog.csdn.net/desert187/article/details/144031136
 
+### 1、安装PyOCD
 
+根据参考2，我们需要安装PyOCD版本是0.34.3。
+
+我的全局python是Python13，不过AI告诉我Python11稳妥，我就用Python11了。
+
+安装Python11
+```
+uv python install 3.11
+```
+
+创建自己的项目目录，在自己的项目目录下创建Python11虚拟环境
+```
+uv venv --python 3.11
+```
+
+执行脚本
+```
+.\.venv\Scripts\Activate.ps1
+```
+
+安装PyOcd0.34.3
+```
+uv add pyocd==0.34.3
+```
+或（我用的后者）
+```
+uv pip install pyocd==0.34.3
+```
+
+还需要安装
+```
+uv pip install setuptools
+```
+
+最后测试
+```
+uv run pyocd
+```
+或者直接（前提是每次要运行脚本）
+```
+pyocd
+```
+
+### 2、使用PyOCD的RTT
+
+一般PyOCD都带有一般的功能，我们插入我们的stlink。
+
+`查看设备列表`一般可以直接用，提前是插上stlink，然后应该可以在命令行显示STLink，有时候可以显示stlink版本。
+
+
+#### 查看设备列表
+
+```
+pyocd list
+```
+
+#### 安装设备pack
+
+查找设备pack
+```
+uv run pyocd pack find STM32L475VETx
+```
+
+结果
+
+```
+❯ uv run pyocd pack find STM32L475VETx
+E:\File\Study\Embedded\pyocd_test\.venv\Lib\site-packages\pyocd\core\plugin.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+  Part            Vendor               Pack                 Version   Installed
+---------------------------------------------------------------------------------
+  STM32L475VETx   STMicroelectronics   Keil.STM32L4xx_DFP   3.1.0     True
+```
+
+安装
+
+```
+uv run pyocd pack install STM32L475VETx
+```
+
+#### 使用RTT
+
+```
+uv run pyocd rtt -t STM32L475VETx
+```
+
+
+# 示例1
+
+> 使用STLink、PyOCD使用RTT，来打印按键日志。
 
