@@ -166,7 +166,33 @@ loop {
 > 参考：
 > https://docs.rs/tokio/1.48.0/tokio/sync/broadcast/index.html
 
+channel函数
+``` rust
+pub fn channel<T: Clone>(capacity: usize) -> (Sender<T>, Receiver<T>)
+```
 
+
+
+基本用途
+``` rust
+use tokio::sync::broadcast;
+
+let (tx, mut rx1) = broadcast::channel(16);
+let mut rx2 = tx.subscribe();
+
+tokio::spawn(async move {
+    assert_eq!(rx1.recv().await.unwrap(), 10);
+    assert_eq!(rx1.recv().await.unwrap(), 20);
+});
+
+tokio::spawn(async move {
+    assert_eq!(rx2.recv().await.unwrap(), 10);
+    assert_eq!(rx2.recv().await.unwrap(), 20);
+});
+
+tx.send(10).unwrap();
+tx.send(20).unwrap();
+```
 
 ### ChatServer1
 
