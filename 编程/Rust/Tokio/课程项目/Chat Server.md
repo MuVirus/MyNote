@@ -226,6 +226,7 @@ let bytes_read = reader.read_line(&mut message).await.unwrap();
 
 只要rx有内容或者接收到客户端tcp消息内容，就执行。
 
+### ChatServer2
 
 ``` rust
 use tokio::{
@@ -280,6 +281,13 @@ async fn main() {
 
 ```
 
+解决：
+- 实现通过广播通信，不自己发送消息发送给自己。
+
+缺陷：
+- 退出如果用Ctrl+C，可能会导致报错。
+
+### ChatServer3
 
 ``` rust
 use tokio::{
@@ -366,6 +374,10 @@ async fn main() {
 }
 
 ```
+
+解决：
+- 加入ctrl+c信号。
+- 主程序也会受ctrl+c退出。
 
 # 收获
 

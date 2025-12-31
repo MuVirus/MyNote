@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Tools/MCU/RTT实时传输.md",
+                "file": "编程/Rust/Tokio/资料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RTT实时传输 的大纲"
+              "title": "资料 的大纲"
             }
           }
         ],
@@ -227,8 +227,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "429aec87190090ab",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
+    "编程/Rust/Tokio/课程项目/Chat Server.md",
+    "编程/Rust/Tokio/资料.md",
+    "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229151750.png",
@@ -238,7 +241,6 @@
     "嵌入式/Tools/MCU/img/Pasted image 20251229150908.png",
     "嵌入式/Tools/MCU/img",
     "嵌入式/控制原理/PID.md",
-    "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Tools/MCU",
     "嵌入式/USB/Tools.md",
     "嵌入式/Tools",
@@ -246,8 +248,6 @@
     "操作系统/基础/ICS/PA/PA0.md",
     "设计/推荐/架构.md",
     "嵌入式/实用电子基础/PLC/协议/FINS UDP.md",
-    "编程/Rust/Tokio/资料.md",
-    "编程/Rust/Tokio/课程项目/Chat Server.md",
     "计划_记录/秋招前/12.15~12.21.md",
     "编程/Rust/Tokio/课程项目",
     "编程/Rust/未命名.md",
@@ -263,7 +263,6 @@
     "计划_记录/秋招前/12.8~12.14.md",
     "编程/wasm/C++/img/Pasted image 20251214161308.png",
     "编程/wasm/C++/img/Pasted image 20251214160915.png",
-    "编程/wasm/C++/img/Pasted image 20251214160727.png",
     "编程/wasm/C++/C++ wasm nodejs 环境搭建+简单尝试.md",
     "工具/Obsidian/主题/Border.md",
     "计划_记录/秋招前/12.1~12.7.md",
