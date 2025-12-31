@@ -161,16 +161,20 @@ loop {
 
 ## ChatServer
 
-### 添加广播
+### 功能学习
+#### 添加广播通道
 
 > 参考：
 > https://docs.rs/tokio/1.48.0/tokio/sync/broadcast/index.html
+
+这里broadcast用于多生产者多消费者，每个发送至都会广播给所有active接收方。
 
 channel函数
 ``` rust
 pub fn channel<T: Clone>(capacity: usize) -> (Sender<T>, Receiver<T>)
 ```
 
+- capacity：表示容量
 
 
 基本用途
@@ -192,6 +196,31 @@ tokio::spawn(async move {
 
 tx.send(10).unwrap();
 tx.send(20).unwrap();
+```
+
+- 其中move表示将内部用到的rx1等其他的变量move进去。
+- 这里广播容量为16，最开始就配有一个rx1，然后后来的rx2是tx使用subscribe得来的。
+
+#### 获取ctrl+c signal
+
+> 参考：
+> https://docs.rs/tokio/1.48.0/tokio/signal/fn.ctrl_c.html
+
+我们下面的示例中就直接为监听ctrl_c信号添加了一个异步任务。
+``` rust
+    tokio::spawn(async move {
+        let sig = signal::ctrl_c().await;
+        match sig {
+            Ok(_) => {
+                println!("Ctrl+C Signal!");
+                cancel_token.cancel();
+            }
+            Err(e) => {
+                println!("err:{:#?}", e);
+            }
+       
+ }
+    });
 ```
 
 ### ChatServer1
