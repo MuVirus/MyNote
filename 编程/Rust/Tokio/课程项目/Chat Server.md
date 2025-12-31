@@ -223,7 +223,48 @@ tx.send(20).unwrap();
     });
 ```
 
-#### 
+#### 取消令牌(Cancellation Token)
+
+> 参考：
+> https://docs.rs/tokio-util/0.7.17/tokio_util/sync/struct.CancellationToken.html
+
+示例如下：
+
+1. 可以看到其中使用`CancellationToken::new()`可以创建一个`取消令牌`，其中`CancellationToken`是可以`Clone`的。
+2. 可以看到一般如果要`监测CancellationToken`或者`取消CancellationToken`一般都需要Clone一份，因为这些都在单独的异步任务当中。
+3. `cloned_token.cancelled()`可以监测当前令牌是否取消了。
+4. `token.cancel()`可以取消当前令牌。
+
+``` rust
+use tokio::select;
+use tokio_util::sync::CancellationToken;
+
+#[tokio::main]
+async fn main() {
+    let token = CancellationToken::new();
+    let cloned_token = token.clone();
+
+    let join_handle = tokio::spawn(async move {
+        // Wait for either cancellation or a very long time
+        select! {
+            _ = cloned_token.cancelled() => {
+                // The token was cancelled
+                5
+            }
+            _ = tokio::time::sleep(std::time::Duration::from_secs(9999)) => {
+                99
+            }
+        }
+    });
+
+    tokio::spawn(async move {
+        tokio::time::sleep(std::time::Duration::from_millis(10)).await;
+        token.cancel();
+    });
+
+    assert_eq!(5, join_handle.await.unwrap());
+}
+```
 
 ### ChatServer1
 
