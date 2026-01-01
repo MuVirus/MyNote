@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计/推荐/架构.md",
+                "file": "计划_记录/秋招前/1.1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "架构"
+              "title": "1.1"
             }
           },
           {
@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/读文件.md",
+                "file": "计划_记录/秋招前/1.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读文件 的大纲"
+              "title": "1.1 的大纲"
             }
           }
         ],
@@ -227,15 +227,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0737e3661b370eb0",
+  "active": "73ffbd0796d5185f",
   "lastOpenFiles": [
-    "编程/Rust/Tokio/课程项目/Chat Server.md",
-    "编程/Rust/Tokio/课程项目/读文件.md",
-    "编程/Rust/Tokio/资料.md",
-    "设计/推荐/架构.md",
-    "操作系统/基础/ICS/PA/PA0.md",
+    "计划_记录/模板.md",
+    "计划_记录/秋招前/12.15~12.21.md",
+    "计划_记录/秋招前/1.1.md",
     "嵌入式/实用电子基础/PLC/协议/FINS UDP.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
+    "操作系统/基础/ICS/PA/PA0.md",
+    "计划_记录/秋招前/12.1~12.7.md",
+    "操作系统/Linux/Linux_C/Linux文件IO基础.md",
+    "设计/推荐/架构.md",
+    "编程/Rust/Tokio/课程项目/读文件.md",
+    "编程/Rust/Tokio/课程项目/Chat Server.md",
+    "编程/Rust/Tokio/资料.md",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229151750.png",
@@ -249,7 +254,6 @@
     "嵌入式/USB/Tools.md",
     "嵌入式/Tools",
     "硬件/未命名",
-    "计划_记录/秋招前/12.15~12.21.md",
     "编程/Rust/Tokio/课程项目",
     "编程/Rust/未命名.md",
     "编程/Rust/Tokio",
@@ -260,21 +264,17 @@
     "操作系统/基础/资料.md",
     "操作系统/基础/ICS/PA",
     "操作系统/基础/ICS",
-    "计划_记录/模板.md",
     "计划_记录/秋招前/12.8~12.14.md",
     "编程/wasm/C++/img/Pasted image 20251214161308.png",
     "编程/wasm/C++/img/Pasted image 20251214160915.png",
     "编程/wasm/C++/C++ wasm nodejs 环境搭建+简单尝试.md",
     "工具/Obsidian/主题/Border.md",
-    "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前提升.md",
     "操作系统/Linux/基础/Makefile.md",
     "编程/C_or_Cplusplus/Embedded_C/嵌入式C语言.md",
     "工具/VSCode/常用功能1.md",
     "计划_记录/计划.md",
     "操作系统/Linux/基础/Linux命令入门.md",
-    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
-    "操作系统/Linux/Linux_C/Linux文件IO基础.md",
     "未命名.canvas"
   ]
 }
