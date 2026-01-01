@@ -106,5 +106,251 @@ void timer_5ms_interrupt_handler(void)
 
 # 用法与示例
 
+## 简单用法（轮询+uwTick无阻塞延时）
+
+我这里用key.h和key.c堆multibutton的一些用法进行封装了一下，让代码整体管理方便一些。
+
+`main.c`
+``` c
+int main(void)
+{
+  HAL_Init();
+
+  SystemClock_Config();
+
+  MX_GPIO_Init();
+
+  key_init();
+  printf("hello world\n");
+
+  while (1)
+  {
+	if(uwTick - lastTime >= 5)
+	{
+		key_loop();
+		lastTime = uwTick;
+	}
+
+  }
+}
+```
+
+`key.c`
+
+函数
+1. 两个主要的函数：`key_init`和`key_loop`
+2. `read_button_gpio`读取gpio状态函数，使用button_id来筛选
+3. button事件回调函数，通过`button_attach`传入函数指针，再通过multi_button中间件的状态机驱动，如果发生`attach`过的事件，则调用该函数指针，来执行相应操作。
 
 
+``` c
+#include "key.h"
+#include "multi_button.h"
+
+static Button btn1, btn2, btn3, btn4;
+
+// Hardware abstraction layer function
+// This simulates reading GPIO states
+uint8_t read_button_gpio(uint8_t button_id)
+{
+    switch (button_id) {
+        case 1:
+            return HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_13);
+        case 2:
+            return HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_10);
+        case 3:
+            return HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_9);
+        case 4:
+            return HAL_GPIO_ReadPin(GPIOD, GPIO_PIN_8);
+        default:
+            return 0;
+    }
+}
+
+// Callback functions for button 1
+void btn1_single_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 1: Single Click\n");
+}
+
+void btn1_double_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 1: Double Click\n");
+}
+
+void btn1_long_press_start_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 1: Long Press Start\n");
+}
+
+void btn1_long_press_hold_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 1: Long Press Hold...\n");
+}
+
+void btn1_press_repeat_handler(Button* btn)
+{
+    printf("Button 1: Press Repeat (count: %d)\n", button_get_repeat_count(btn));
+}
+
+// Callback functions for button 2
+void btn2_single_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 2: Single Click\n");
+}
+
+void btn2_double_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 2: Double Click\n");
+}
+
+void btn2_press_down_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 2: Press Down\n");
+}
+
+void btn2_press_up_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 2: Press Up\n");
+}
+
+// Callback functions for button 1
+void btn3_single_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 3: Single Click\n");
+}
+
+void btn3_double_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 3: Double Click\n");
+}
+
+void btn3_long_press_start_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 3: Long Press Start\n");
+}
+
+void btn3_long_press_hold_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 3: Long Press Hold...\n");
+}
+
+void btn3_press_repeat_handler(Button* btn)
+{
+    printf("Button 3: Press Repeat (count: %d)\n", button_get_repeat_count(btn));
+}
+
+// Callback functions for button 1
+void btn4_single_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 4: Single Click\n");
+}
+
+void btn4_double_click_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 4: Double Click\n");
+}
+
+void btn4_long_press_start_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 4: Long Press Start\n");
+}
+
+void btn4_long_press_hold_handler(Button* btn)
+{
+    (void)btn;  // suppress unused parameter warning
+    printf("Button 4: Long Press Hold...\n");
+}
+
+void btn4_press_repeat_handler(Button* btn)
+{
+    printf("Button 4: Press Repeat (count: %d)\n", button_get_repeat_count(btn));
+}
+
+void key_init()
+{
+	GPIO_InitTypeDef GPIO_Initure;
+
+    __HAL_RCC_GPIOC_CLK_ENABLE();           //开启GPIOC时钟
+    __HAL_RCC_GPIOD_CLK_ENABLE();           //开启GPIOD时钟
+
+    GPIO_Initure.Pin = GPIO_PIN_8 | GPIO_PIN_9 | GPIO_PIN_10 ;	//PD8.9.10
+    GPIO_Initure.Mode = GPIO_MODE_INPUT;    //输入
+    GPIO_Initure.Pull = GPIO_PULLUP;      //下拉
+    GPIO_Initure.Speed = GPIO_SPEED_HIGH;   //高速
+    HAL_GPIO_Init(GPIOD, &GPIO_Initure);
+
+    GPIO_Initure.Pin = GPIO_PIN_13;         //PC13
+    GPIO_Initure.Mode = GPIO_MODE_INPUT;    //输入
+    GPIO_Initure.Pull = GPIO_PULLDOWN;        //上拉
+    GPIO_Initure.Speed = GPIO_SPEED_HIGH;   //高速
+    HAL_GPIO_Init(GPIOC, &GPIO_Initure);
+	
+	
+    // Initialize button 1 (active high for simulation)
+    button_init(&btn1, read_button_gpio, 1, 1);
+    
+    // Attach event handlers for button 1
+    button_attach(&btn1, BTN_SINGLE_CLICK, btn1_single_click_handler);
+    button_attach(&btn1, BTN_DOUBLE_CLICK, btn1_double_click_handler);
+    button_attach(&btn1, BTN_LONG_PRESS_START, btn1_long_press_start_handler);
+    button_attach(&btn1, BTN_LONG_PRESS_HOLD, btn1_long_press_hold_handler);
+    button_attach(&btn1, BTN_PRESS_REPEAT, btn1_press_repeat_handler);
+    
+    // Initialize button 2 (active high for simulation)
+    button_init(&btn2, read_button_gpio, 0, 2);
+    
+    // Attach event handlers for button 2
+    button_attach(&btn2, BTN_SINGLE_CLICK, btn2_single_click_handler);
+    button_attach(&btn2, BTN_DOUBLE_CLICK, btn2_double_click_handler);
+    button_attach(&btn2, BTN_PRESS_DOWN, btn2_press_down_handler);
+    button_attach(&btn2, BTN_PRESS_UP, btn2_press_up_handler);
+	
+    // Initialize button 3 (active high for simulation)
+    button_init(&btn3, read_button_gpio, 0, 3);
+    
+    // Attach event handlers for button 3
+    button_attach(&btn3, BTN_SINGLE_CLICK, btn3_single_click_handler);
+    button_attach(&btn3, BTN_DOUBLE_CLICK, btn3_double_click_handler);
+    button_attach(&btn3, BTN_LONG_PRESS_START, btn3_long_press_start_handler);
+    button_attach(&btn3, BTN_LONG_PRESS_HOLD, btn3_long_press_hold_handler);
+    button_attach(&btn3, BTN_PRESS_REPEAT, btn3_press_repeat_handler);
+	
+    // Initialize button 4 (active high for simulation)
+    button_init(&btn4, read_button_gpio, 0, 4);
+    
+    // Attach event handlers for button 4
+    button_attach(&btn4, BTN_SINGLE_CLICK, btn4_single_click_handler);
+    button_attach(&btn4, BTN_DOUBLE_CLICK, btn4_double_click_handler);
+    button_attach(&btn4, BTN_LONG_PRESS_START, btn4_long_press_start_handler);
+    button_attach(&btn4, BTN_LONG_PRESS_HOLD, btn4_long_press_hold_handler);
+    button_attach(&btn4, BTN_PRESS_REPEAT, btn4_press_repeat_handler);
+    
+    // Start button processing
+    button_start(&btn1);
+    button_start(&btn2);
+    button_start(&btn3);
+    button_start(&btn4);
+}	
+
+void key_loop()
+{
+	button_ticks();
+}
+
+```
