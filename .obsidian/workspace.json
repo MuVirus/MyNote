@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Tools/MCU/RTT实时传输.md",
+                "file": "计划_记录/秋招前/1.1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "RTT实时传输 的大纲"
+              "title": "1.1 的大纲"
             }
           }
         ],
@@ -227,13 +227,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "429aec87190090ab",
+  "active": "73ffbd0796d5185f",
   "lastOpenFiles": [
+    "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "嵌入式/开发板/STM32/FreeRTOS/STM32 FreeRTOS基础.md",
     "嵌入式/MCU",
     "嵌入式/开发板/STM32/未命名.md",
-    "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Lib/MCU/按键",
     "嵌入式/Lib/MCU",
     "嵌入式/Lib",
