@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "计划_记录/计划.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "秋招前提升"
+              "title": "计划"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "计划_记录/计划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "计划 的大纲"
             }
           }
         ],
@@ -227,10 +227,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "73ffbd0796d5185f",
   "lastOpenFiles": [
-    "操作系统/基础/ICS/PA/PA0.md",
     "计划_记录/秋招前提升.md",
+    "操作系统/基础/ICS/PA/PA0.md",
     "Games/UE5/UE5 C++基础.md",
     "计划_记录/应聘/基础.md",
     "工具/VSCode/常用功能1.md",
