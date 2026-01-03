@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "UE5",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,7 +227,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "73ffbd0796d5185f",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
     "操作系统/基础/ICS/PA/PA0.md",
     "计划_记录/秋招前提升.md",
