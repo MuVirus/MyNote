@@ -77,8 +77,7 @@
               "title": "RTT实时传输"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/基础/ICS/PA/PA1.md",
+                "file": "Games/UE5/未命名.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PA1 的大纲"
+              "title": "未命名 的大纲"
             }
           }
         ],
@@ -227,10 +226,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "caaf260b53dd2713",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
     "操作系统/基础/ICS/PA/PA1.md",
+    "计划_记录/秋招前提升.md",
     "操作系统/基础/ICS/PA/PA0.md",
     "Games/UE5/未命名.md",
     "Games/UE5/UE5 C++基础.md",
