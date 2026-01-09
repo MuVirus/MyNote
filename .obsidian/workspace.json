@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/异步通道.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "异步通道 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           }
         ],
@@ -227,14 +227,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0737e3661b370eb0",
+  "active": "73ffbd0796d5185f",
   "lastOpenFiles": [
-    "编程/Rust/Tokio/课程项目/Chat Server.md",
+    "Games/UE5/UE5 C++基础.md",
+    "计划_记录/秋招前提升.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
+    "编程/Rust/Tokio/课程项目/Chat Server.md",
     "编程/Rust/Tokio/课程项目/读文件.md",
     "操作系统/基础/ICS/PA/PA1.md",
-    "计划_记录/秋招前提升.md",
-    "Games/UE5/UE5 C++基础.md",
     "Games/UE5/未命名.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "操作系统/基础/ICS/PA/PA0.md",
