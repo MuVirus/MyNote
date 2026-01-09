@@ -8,21 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "caaf260b53dd2713",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Games/UE5/UE5 C++基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "UE5 C++基础"
-            }
-          },
-          {
-            "id": "73ffbd0796d5185f",
+            "id": "979fb8d927d40207",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,23 +62,9 @@
               "icon": "lucide-file",
               "title": "RTT实时传输"
             }
-          },
-          {
-            "id": "9b6dbeb633fda761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/开发板/Jetson/Jetson 常见使用.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Jetson 常见使用"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/开发板/Jetson/Jetson 常见使用.md",
+                "file": "操作系统/基础/ICS/PA/PA1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Jetson 常见使用 的大纲"
+              "title": "PA1 的大纲"
             }
           }
         ],
@@ -241,14 +213,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
-    "嵌入式/开发板/Jetson/未命名.md",
-    "嵌入式/开发板/Jetson/Jetson 常见使用.md",
-    "嵌入式/Tools/MCU/RTT实时传输.md",
-    "编程/Rust/Tokio/课程项目/异步通道.md",
-    "操作系统/基础/ICS/PA/PA1.md",
     "计划_记录/秋招前提升.md",
+    "操作系统/基础/ICS/PA/PA1.md",
+    "编程/Rust/Tokio/课程项目/异步通道.md",
+    "嵌入式/Tools/MCU/RTT实时传输.md",
+    "嵌入式/开发板/Jetson/Jetson 常见使用.md",
+    "嵌入式/开发板/Jetson/未命名.md",
     "Games/UE5/UE5 C++基础.md",
     "编程/Rust/Tokio/课程项目/Chat Server.md",
     "编程/Rust/Tokio/课程项目/读文件.md",
