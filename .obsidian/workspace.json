@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
+                "file": "编程/Rust/Tokio/课程项目/异步通道.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chat Server"
+              "title": "异步通道"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Rust/Tokio/课程项目/Chat Server.md",
+                "file": "编程/Rust/Tokio/课程项目/异步通道.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Chat Server 的大纲"
+              "title": "异步通道 的大纲"
             }
           }
         ],
@@ -229,9 +229,9 @@
   },
   "active": "0737e3661b370eb0",
   "lastOpenFiles": [
+    "编程/Rust/Tokio/课程项目/Chat Server.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "编程/Rust/Tokio/课程项目/读文件.md",
-    "编程/Rust/Tokio/课程项目/Chat Server.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "计划_记录/秋招前提升.md",
     "Games/UE5/UE5 C++基础.md",
