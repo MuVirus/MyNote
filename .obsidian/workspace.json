@@ -63,8 +63,7 @@
               "title": "RTT实时传输"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/基础/ICS/PA/PA1.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PA1 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           }
         ],
@@ -213,10 +212,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "979fb8d927d40207",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
     "操作系统/基础/ICS/PA/PA1.md",
+    "计划_记录/秋招前提升.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/开发板/Jetson/Jetson 常见使用.md",
