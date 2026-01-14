@@ -530,3 +530,9 @@ param
 - pin_level：传入函数指针`pin_level`，参考[简单用例](#简单用法（轮询+uwTick无阻塞延时)，返回值uint8_t：表示读取按键的电平状态，传入uint8_t表示要传入的`button_id
 - active_level：按下后按键的电平‘
 - button_id：自定义0~255的按键ID
+
+步骤：
+- 检查handler（按键结构体指针）和pin_level（函数指针）是否为NULL（有没有定义），没有的话则返回。
+- 使用memset将handler的值清零，初始化参数。
+- 将handler参数部分按照形参中传入，部分按照默认值处理。
+
