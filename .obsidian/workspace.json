@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "11f2fe5e662d7d9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计划_记录/秋招前/1.12-1.18.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.12-1.18"
-            }
-          },
-          {
             "id": "1af159a2461a01bf",
             "type": "leaf",
             "state": {
@@ -241,17 +227,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/1.12-1.18.md",
+                "file": "操作系统/基础/ICS/PA/PA1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.12-1.18 的大纲"
+              "title": "PA1 的大纲"
+            }
+          },
+          {
+            "id": "0eb9dd056025c613",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -269,10 +265,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "015f4856bc5639b0",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
     "计划_记录/秋招前/1.12-1.18.md",
+    "计划_记录/秋招前提升.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/开发板/Jetson/资料.md",
     "嵌入式/开发板/Jetson/未命名.md",
