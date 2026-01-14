@@ -493,3 +493,40 @@ struct _Button {
 
 ## 源文件
 
+### 按键初始化
+
+``` c
+// Button handle list head
+static Button* head_handle = NULL;
+
+// ...
+
+/**
+  * @brief  Initialize the button struct handle
+  * @param  handle: the button handle struct
+  * @param  pin_level: read the HAL GPIO of the connected button level
+  * @param  active_level: pressed GPIO level
+  * @param  button_id: the button id
+  * @retval None
+  */
+void button_init(Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id)
+{
+	if (!handle || !pin_level) return;  // parameter validation
+	
+	memset(handle, 0, sizeof(Button));
+	handle->event = (uint8_t)BTN_NONE_PRESS;
+	handle->hal_button_level = pin_level;
+	handle->button_level = !active_level;  // initialize to opposite of active level
+	handle->active_level = active_level;
+	handle->button_id = button_id;
+	handle->state = BTN_STATE_IDLE;
+}
+```
+
+> 整体来说，是对Button结构体的初始化，这个指向Button结构体指针的变量是一个全局静态变量，初始值为NULL。
+
+param
+- handle：传入指向Button结构体的指针变量，以便于之后初始化。
+- pin_level：传入函数指针`pin_level`，参考[简单用例](#简单用法（轮询+uwTick无阻塞延时)，返回值uint8_t：表示读取按键的电平状态，传入uint8_t表示要传入的`button_id
+- active_level：按下后按键的电平‘
+- button_id：自定义0~255的按键ID
