@@ -465,9 +465,27 @@ typedef enum {
 
 ```
 
-用enum枚举，代表按键代表的状态，[状态机](#状态机说明)中会用到。
+
 
 其中用`BTN_EVENT_COUNT`根据枚举enum的性质，编译时就可以计算出当前的按键事件的个数。
+
+
+### 按键状态机类型
+
+``` c
+// Button state machine states
+typedef enum {
+	BTN_STATE_IDLE = 0,     // idle state
+	BTN_STATE_PRESS,        // pressed state
+	BTN_STATE_RELEASE,      // released state waiting for timeout
+	BTN_STATE_REPEAT,       // repeat press state
+	BTN_STATE_LONG_HOLD     // long press hold state
+} ButtonState;
+```
+
+有空闲、按下、释放、重复、长按这五个状态
+
+用enum枚举，代表按键代表的状态，[状态机](#状态机说明)中会用到。
 
 ### 按键结构体
 
