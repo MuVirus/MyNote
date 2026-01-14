@@ -247,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -265,7 +265,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "015f4856bc5639b0",
   "lastOpenFiles": [
     "操作系统 - 副本/虚拟化/qemu/参考.md",
     "操作系统 - 副本/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
