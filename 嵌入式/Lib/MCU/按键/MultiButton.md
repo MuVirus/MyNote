@@ -434,6 +434,19 @@ void key_loop()
 
 ## 头文件
 
+## 按键回调函数指针类型定义
+
+> 用于绑定按键状态的回调函数（事件）
+
+``` c
+// Button callback function type
+typedef void (*BtnCallback)(Button* btn_handle);
+```
+
+- 无返回值
+- 函数指针名为BtnCallback
+- 传入按键结构体指针（pointer to button struct）
+
 ### 按键事件类型
 
 ``` c
@@ -452,4 +465,31 @@ typedef enum {
 
 ```
 
-Y代表按键代表的状态，
+用enum枚举，代表按键代表的状态，[状态机](#状态机说明)中会用到。
+
+### 按键结构体
+
+``` c
+// Forward declaration
+typedef struct _Button Button;
+
+// ...
+
+// Button structure
+struct _Button {
+	uint16_t ticks;                     // tick counter
+	uint8_t  repeat : 4;                // repeat counter (0-15)
+	uint8_t  event : 4;                 // current event (0-15)
+	uint8_t  state : 3;                 // state machine state (0-7)
+	uint8_t  debounce_cnt : 3;          // debounce counter (0-7)
+	uint8_t  active_level : 1;          // active GPIO level (0 or 1)
+	uint8_t  button_level : 1;          // current button level
+	uint8_t  button_id;                 // button identifier
+	uint8_t  (*hal_button_level)(uint8_t button_id);  // HAL function to read GPIO
+	BtnCallback cb[BTN_EVENT_COUNT];    // callback function array
+	Button* next;                       // next button in linked list
+};
+```
+
+## 源文件
+
