@@ -104,9 +104,82 @@ void timer_5ms_interrupt_handler(void)
 > 注：
 > 这个状态机流程可以学习一下。
 
+
+# 函数
+
+## 核心API
+
+#### `void button_init(Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id)`
+
+**功能**: Initialize button instance  
+**参数**:
+
+- `handle`: 按键句柄
+- `pin_level`: GPIO 读取函数指针
+- `active_level`: 有效电平 (0 或 1)
+- `button_id`: 按键 ID
+
+#### `void button_attach(Button* handle, ButtonEvent event, BtnCallback cb)`
+
+**功能**: Attach event callback function  
+**参数**:
+
+- `handle`: 按键句柄
+- `event`: 事件类型
+- `cb`: 回调函数
+
+#### `void button_detach(Button* handle, ButtonEvent event)`
+
+**功能**: Detach event callback function  
+**参数**:
+
+- `handle`: 按键句柄
+- `event`: 事件类型
+
+#### `int button_start(Button* handle)`
+
+**功能**: Start button processing  
+**返回值**: 0=成功, -1=已存在, -2=参数错误
+
+#### `void button_stop(Button* handle)`
+
+
+**功能**: Stop button processing
+
+#### `void button_ticks(void)`
+
+**功能**: Background processing function (call every 5ms)
+
+### 工具函数
+
+#### `ButtonEvent button_get_event(Button* handle)`
+
+**功能**: Get current button event
+
+#### `uint8_t button_get_repeat_count(Button* handle)`
+
+
+**功能**: Get repeat press count
+
+#### `void button_reset(Button* handle)`
+
+**功能**: Reset button state to idle
+
+#### `int button_is_pressed(Button* handle)`
+
+**功能**: Check if button is currently pressed  
+**返回值**: 1=按下, 0=未按下, -1=错误
+
 # 用法与示例
 
 ## 简单用法（轮询+uwTick无阻塞延时）
+
+步骤：
+1. 初始化button
+2. 给按键添加事件句柄
+3. 启动按键处理
+4. 定时执行`button_ticks`函数
+
 
 我这里用key.h和key.c堆multibutton的一些用法进行封装了一下，让代码整体管理方便一些。
 
@@ -354,3 +427,29 @@ void key_loop()
 }
 
 ```
+
+
+
+# 代码解析
+
+## 头文件
+
+### 按键事件类型
+
+``` c
+// Button event types
+typedef enum {
+	BTN_PRESS_DOWN = 0,     // button pressed down
+	BTN_PRESS_UP,           // button released
+	BTN_PRESS_REPEAT,       // repeated press detected
+	BTN_SINGLE_CLICK,       // single click completed
+	BTN_DOUBLE_CLICK,       // double click completed
+	BTN_LONG_PRESS_START,   // long press started
+	BTN_LONG_PRESS_HOLD,    // long press holding
+	BTN_EVENT_COUNT,        // total number of events
+	BTN_NONE_PRESS          // no event
+} ButtonEvent;
+
+```
+
+Y代表按键代表的状态，
