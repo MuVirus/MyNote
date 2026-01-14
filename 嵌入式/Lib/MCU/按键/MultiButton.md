@@ -546,7 +546,7 @@ void button_attach(Button* handle, ButtonEvent event, BtnCallback cb)
 > 添加按键事件（不同状态对应的回调函数）
 
 param：
-- handle：传入指向Button结构体的指针变量，以便于之后初始化。
+- handle：传入指向Button结构体的指针变量。
 - event：按键事件，也是状态枚举值
 - cb：回调函数指针
 
@@ -564,3 +564,13 @@ void button_detach(Button* handle, ButtonEvent event)
 ```
 
 > 分离按键事件
+
+param：
+- handle：传入指向Button结构体的指针变量。
+- event：按键事件，也是状态枚举值
+- cb：回调函数指针
+
+步骤：
+- 判断handler是否被定义，给的按键事件类型超出BTN_EVENT_COUNT的大小，则return。
+- 将要分离的按键事件从数组固定位置移除（置NULL）。
+
