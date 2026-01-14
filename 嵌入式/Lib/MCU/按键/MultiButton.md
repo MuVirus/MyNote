@@ -467,6 +467,8 @@ typedef enum {
 
 用enum枚举，代表按键代表的状态，[状态机](#状态机说明)中会用到。
 
+其中用`BTN_EVENT_COUNT`根据枚举enum的性质，编译时就可以计算出当前的按键事件的个数。
+
 ### 按键结构体
 
 ``` c
@@ -491,6 +493,10 @@ struct _Button {
 };
 ```
 
+attr
+- cb：为BtnCallback类型的数组，固定大小（BTN_EVENT_COUNT表示按键事件状态，在Button枚举中定义）。
+
+
 ## 源文件
 
 ### 按键初始化
@@ -501,14 +507,6 @@ static Button* head_handle = NULL;
 
 // ...
 
-/**
-  * @brief  Initialize the button struct handle
-  * @param  handle: the button handle struct
-  * @param  pin_level: read the HAL GPIO of the connected button level
-  * @param  active_level: pressed GPIO level
-  * @param  button_id: the button id
-  * @retval None
-  */
 void button_init(Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id)
 {
 	if (!handle || !pin_level) return;  // parameter validation
@@ -536,3 +534,33 @@ param
 - 使用memset将handler的值清零，初始化参数。
 - 将handler参数部分按照形参中传入，部分按照默认值处理。
 
+
+``` c
+void button_attach(Button* handle, ButtonEvent event, BtnCallback cb)
+{
+	if (!handle || event >= BTN_EVENT_COUNT) return;  // parameter validation
+	handle->cb[event] = cb;
+}
+```
+
+> 添加按键事件（不同状态对应的回调函数）
+
+param：
+- handle：传入指向Button结构体的指针变量，以便于之后初始化。
+- event：按键事件，也是状态枚举值
+- cb：回调函数指针
+
+步骤：
+- 判断handler是否被定义，给的按键事件类型超出BTN_EVENT_COUNT的大小，则return。
+- 将要添加的按键事件放入到数组固定位置。
+
+
+``` c
+void button_detach(Button* handle, ButtonEvent event)
+{
+	if (!handle || event >= BTN_EVENT_COUNT) return;  // parameter validation
+	handle->cb[event] = NULL;
+}
+```
+
+> 分离按键事件
