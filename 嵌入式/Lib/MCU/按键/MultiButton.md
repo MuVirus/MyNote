@@ -520,9 +520,6 @@ attr
 ### 按键初始化
 
 ``` c
-// Button handle list head
-static Button* head_handle = NULL;
-
 // ...
 
 void button_init(Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_level, uint8_t button_id)
@@ -539,7 +536,7 @@ void button_init(Button* handle, uint8_t(*pin_level)(uint8_t), uint8_t active_le
 }
 ```
 
-> 整体来说，是对Button结构体的初始化，这个指向Button结构体指针的变量是一个全局静态变量，初始值为NULL。
+> 整体来说，是对Button结构体的初始化，这个指向形参传感来的Button结构体指针变量，传过来的不能是NULL。
 
 param
 - handle：传入指向Button结构体的指针变量，以便于之后初始化。

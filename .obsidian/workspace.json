@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/1.12-1.18.md",
+                "file": "嵌入式/Lib/MCU/按键/MultiButton.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.12-1.18 的大纲"
+              "title": "MultiButton 的大纲"
             }
           },
           {
@@ -265,14 +265,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "b0711c59d5a012d1",
   "lastOpenFiles": [
+    "计划_记录/秋招前提升.md",
+    "计划_记录/秋招前/1.12-1.18.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "操作系统/Linux/Linux_C/线程池.md",
-    "计划_记录/秋招前提升.md",
     "().md",
     "嵌入式/开发板/Jetson/资料.md",
-    "计划_记录/秋招前/1.12-1.18.md",
     "操作系统 - 副本/虚拟化/qemu/参考.md",
     "操作系统 - 副本/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "操作系统 - 副本/虚拟化/wsl2/入门.md",
