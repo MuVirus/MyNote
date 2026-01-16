@@ -517,8 +517,6 @@ attr
 
 ## 源文件
 
-### 按键初始化
-
 ``` c
 // ...
 
@@ -642,7 +640,15 @@ void button_stop(Button* handle)
 步骤：
 1. 先判断handle是否存在
 2. 定义一个curr变量（指向Button类型的二级指针，目的是要指向Button链表的地址=>`head_handle`）
-3. 将curr
+3. 将curr = head_handle(Button类型的链表)的地址（for循环）
+	1. 定义一个指向Button类型的指针变量entry等于curr`当前指向`的值。
+	2. 判断entry与handle是否相等？（相等则表示在该链表有该值）
+		1. 相等
+			1. cur指向的值变成下一个值（会保持链表的完整）
+			2. 将entry的next清空（应该可以省吧？）
+			3. return后面就不用判断了
+		2. 不相等
+			1. cur指向下一个，继续for循环
 
 
 ``` c
@@ -655,4 +661,21 @@ void button_ticks(void)
 }
 ```
 
-> 
+> Button的tick事件
+
+步骤：
+1. 按照head_handle（指向Button类型指针的链表）的顺序进行遍历事件
+
+
+MultiButton用Tick作为`时间基准`。
+
+``` c
+// Configuration constants - can be modified according to your needs
+#define TICKS_INTERVAL          5    // ms - timer interrupt interval
+#define DEBOUNCE_TICKS          3    // MAX 7 (0 ~ 7) - debounce filter depth
+#define SHORT_TICKS             (300 / TICKS_INTERVAL)   // short press threshold
+#define LONG_TICKS              (1000 / TICKS_INTERVAL)  // long press threshold
+#define PRESS_REPEAT_MAX_NUM    15   // maximum repeat counter value
+```
+可以看到该tick=5（表示每经历一次tick表示5ms），然后其他的比如防抖需要3个tick（15ms）、长按（1000ms）、短按（300ms）都需要tick来完成。
+
