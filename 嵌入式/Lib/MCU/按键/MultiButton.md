@@ -589,3 +589,70 @@ param：
 - 判断handler是否被定义，给的按键事件类型超出BTN_EVENT_COUNT的大小，则return。
 - 将要分离的按键事件从数组固定位置移除（置NULL）。
 
+
+``` c
+int button_start(Button* handle)
+{
+	if (!handle) return -2;  // invalid parameter
+	
+	Button* target = head_handle;
+	while (target) {
+		if (target == handle) return -1;  // already exist
+		target = target->next;
+	}
+	
+	handle->next = head_handle;
+	head_handle = handle;
+	return 0;
+}
+```
+
+> 开启该handle按键
+
+步骤：
+1. 判断handle是否存在
+2. 用target（指向Button类型的指针）= head_handle（按键链表头）
+3. 判断target是否存在（while循环）（target会移动）
+	1. 判断target是否等于handle（如果为true，则表示该handle已经开启）
+	2. 将target指向下一个
+4. 如果在head_handler没有找到相同的Button，则通过头插法插入该handle。
+
+
+``` c
+void button_stop(Button* handle)
+{
+	if (!handle) return;  // parameter validation
+	
+	Button** curr;
+	for (curr = &head_handle; *curr; ) {
+		Button* entry = *curr;
+		if (entry == handle) {
+			*curr = entry->next;
+			entry->next = NULL;  // clear next pointer
+			return;
+		} else {
+			curr = &entry->next;
+		}
+	}
+} 
+```
+
+> 结束该handle按键
+
+步骤：
+1. 先判断handle是否存在
+2. 定义一个curr变量（指向Button类型的二级指针，目的是要指向Button链表的地址=>`head_handle`）
+3. 将curr
+
+
+``` c
+void button_ticks(void)
+{
+	Button* target;
+	for (target = head_handle; target; target = target->next) {
+		button_handler(target);
+	}
+}
+```
+
+> 
