@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "线程池",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +159,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,13 +228,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Lib/MCU/按键/MultiButton.md",
+                "file": "计划_记录/秋招前/1.12-1.18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MultiButton 的大纲"
+              "title": "1.12-1.18 的大纲"
             }
           },
           {
@@ -265,11 +266,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0711c59d5a012d1",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
     "计划_记录/秋招前提升.md",
-    "计划_记录/秋招前/1.12-1.18.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
+    "嵌入式/Tools/MCU/RTT实时传输.md",
+    "计划_记录/秋招前/1.12-1.18.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "().md",
     "嵌入式/开发板/Jetson/资料.md",
@@ -302,7 +304,6 @@
     "计划_记录/秋招前/12.8~12.14.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "嵌入式/开发板/Jetson/未命名.md",
-    "嵌入式/开发板/Jetson/Jetson 常见使用.md",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
