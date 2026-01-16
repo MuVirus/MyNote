@@ -664,7 +664,7 @@ void button_ticks(void)
 > Button的tick事件
 
 步骤：
-1. 按照head_handle（指向Button类型指针的链表）的顺序进行遍历事件
+1. 按照head_handle（指向Button类型指针的链表）的顺序进行遍历执行事件处理函数。
 
 
 MultiButton用Tick作为`时间基准`。
@@ -679,3 +679,44 @@ MultiButton用Tick作为`时间基准`。
 ```
 可以看到该tick=5（表示每经历一次tick表示5ms），然后其他的比如防抖需要3个tick（15ms）、长按（1000ms）、短按（300ms）都需要tick来完成。
 
+
+``` c
+static void button_handler(Button* handle)
+{
+	uint8_t read_gpio_level = button_read_level(handle);
+
+	// Increment ticks counter when not in idle state
+	if (handle->state > BTN_STATE_IDLE) {
+		handle->ticks++;
+	}
+
+	/*------------Button debounce handling---------------*/
+	if (read_gpio_level != handle->button_level) {
+		// Continue reading same new level for debounce
+		if (++(handle->debounce_cnt) >= DEBOUNCE_TICKS) {
+			handle->button_level = read_gpio_level;
+			handle->debounce_cnt = 0;
+		}
+	} else {
+		// Level not changed, reset counter
+		handle->debounce_cnt = 0;
+	}
+
+	/*-----------------State machine-------------------*/
+	switch (handle->state) {
+	case BTN_STATE_IDLE:
+	// ...
+	
+}
+```
+
+> 按键事件处理函数
+
+总体步骤
+1. 读取当前handle的电平状态
+2. 当处理机状态不是IDLE时tick+1（为后续状态判断做准备）
+3. 进行消抖处理（首先判断读取的值是否不等于）
+	1. 如果等于的话，就一直将cnt置0，不改变状态
+	2. 如果不等于的话，表明电平状态在该tick`开始`发生变化
+		1. 判断cnt+1是否大于`预设`防抖计数值（这个过程会一直将cnt+1）
+			1. 如果小于，如果之后电平一直没变化，则tick一直
