@@ -105,8 +105,7 @@
               "title": "MultiButton"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Lib/MCU/按键/MultiButton.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MultiButton 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -265,12 +264,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
-    "嵌入式/Lib/MCU/软件定时器",
     "计划_记录/秋招前/1.12-1.18.md",
     "计划_记录/秋招前提升.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
+    "嵌入式/Lib/MCU/软件定时器",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "().md",
@@ -300,7 +299,6 @@
     "操作系统 - 副本/Linux/Kali",
     "操作系统 - 副本/Linux",
     "操作系统 - 副本/HA",
-    "操作系统 - 副本",
     "计划_记录/秋招前/12.8~12.14.md",
     "操作系统/基础/ICS/PA/PA1.md",
     "计划_记录/img/Pasted image 20260105105803.png",
