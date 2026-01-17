@@ -105,7 +105,8 @@
               "title": "MultiButton"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -226,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "操作系统/Linux/Linux_C/线程池.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "线程池 的大纲"
             }
           },
           {
@@ -264,11 +265,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46269ea3d0c26d5c",
+  "active": "be49a9e91ebddee8",
   "lastOpenFiles": [
-    "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "计划_记录/秋招前提升.md",
+    "操作系统/Linux/Linux_C/线程池.md",
     "计划_记录/秋招前/1.12-1.18.md",
     "嵌入式/Lib/MCU/软件定时器",
     "嵌入式/Tools/MCU/RTT实时传输.md",
