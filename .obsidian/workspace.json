@@ -105,8 +105,7 @@
               "title": "MultiTimer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/1.12-1.18.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.12-1.18 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -265,11 +264,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
-    "计划_记录/秋招前/1.12-1.18.md",
     "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+    "编程/Rust/Tokio/课程项目/异步通道.md",
+    "计划_记录/秋招前/1.12-1.18.md",
+    "计划_记录/秋招前提升.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/软件定时器",
@@ -302,7 +302,6 @@
     "操作系统 - 副本/Linux",
     "操作系统 - 副本/HA",
     "计划_记录/秋招前/12.8~12.14.md",
-    "操作系统/基础/ICS/PA/PA1.md",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
