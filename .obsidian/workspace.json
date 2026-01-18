@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+                "file": "计划_记录/秋招前/1.12-1.18.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MultiTimer 的大纲"
+              "title": "1.12-1.18 的大纲"
             }
           },
           {
@@ -265,13 +265,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0711c59d5a012d1",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
-    "嵌入式/Lib/MCU/按键/MultiButton.md",
-    "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
-    "计划_记录/秋招前/1.12-1.18.md",
-    "操作系统/Linux/Linux_C/线程池.md",
     "计划_记录/秋招前提升.md",
+    "计划_记录/秋招前/1.12-1.18.md",
+    "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+    "嵌入式/Lib/MCU/按键/MultiButton.md",
+    "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/软件定时器",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "().md",
