@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计划_记录/秋招前/1.12-1.18.md",
+                "file": "计划_记录/秋招前/1.19-1.25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.12-1.18"
+              "title": "1.19-1.25"
             }
           },
           {
@@ -105,7 +105,8 @@
               "title": "MultiTimer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "计划_记录/秋招前/1.19-1.25.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "1.19-1.25 的大纲"
             }
           },
           {
@@ -264,12 +265,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46269ea3d0c26d5c",
+  "active": "1af159a2461a01bf",
   "lastOpenFiles": [
+    "计划_记录/秋招前提升.md",
+    "计划_记录/秋招前/1.19-1.25.md",
+    "计划_记录/模板.md",
+    "计划_记录/秋招前/1.12-1.18.md",
     "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
-    "计划_记录/秋招前/1.12-1.18.md",
-    "计划_记录/秋招前提升.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/软件定时器",
@@ -295,13 +298,11 @@
     "操作系统 - 副本/Linux/Linux_C/线程池.md",
     "操作系统 - 副本/Linux/Linux_C/Linux文件IO基础.md",
     "操作系统 - 副本/Linux/Kali/常见操作.md",
-    "操作系统 - 副本/Linux/Kali/Firefox问题.md",
     "操作系统 - 副本/Linux/基础",
     "操作系统 - 副本/Linux/Linux_C",
     "操作系统 - 副本/Linux/Kali",
     "操作系统 - 副本/Linux",
     "操作系统 - 副本/HA",
-    "计划_记录/秋招前/12.8~12.14.md",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
