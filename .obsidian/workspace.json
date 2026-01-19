@@ -105,8 +105,7 @@
               "title": "Zephyr SMF"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,13 +226,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Zephyr SMF 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -265,10 +264,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0711c59d5a012d1",
+  "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
-    "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+    "嵌入式/实用电子基础/PLC/协议/FINS UDP.md",
+    "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+    "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
     "嵌入式/Lib/MCU/状态机",
     "计划_记录/秋招前/1.19-1.25.md",
     "计划_记录/秋招前提升.md",
@@ -276,7 +277,6 @@
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "计划_记录/模板.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
-    "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/软件定时器",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "().md",
@@ -298,7 +298,6 @@
     "操作系统 - 副本/Linux/基础/Makefile.md",
     "操作系统 - 副本/Linux/基础/Linux命令入门.md",
     "操作系统 - 副本/Linux/Linux_C/线程池.md",
-    "操作系统 - 副本/Linux/Linux_C/Linux文件IO基础.md",
     "操作系统 - 副本/Linux/基础",
     "操作系统 - 副本/Linux/Linux_C",
     "操作系统 - 副本/Linux/Kali",
