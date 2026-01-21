@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/1.19-1.25.md",
+                "file": "操作系统/Linux/Linux_C/线程池.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.19-1.25 的大纲"
+              "title": "线程池 的大纲"
             }
           },
           {
@@ -265,13 +265,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "be49a9e91ebddee8",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
-    "计划_记录/秋招前/1.19-1.25.md",
     "嵌入式/实用电子基础/PLC/协议/FINS UDP.md",
     "操作系统/Linux/Linux_C/线程池.md",
     "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+    "计划_记录/秋招前提升.md",
+    "计划_记录/秋招前/1.19-1.25.md",
+    "编程/C_or_Cplusplus/C_MemoryManage",
+    "编程/C_or_Cplusplus/C_Basic",
     "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
     "嵌入式/Lib/MCU/状态机",
     "计划_记录/秋招前/1.12-1.18.md",
@@ -298,11 +300,8 @@
     "操作系统 - 副本/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统 - 副本/Linux/基础/Makefile.md",
     "操作系统 - 副本/Linux/基础/Linux命令入门.md",
-    "操作系统 - 副本/Linux/Linux_C/线程池.md",
     "操作系统 - 副本/Linux/基础",
     "操作系统 - 副本/Linux/Linux_C",
-    "操作系统 - 副本/Linux/Kali",
-    "操作系统 - 副本/Linux",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
