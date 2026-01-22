@@ -77,8 +77,7 @@
               "title": "Zephyr SMF"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前/1.19-1.25.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.19-1.25 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -237,10 +236,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1af159a2461a01bf",
+  "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
     "计划_记录/秋招前/1.19-1.25.md",
+    "计划_记录/秋招前提升.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
     "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
