@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/实用电子基础/元件选型/开机芯片.md",
+                "file": "计划_记录/秋招前提升.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "开机芯片"
+              "title": "秋招前提升"
             }
           }
         ]
@@ -165,18 +165,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e47f2a5a0f33825c",
+  "active": "11e384f79ccc7a81",
   "lastOpenFiles": [
-    "计划_记录/秋招前/1.12-1.18.md",
+    "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
+    "Tools/Git/Git单独下载文件夹.md",
     "/计划_记录/秋招前提升.md",
-    "/计划_记录/秋招前/1.12-1.18.md",
+    "/计划_记录/秋招前/1.19-1.25.md",
     "/计划_记录/秋招前",
     "/计划_记录",
+    "/编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
+    "/Tools/Git/Git单独下载文件夹.md",
+    "/编程/C_or_Cplusplus/C_MemoryManage",
+    "编程/C_or_Cplusplus/C_MemoryManage",
+    "/编程/C_or_Cplusplus",
+    "/编程",
+    "/Tools/Git",
+    "Tools/Git",
+    "/Tools",
+    "计划_记录/秋招前/1.19-1.25.md",
+    "嵌入式/实用电子基础/元件选型/开机芯片.md",
+    "/计划_记录/秋招前/1.12-1.18.md",
+    "嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+    "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
     "/嵌入式/Lib/MCU/按键/MultiButton.md",
     "/嵌入式/Lib/MCU/按键",
-    "/嵌入式/Lib/MCU",
-    "/嵌入式/Lib",
-    "/嵌入式",
+    "/嵌入式/Lib/MCU/软件定时器/MultiTimer.md",
+    "/嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+    "计划_记录/秋招前/1.12-1.18.md",
     "().md",
     "/().md"
   ]
