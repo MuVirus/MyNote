@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+                "file": "嵌入式/Lib/MCU/协程/ProtoThread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zephyr SMF"
+              "title": "ProtoThread"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Git/Git单独下载文件夹.md",
+                "file": "嵌入式/Lib/MCU/协程/ProtoThread.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Git单独下载文件夹 的大纲"
+              "title": "ProtoThread 的大纲"
             }
           },
           {
@@ -251,18 +251,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b779efce0c95a0bf",
+  "active": "b0711c59d5a012d1",
   "lastOpenFiles": [
+    "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
+    "嵌入式/Lib/MCU/协程/ProtoThread.md",
+    "嵌入式/Lib/MCU/协程",
+    "Tools/Git/Git单独下载文件夹.md",
     "计划_记录/秋招前/1.19-1.25.md",
     "计划_记录/秋招前提升.md",
-    "Tools/Git/Git单独下载文件夹.md",
     "Tools/ComfUI/入门/网站.md",
     "Tools/ComfUI/入门/基本入门.md",
     "Tools/Git",
     "计划_记录/秋招前/1.12-1.18.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
-    "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
     "Games/UE5/UE5 Primer.md",
     "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
     "操作系统/Linux/Linux_C/线程池.md",
@@ -283,12 +285,10 @@
     "操作系统 - 副本/虚拟化/wsl2/VSCode + WSL2 联合使用.md",
     "操作系统 - 副本/虚拟化/docker/常用操作.md",
     "操作系统 - 副本/虚拟化/docker/常用命令.md",
-    "操作系统 - 副本/虚拟化/docker/安装软件.md",
     "操作系统 - 副本/虚拟化/qemu",
     "操作系统 - 副本/虚拟化/wsl2",
     "操作系统 - 副本/虚拟化/docker",
     "操作系统 - 副本/虚拟化",
-    "操作系统 - 副本/Linux/基础",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
