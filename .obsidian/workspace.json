@@ -77,8 +77,7 @@
               "title": "ProtoThread"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "嵌入式/Lib/MCU/协程/ProtoThread.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ProtoThread 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -237,13 +236,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b0711c59d5a012d1",
+  "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
+    "嵌入式/Lib/MCU/协程/ProtoThread.md",
     "计划_记录/秋招前提升.md",
     "计划_记录/秋招前/1.19-1.25.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "嵌入式/Tools/MCU/RTT实时传输.md",
-    "嵌入式/Lib/MCU/协程/ProtoThread.md",
     "编程/Rust/未命名.md",
     "HTTP客户端.md",
     "嵌入式/Lib/MCU/状态机/Zephyr SMF.md",
