@@ -76,8 +76,19 @@
               "icon": "lucide-file",
               "title": "ProtoThread"
             }
+          },
+          {
+            "id": "265e3b9ed8bcee2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -198,13 +209,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -236,7 +246,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "46269ea3d0c26d5c",
+  "active": "265e3b9ed8bcee2e",
   "lastOpenFiles": [
     "嵌入式/Lib/MCU/协程/ProtoThread.md",
     "计划_记录/秋招前提升.md",
