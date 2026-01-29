@@ -119,7 +119,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "edk2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,9 +248,11 @@
   },
   "active": "46269ea3d0c26d5c",
   "lastOpenFiles": [
-    "操作系统/虚拟化/wsl2/入门.md",
-    "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
+    "操作系统/UEFI/基础.md",
+    "操作系统/UEFI/EDK II 环境配置问题.md",
     "操作系统/虚拟化/wsl2/VSCode + WSL2 联合使用.md",
+    "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
+    "操作系统/虚拟化/wsl2/入门.md",
     "操作系统/虚拟化/docker/安装软件.md",
     "计划_记录/秋招前提升.md",
     "嵌入式/Lib/MCU/协程/ProtoThread.md",
@@ -278,8 +280,6 @@
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "嵌入式/Lib/MCU/软件定时器",
     "().md",
-    "嵌入式/开发板/Jetson/资料.md",
-    "操作系统 - 副本/虚拟化/qemu/参考.md",
     "操作系统 - 副本/虚拟化/qemu",
     "操作系统 - 副本/虚拟化/wsl2",
     "操作系统 - 副本/虚拟化/docker",
