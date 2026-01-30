@@ -49,8 +49,7 @@
               "title": "Kernel"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Linux/资料/Kernel.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Kernel 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -209,7 +208,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "265e3b9ed8bcee2e",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
     "操作系统/Linux/资料/Kernel.md",
     "操作系统/Linux/资料",
