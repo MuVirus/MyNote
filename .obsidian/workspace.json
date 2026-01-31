@@ -63,8 +63,7 @@
               "title": "git tag"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tools/Git/git tag.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "git tag 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -223,14 +222,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a0135136f0bf1431",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
-    "操作系统/Linux/基础/Linux命令入门.md",
     "Tools/Git/git tag.md",
-    "计划_记录/秋招前提升.md",
-    "操作系统/Linux/资料/Kernel.md",
-    "操作系统/Linux/资料",
     "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
+    "操作系统/Linux/资料/Kernel.md",
+    "操作系统/Linux/基础/Linux命令入门.md",
+    "计划_记录/秋招前提升.md",
+    "操作系统/Linux/资料",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "计划_记录/秋招前/1.19-1.25.md",
     "计划_记录/秋招前/12.1~12.7.md",
