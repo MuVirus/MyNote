@@ -63,8 +63,7 @@
               "title": "WSL USB"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/虚拟化/wsl2/WSL USB.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "WSL USB 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -223,10 +222,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "a0135136f0bf1431",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
-    "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
     "操作系统/虚拟化/wsl2/WSL USB.md",
+    "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
     "操作系统/虚拟化/wsl2/VSCode + WSL2 联合使用.md",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "操作系统/虚拟化/wsl2/入门.md",
