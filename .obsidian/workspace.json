@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "506c00944f65594c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.11.7"
+            }
+          },
+          {
             "id": "46269ea3d0c26d5c",
             "type": "leaf",
             "state": {
@@ -63,7 +75,8 @@
               "title": "WSL USB"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +197,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -222,7 +234,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0737e3661b370eb0",
+  "active": "506c00944f65594c",
   "lastOpenFiles": [
     "操作系统/虚拟化/wsl2/WSL USB.md",
     "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
