@@ -25,12 +25,14 @@
             "id": "506c00944f65594c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "Tools/Git/Git单独下载文件夹.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.11.7"
+              "icon": "lucide-file",
+              "title": "Git单独下载文件夹"
             }
           },
           {
@@ -197,12 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Tools/Git/Git单独下载文件夹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "Git单独下载文件夹 的大纲"
             }
           },
           {
