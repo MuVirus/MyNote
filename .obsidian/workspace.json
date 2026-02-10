@@ -91,8 +91,7 @@
               "title": "入门1"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
+                "file": "计划_记录/秋招前提升.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "入门1 的大纲"
+              "title": "秋招前提升 的大纲"
             }
           },
           {
@@ -251,11 +250,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "93ae0f1b99cf7279",
+  "active": "0737e3661b370eb0",
   "lastOpenFiles": [
+    "设计/CAD/AutoCAD快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "设计/CAD/AutoCAD快捷键/img",
-    "设计/CAD/AutoCAD快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键",
     "设计/CAD",
     "嵌入式/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
@@ -298,7 +297,6 @@
     "嵌入式/Tools/MCU/img/Pasted image 20251229150910.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229150908.png",
     "操作系统/基础/ICS/PA/img/Pasted image 20251217115428.png",
-    "编程/wasm/C++/img/Pasted image 20251214161308.png",
     "未命名.canvas"
   ]
 }
