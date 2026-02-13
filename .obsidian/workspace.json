@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
+                "file": "操作系统/Linux/基础/Linux命令入门.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "入门1"
+              "title": "Linux命令入门"
             }
           },
           {
@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "操作系统/Linux/基础/Linux命令入门.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考 的大纲"
+              "title": "Linux命令入门 的大纲"
             }
           },
           {
@@ -265,8 +265,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc2d15c87499d96a",
+  "active": "93ae0f1b99cf7279",
   "lastOpenFiles": [
+    "设计/CAD/AutoCAD快捷键/入门1.md",
     "面试/CXX/参考.md",
     "面试/CXX",
     "面试",
@@ -275,7 +276,6 @@
     "计划_记录/秋招前提升.md",
     "算法/Leetcode/hot100",
     "算法/Leetcode",
-    "设计/CAD/AutoCAD快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "设计/CAD/AutoCAD快捷键/img",
     "设计/CAD/AutoCAD快捷键",
