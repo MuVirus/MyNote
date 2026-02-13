@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "操作系统/Linux/基础/Linux命令入门.md",
+                "file": "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux命令入门"
+              "title": "安装OpenSSH (基于Ubuntu)"
             }
           },
           {
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Linux/基础/Linux命令入门.md",
+                "file": "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Linux命令入门 的大纲"
+              "title": "安装OpenSSH (基于Ubuntu) 的大纲"
             }
           },
           {
@@ -267,6 +267,7 @@
   },
   "active": "93ae0f1b99cf7279",
   "lastOpenFiles": [
+    "操作系统/Linux/基础/Linux命令入门.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
     "面试/CXX/参考.md",
     "面试/CXX",
@@ -290,7 +291,6 @@
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "操作系统/虚拟化/wsl2/入门.md",
     "Tools/Git/git tag.md",
-    "操作系统/Linux/基础/Linux命令入门.md",
     "操作系统/Linux/资料",
     "计划_记录/秋招前/1.19-1.25.md",
     "计划_记录/秋招前/12.1~12.7.md",
