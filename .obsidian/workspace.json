@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -227,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
+                "file": "面试/CXX/参考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "安装OpenSSH (基于Ubuntu) 的大纲"
+              "title": "参考 的大纲"
             }
           },
           {
@@ -265,8 +265,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "93ae0f1b99cf7279",
+  "active": "dc2d15c87499d96a",
   "lastOpenFiles": [
+    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统/Linux/基础/Linux命令入门.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
     "面试/CXX/参考.md",
@@ -301,7 +302,6 @@
     "计划_记录/计划.md",
     "编程/Rust/Tokio/课程项目/异步通道.md",
     "操作系统/UEFI/资料.md",
-    "操作系统/UEFI/基础.md",
     "嵌入式/Lib/MCU/协程",
     "Tools/Git",
     "计划_记录/img/Pasted image 20260105105803.png",
