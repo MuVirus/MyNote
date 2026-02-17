@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计/3D/SU/快捷键/快捷键1.md",
+                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "快捷键1"
+              "title": "入门1"
             }
           },
           {
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -241,13 +241,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "入门1 的大纲"
             }
           },
           {
@@ -279,9 +279,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67f8b21fc796ab32",
+  "active": "23d6599b2eec393d",
   "lastOpenFiles": [
     "设计/3D/SU/快捷键/快捷键1.md",
+    "计划_记录/秋招前提升.md",
     "算法/Leetcode/hot100/未命名.md",
     "面试/CXX/参考.md",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
@@ -297,7 +298,6 @@
     "面试/CXX",
     "面试",
     "HTTP客户端.md",
-    "计划_记录/秋招前提升.md",
     "算法/Leetcode/hot100",
     "算法/Leetcode",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
