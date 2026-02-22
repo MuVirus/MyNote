@@ -49,7 +49,8 @@
               "title": "简易串口助手"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "面试/CXX/参考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "参考 的大纲"
             }
           },
           {
@@ -208,7 +209,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67f8b21fc796ab32",
+  "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
     "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "计划_记录/秋招前提升.md",
