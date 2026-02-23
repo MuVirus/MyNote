@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计/3D/SU/快捷键/入门1.md",
+                "file": "面试/CXX/参考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "入门1 的大纲"
+              "title": "参考 的大纲"
             }
           },
           {
@@ -223,14 +223,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b4512d24bdd9de71",
+  "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
+    "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
+    "设计/3D/SU/快捷键/入门1.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "设计/3D/SU/快捷键/img",
     "设计/3D/SU/快捷键/快捷键1.md",
-    "设计/3D/SU/快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
-    "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "面试/CXX/参考.md",
     "计划_记录/秋招前提升.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
@@ -270,7 +270,6 @@
     "嵌入式/Tools/MCU/img/Pasted image 20251229151657.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229151034.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229150910.png",
-    "嵌入式/Tools/MCU/img/Pasted image 20251229150908.png",
     "未命名.canvas"
   ]
 }
