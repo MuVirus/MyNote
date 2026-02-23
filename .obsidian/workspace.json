@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
+                "file": "设计/3D/SU/快捷键/入门1.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
+                "file": "设计/3D/SU/快捷键/入门1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -225,6 +225,11 @@
   },
   "active": "b4512d24bdd9de71",
   "lastOpenFiles": [
+    "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
+    "设计/3D/SU/快捷键/img",
+    "设计/3D/SU/快捷键/快捷键1.md",
+    "设计/3D/SU/快捷键/入门1.md",
+    "设计/CAD/AutoCAD快捷键/入门1.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "面试/CXX/参考.md",
     "计划_记录/秋招前提升.md",
@@ -233,13 +238,11 @@
     "编程/C_or_Cplusplus/Qt/项目/串口助手",
     "编程/C_or_Cplusplus/Qt/项目",
     "编程/C_or_Cplusplus/Qt",
-    "设计/CAD/AutoCAD快捷键/入门1.md",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统/虚拟化/wsl2/WSL USB.md",
     "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
     "Tools/Git/Git单独下载文件夹.md",
     "算法/Leetcode/hot100/未命名.md",
-    "设计/3D/SU/快捷键/快捷键1.md",
     "嵌入式/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
     "设计/3D/SU/快捷键",
     "设计/3D/SU",
@@ -248,7 +251,6 @@
     "面试/CXX",
     "面试",
     "HTTP客户端.md",
-    "算法/Leetcode/hot100",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "操作系统/Linux/资料/Kernel.md",
@@ -261,7 +263,6 @@
     "计划_记录/秋招前/12.15~12.21.md",
     "计划_记录/秋招前/1.12-1.18.md",
     "计划_记录/操盘学习.md",
-    "计划_记录/模板.md",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
