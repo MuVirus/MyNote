@@ -62,9 +62,19 @@
               "icon": "lucide-file",
               "title": "入门1"
             }
+          },
+          {
+            "id": "cbfced00842296fe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -223,15 +232,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2d68c4aaa1a35a52",
+  "active": "cbfced00842296fe",
   "lastOpenFiles": [
+    "面试/CXX/参考.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "设计/3D/SU/快捷键/入门1.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "设计/3D/SU/快捷键/img",
     "设计/3D/SU/快捷键/快捷键1.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
-    "面试/CXX/参考.md",
     "计划_记录/秋招前提升.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img",
