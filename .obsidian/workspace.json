@@ -8,91 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0737e3661b370eb0",
+            "id": "67f8b21fc796ab32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/Leetcode/hot100/未命名.md",
+                "file": "计划_记录/秋招前提升.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "秋招前提升"
             }
           },
           {
-            "id": "506c00944f65594c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Git/Git单独下载文件夹.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Git单独下载文件夹"
-            }
-          },
-          {
-            "id": "46269ea3d0c26d5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "编译最新的 WSL2 Linux Kernel"
-            }
-          },
-          {
-            "id": "265e3b9ed8bcee2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "嵌入式/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "蓝桥杯嵌入式省赛基础"
-            }
-          },
-          {
-            "id": "a0135136f0bf1431",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "操作系统/虚拟化/wsl2/WSL USB.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "WSL USB"
-            }
-          },
-          {
-            "id": "93ae0f1b99cf7279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "设计/CAD/AutoCAD快捷键/入门1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "入门1"
-            }
-          },
-          {
-            "id": "dc2d15c87499d96a",
+            "id": "2d68c4aaa1a35a52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,9 +34,51 @@
               "icon": "lucide-file",
               "title": "参考"
             }
+          },
+          {
+            "id": "0e1d5bb6157c6ee1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "简易串口助手"
+            }
+          },
+          {
+            "id": "b4512d24bdd9de71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计/3D/SU/快捷键/入门1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "入门1"
+            }
+          },
+          {
+            "id": "cbfced00842296fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Games/UE5/UE5 Primer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UE5 Primer"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -227,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "Games/UE5/UE5 Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考 的大纲"
+              "title": "UE5 Primer 的大纲"
             }
           },
           {
@@ -265,45 +237,46 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dc2d15c87499d96a",
+  "active": "cbfced00842296fe",
   "lastOpenFiles": [
     "面试/CXX/参考.md",
+    "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
+    "设计/3D/SU/快捷键/入门1.md",
+    "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
+    "设计/3D/SU/快捷键/img",
+    "设计/3D/SU/快捷键/快捷键1.md",
+    "设计/CAD/AutoCAD快捷键/入门1.md",
+    "计划_记录/秋招前提升.md",
+    "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
+    "编程/C_or_Cplusplus/Qt/项目/串口助手/img",
+    "编程/C_or_Cplusplus/Qt/项目/串口助手",
+    "编程/C_or_Cplusplus/Qt/项目",
+    "编程/C_or_Cplusplus/Qt",
+    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
+    "操作系统/虚拟化/wsl2/WSL USB.md",
+    "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
+    "Tools/Git/Git单独下载文件夹.md",
+    "算法/Leetcode/hot100/未命名.md",
+    "嵌入式/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
+    "设计/3D/SU/快捷键",
+    "设计/3D/SU",
+    "设计/3D",
+    "操作系统/Linux/基础/Linux命令入门.md",
     "面试/CXX",
     "面试",
     "HTTP客户端.md",
-    "算法/Leetcode/hot100/未命名.md",
-    "计划_记录/秋招前提升.md",
-    "算法/Leetcode/hot100",
-    "算法/Leetcode",
-    "设计/CAD/AutoCAD快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
-    "设计/CAD/AutoCAD快捷键/img",
-    "设计/CAD/AutoCAD快捷键",
-    "设计/CAD",
-    "嵌入式/竞赛/蓝桥杯嵌入式/蓝桥杯嵌入式省赛基础.md",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
     "操作系统/Linux/资料/Kernel.md",
-    "Tools/Git/Git单独下载文件夹.md",
-    "操作系统/虚拟化/wsl2/WSL USB.md",
-    "操作系统/虚拟化/wsl2/编译最新的 WSL2 Linux Kernel.md",
     "操作系统/虚拟化/wsl2/VSCode + WSL2 联合使用.md",
     "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
     "操作系统/虚拟化/wsl2/入门.md",
     "Tools/Git/git tag.md",
-    "操作系统/Linux/基础/Linux命令入门.md",
-    "操作系统/Linux/资料",
     "计划_记录/秋招前/1.19-1.25.md",
     "计划_记录/秋招前/12.1~12.7.md",
     "计划_记录/秋招前/12.15~12.21.md",
     "计划_记录/秋招前/1.12-1.18.md",
     "计划_记录/操盘学习.md",
-    "计划_记录/模板.md",
-    "计划_记录/计划.md",
-    "编程/Rust/Tokio/课程项目/异步通道.md",
-    "操作系统/UEFI/资料.md",
-    "操作系统/UEFI/基础.md",
-    "嵌入式/Lib/MCU/协程",
-    "Tools/Git",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
@@ -311,8 +284,6 @@
     "嵌入式/Tools/MCU/img/Pasted image 20251229151657.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229151034.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229150910.png",
-    "嵌入式/Tools/MCU/img/Pasted image 20251229150908.png",
-    "操作系统/基础/ICS/PA/img/Pasted image 20251217115428.png",
     "未命名.canvas"
   ]
 }
