@@ -76,9 +76,19 @@
               "icon": "lucide-file",
               "title": "UE5 Primer"
             }
+          },
+          {
+            "id": "fafab14fa5239529",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -199,13 +209,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Games/UE5/UE5 Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "UE5 Primer 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -237,16 +246,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "cbfced00842296fe",
+  "active": "fafab14fa5239529",
   "lastOpenFiles": [
+    "计划_记录/秋招前提升.md",
     "面试/CXX/参考.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "设计/3D/SU/快捷键/入门1.md",
+    "Games/UE5/UE5 Primer.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "设计/3D/SU/快捷键/img",
     "设计/3D/SU/快捷键/快捷键1.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
-    "计划_记录/秋招前提升.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img",
     "编程/C_or_Cplusplus/Qt/项目/串口助手",
