@@ -36,34 +36,6 @@
             }
           },
           {
-            "id": "0e1d5bb6157c6ee1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "简易串口助手"
-            }
-          },
-          {
-            "id": "b4512d24bdd9de71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "设计/3D/SU/快捷键/入门1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "入门1"
-            }
-          },
-          {
             "id": "cbfced00842296fe",
             "type": "leaf",
             "state": {
@@ -83,16 +55,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "面试/CXX/C++智能指针.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "参考"
+              "title": "C++智能指针"
+            }
+          },
+          {
+            "id": "6c17754a7262b6c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考 的大纲"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -233,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -251,13 +237,23 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fafab14fa5239529",
+  "active": "6c17754a7262b6c6",
   "lastOpenFiles": [
-    "计划_记录/秋招前提升.md",
+    "面试/CXX/C++智能指针.md",
+    "conflict-files-obsidian-git.md",
+    "Games/UE5/UE5 Primer.md",
     "面试/CXX/参考.md",
+    "面试/CXX/C++网络编程.md",
+    "面试/CXX/C++并发编程.md",
+    "面试/CXX/C++新特性.md",
+    "面试/CXX/C++泛型编程.md",
+    "面试/CXX/C++_STL.md",
+    "面试/CXX/C++面向对象.md",
+    "面试/CXX/C++内存管理.md",
+    "面试/CXX/C++基础.md",
+    "计划_记录/秋招前提升.md",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/简易串口助手.md",
     "设计/3D/SU/快捷键/入门1.md",
-    "Games/UE5/UE5 Primer.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "设计/3D/SU/快捷键/img",
     "设计/3D/SU/快捷键/快捷键1.md",
@@ -282,16 +278,6 @@
     "HTTP客户端.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "嵌入式/Lib/MCU/按键/MultiButton.md",
-    "操作系统/Linux/资料/Kernel.md",
-    "操作系统/虚拟化/wsl2/VSCode + WSL2 联合使用.md",
-    "操作系统/虚拟化/wsl2/安装ubuntu22.04记录过程.md",
-    "操作系统/虚拟化/wsl2/入门.md",
-    "Tools/Git/git tag.md",
-    "计划_记录/秋招前/1.19-1.25.md",
-    "计划_记录/秋招前/12.1~12.7.md",
-    "计划_记录/秋招前/12.15~12.21.md",
-    "计划_记录/秋招前/1.12-1.18.md",
-    "计划_记录/操盘学习.md",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154504.png",
