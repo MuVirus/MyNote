@@ -62,8 +62,19 @@
               "icon": "lucide-file",
               "title": "C++智能指针"
             }
+          },
+          {
+            "id": "f522599176054f30",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,13 +195,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计划_记录/秋招前提升.md",
+                "file": "面试/CXX/项目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "秋招前提升 的大纲"
+              "title": "项目 的大纲"
             }
           },
           {
@@ -222,11 +233,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "015f4856bc5639b0",
+  "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
     "面试/CXX/项目.md",
-    "面试/CXX/参考.md",
     "计划_记录/秋招前提升.md",
+    "面试/CXX/参考.md",
     "面试/CXX/C++智能指针.md",
     "conflict-files-obsidian-git.md",
     "Games/UE5/UE5 Primer.md",
