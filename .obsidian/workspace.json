@@ -131,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50152206420898
+    "width": 244.50152206420898,
+    "collapsed": true
   },
   "right": {
     "id": "03a66aea4a160681",
@@ -233,7 +234,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0eb9dd056025c613",
+  "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
     "面试/CXX/C++智能指针.md",
     "面试/CXX/项目.md",
