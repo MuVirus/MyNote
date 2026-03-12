@@ -11,14 +11,14 @@
             "id": "e47f2a5a0f33825c",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace-mobile.json",
-                "bFile": ".obsidian/workspace-mobile.json",
-                "aRef": ""
+                "file": "面试/CXX/参考.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff: workspace-mobile.json"
+              "icon": "lucide-file",
+              "title": "参考"
             }
           }
         ]
@@ -165,7 +165,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11e384f79ccc7a81",
+  "active": "e47f2a5a0f33825c",
   "lastOpenFiles": [
     "面试/CXX/C++面向对象.md",
     "面试/CXX/C++网络编程.md",
