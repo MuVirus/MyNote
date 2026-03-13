@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.50152206420898
+    "width": 255.50152206420898
   },
   "right": {
     "id": "03a66aea4a160681",
@@ -219,7 +219,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
     "未命名.base",
     "面试/CXX/准备.md",

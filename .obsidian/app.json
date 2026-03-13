@@ -12,5 +12,6 @@
     "downscalePercent": 100
   },
   "readableLineLength": true,
-  "vimMode": false
+  "vimMode": false,
+  "focusNewTab": true
 }
