@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "C++智能指针"
             }
+          },
+          {
+            "id": "454fcec8ea647ca2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -209,11 +219,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2d68c4aaa1a35a52",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
+    "未命名.base",
+    "面试/CXX/准备.md",
     "面试/CXX/C++智能指针.md",
     "Games/UE5/UE5 Primer.md",
-    "面试/CXX/准备.md",
     "计划_记录/秋招前提升.md",
     "面试/CXX/参考.md",
     "conflict-files-obsidian-git.md",
@@ -248,7 +259,6 @@
     "操作系统/Linux/基础/Linux命令入门.md",
     "面试/CXX",
     "面试",
-    "HTTP客户端.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
