@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/准备.md",
+                "file": "面试/CXX/参考.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "准备"
+              "title": "参考"
             }
           },
           {
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/准备.md",
+                "file": "面试/CXX/参考.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "准备 的大纲"
+              "title": "参考 的大纲"
             }
           },
           {
@@ -221,8 +221,8 @@
   },
   "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
-    "面试/CXX/C++智能指针.md",
     "面试/CXX/准备.md",
+    "面试/CXX/C++智能指针.md",
     "计划_记录/秋招前提升.md",
     "未命名.base",
     "Games/UE5/UE5 Primer.md",
