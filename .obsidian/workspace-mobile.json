@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
+                "file": "面试/CXX/准备.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "内存管理"
+              "title": "准备"
             }
           }
         ]
@@ -165,13 +165,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e47f2a5a0f33825c",
+  "active": "11e384f79ccc7a81",
   "lastOpenFiles": [
-    "面试/CXX/参考.md",
-    "/面试/CXX/项目.md",
-    "面试/CXX/项目.md",
+    "未命名.base",
+    "/未命名.base",
+    "/面试/CXX/准备.md",
     "/面试/CXX",
     "/面试",
+    "面试/CXX/参考.md",
+    "面试/CXX/准备.md",
+    "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
+    "/面试/CXX/项目.md",
+    "面试/CXX/项目.md",
     "面试/CXX/C++面向对象.md",
     "面试/CXX/C++网络编程.md",
     "面试/CXX/C++泛型编程.md",
@@ -191,11 +196,7 @@
     "/面试/CXX/C++_STL.md",
     "面试/CXX/C++_STL.md",
     "计划_记录/秋招前提升.md",
-    "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
-    "设计/CAD/AutoCAD快捷键/入门1.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
-    "操作系统/虚拟化/wsl2/WSL USB.md",
-    "操作系统/Linux/资料/Kernel.md",
     "/设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "/计划_记录/秋招前",
     "/计划_记录",
@@ -203,7 +204,6 @@
     "/Tools",
     "/操作系统/虚拟化/wsl2",
     "/操作系统/虚拟化",
-    "面试/CXX",
-    "面试"
+    "面试/CXX"
   ]
 }
