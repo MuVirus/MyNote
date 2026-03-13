@@ -1,0 +1,6 @@
+{
+  "phycat-colors@@dark-color-scheme": "theme-dark-vampire",
+  "phycat-colors@@light-color-scheme": "theme-light-forest",
+  "phycat-layout@@layout-style": "layout-default",
+  "phycat-layout@@rainbow-folders": true
+}
