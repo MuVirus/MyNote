@@ -165,15 +165,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11e384f79ccc7a81",
+  "active": "e47f2a5a0f33825c",
   "lastOpenFiles": [
+    "/面试/CXX/C++基础.md",
+    "/面试/CXX",
+    "/面试",
+    "计划_记录/秋招前提升.md",
+    "面试/CXX/准备.md",
     "未命名.base",
     "/未命名.base",
     "/面试/CXX/准备.md",
-    "/面试/CXX",
-    "/面试",
     "面试/CXX/参考.md",
-    "面试/CXX/准备.md",
     "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
     "/面试/CXX/项目.md",
     "面试/CXX/项目.md",
@@ -191,11 +193,9 @@
     "/面试/CXX/C++智能指针.md",
     "/面试/CXX/C++新特性.md",
     "/面试/CXX/C++并发编程.md",
-    "/面试/CXX/C++基础.md",
     "/面试/CXX/C++内存管理.md",
     "/面试/CXX/C++_STL.md",
     "面试/CXX/C++_STL.md",
-    "计划_记录/秋招前提升.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "/设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "/计划_记录/秋招前",
@@ -203,7 +203,6 @@
     "/Tools/Git",
     "/Tools",
     "/操作系统/虚拟化/wsl2",
-    "/操作系统/虚拟化",
-    "面试/CXX"
+    "/操作系统/虚拟化"
   ]
 }
