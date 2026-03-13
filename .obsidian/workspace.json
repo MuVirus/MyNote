@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/项目.md",
+                "file": "面试/CXX/准备.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目 的大纲"
+              "title": "准备 的大纲"
             }
           },
           {
@@ -221,11 +221,11 @@
   },
   "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
-    "未命名.base",
-    "面试/CXX/准备.md",
     "面试/CXX/C++智能指针.md",
-    "Games/UE5/UE5 Primer.md",
+    "面试/CXX/准备.md",
     "计划_记录/秋招前提升.md",
+    "未命名.base",
+    "Games/UE5/UE5 Primer.md",
     "面试/CXX/参考.md",
     "conflict-files-obsidian-git.md",
     "面试/CXX/C++网络编程.md",
@@ -258,7 +258,6 @@
     "设计/3D",
     "操作系统/Linux/基础/Linux命令入门.md",
     "面试/CXX",
-    "面试",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "计划_记录/img/Pasted image 20260105105803.png",
     "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
