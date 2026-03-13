@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "面试/CXX/C++基础.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "参考"
+              "title": "C++基础"
             }
           },
           {
@@ -181,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考.md",
+                "file": "面试/CXX/C++基础.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考 的大纲"
+              "title": "C++基础 的大纲"
             }
           },
           {
@@ -201,7 +201,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -221,12 +221,12 @@
   },
   "active": "2d68c4aaa1a35a52",
   "lastOpenFiles": [
+    "面试/CXX/参考.md",
     "面试/CXX/准备.md",
     "面试/CXX/C++智能指针.md",
     "计划_记录/秋招前提升.md",
     "未命名.base",
     "Games/UE5/UE5 Primer.md",
-    "面试/CXX/参考.md",
     "conflict-files-obsidian-git.md",
     "面试/CXX/C++网络编程.md",
     "面试/CXX/C++并发编程.md",
