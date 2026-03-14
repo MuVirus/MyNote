@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/准备.md",
-                "mode": "source",
+                "file": "面试/算法/二叉树.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "准备"
+              "title": "二叉树"
             }
           }
         ]
@@ -167,11 +167,15 @@
   },
   "active": "e47f2a5a0f33825c",
   "lastOpenFiles": [
+    "面试/CXX/准备.md",
+    "面试/算法/二叉树.md",
+    "/面试/算法/二叉树.md",
     "/面试/CXX/C++基础.md",
     "/面试/CXX",
+    "/面试/算法",
+    "面试/算法",
     "/面试",
     "计划_记录/秋招前提升.md",
-    "面试/CXX/准备.md",
     "未命名.base",
     "/未命名.base",
     "/面试/CXX/准备.md",
@@ -195,14 +199,11 @@
     "/面试/CXX/C++并发编程.md",
     "/面试/CXX/C++内存管理.md",
     "/面试/CXX/C++_STL.md",
-    "面试/CXX/C++_STL.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "/设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "/计划_记录/秋招前",
     "/计划_记录",
     "/Tools/Git",
-    "/Tools",
-    "/操作系统/虚拟化/wsl2",
-    "/操作系统/虚拟化"
+    "/Tools"
   ]
 }
