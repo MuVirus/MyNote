@@ -49,8 +49,7 @@
               "title": "准备"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -209,7 +208,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "da1d9ee8e044d75b",
+  "active": "67f8b21fc796ab32",
   "lastOpenFiles": [
     "面试/CXX/C++基础.md",
     "面试/算法/二叉树.md",
