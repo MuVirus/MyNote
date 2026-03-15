@@ -49,7 +49,8 @@
               "title": "准备"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -170,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/算法/二分查找.md",
+                "file": "面试/CXX/准备.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "二分查找 的大纲"
+              "title": "准备 的大纲"
             }
           },
           {
@@ -208,11 +209,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67f8b21fc796ab32",
+  "active": "da1d9ee8e044d75b",
   "lastOpenFiles": [
-    "面试/算法/二叉树.md",
-    "面试/算法/二分查找.md",
     "面试/CXX/C++基础.md",
+    "面试/算法/二分查找.md",
+    "面试/算法/二叉树.md",
     "面试/CXX/准备.md",
     "面试/算法",
     "计划_记录/秋招前提升.md",
