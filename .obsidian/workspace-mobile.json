@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/算法/二叉树.md",
+                "file": "面试/CXX/准备.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "二叉树"
+              "title": "准备"
             }
           }
         ]
@@ -165,22 +165,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11e384f79ccc7a81",
+  "active": "e47f2a5a0f33825c",
   "lastOpenFiles": [
-    "面试/CXX/准备.md",
+    "/面试/CXX/准备.md",
+    "/面试/CXX",
+    "/面试",
+    "/项目/UHomeIOT/API/FastAPI.md",
+    "/项目/UHomeIOT/API",
+    "/项目/UHomeIOT",
+    "/项目",
+    "/设计/CAD/AutoCAD快捷键/入门1.md",
+    "/设计/CAD/AutoCAD快捷键",
+    "/设计/CAD",
+    "/设计",
+    "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
+    "HTTP客户端.md",
+    "README.md",
     "面试/算法/二叉树.md",
+    "面试/CXX/准备.md",
     "/面试/算法/二叉树.md",
     "/面试/CXX/C++基础.md",
-    "/面试/CXX",
     "/面试/算法",
     "面试/算法",
-    "/面试",
     "计划_记录/秋招前提升.md",
-    "未命名.base",
-    "/未命名.base",
-    "/面试/CXX/准备.md",
     "面试/CXX/参考.md",
-    "编程/C_or_Cplusplus/C_MemoryManage/内存管理.md",
     "/面试/CXX/项目.md",
     "面试/CXX/项目.md",
     "面试/CXX/C++面向对象.md",
@@ -194,16 +202,7 @@
     "/面试/CXX/C++面向对象.md",
     "/面试/CXX/C++网络编程.md",
     "/面试/CXX/C++泛型编程.md",
-    "/面试/CXX/C++智能指针.md",
-    "/面试/CXX/C++新特性.md",
-    "/面试/CXX/C++并发编程.md",
-    "/面试/CXX/C++内存管理.md",
-    "/面试/CXX/C++_STL.md",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
-    "/设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
-    "/计划_记录/秋招前",
-    "/计划_记录",
-    "/Tools/Git",
-    "/Tools"
+    "/设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png"
   ]
 }
