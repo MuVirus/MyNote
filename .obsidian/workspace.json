@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "欧姆龙",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -208,7 +209,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67f8b21fc796ab32",
+  "active": "586ba03f1754ce3e",
   "lastOpenFiles": [
     "面试/CXX/C++新特性.md",
     "面试/CXX/准备.md",
