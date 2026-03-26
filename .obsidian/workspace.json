@@ -102,8 +102,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +208,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "586ba03f1754ce3e",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
     "面试/CXX/C++新特性.md",
     "面试/CXX/准备.md",
