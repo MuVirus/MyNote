@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/准备.md",
+                "file": "面试/CXX/手搓代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "准备"
+              "title": "手搓代码"
             }
           }
         ],
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/准备.md",
+                "file": "面试/CXX/手搓代码.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "准备 的大纲"
+              "title": "手搓代码 的大纲"
             }
           },
           {
@@ -239,10 +239,10 @@
   },
   "active": "ca5dc8986e78a897",
   "lastOpenFiles": [
-    "面试/CXX/设计模式.md",
     "面试/CXX/参考项目.md",
-    "面试/CXX/手搓代码.md",
     "面试/CXX/准备.md",
+    "面试/CXX/设计模式.md",
+    "面试/CXX/手搓代码.md",
     "项目/C++学习项目/非阻塞定时器/非阻塞定时器设计与实现.md",
     "面试/CXX/参考.md",
     "项目/RPC框架/类声明.md",
