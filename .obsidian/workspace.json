@@ -77,8 +77,7 @@
               "title": "资料"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,13 +198,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/资料.md",
+                "file": "面试/CXX/手搓代码.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "资料 的大纲"
+              "title": "手搓代码 的大纲"
             }
           },
           {
@@ -237,10 +236,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca5dc8986e78a897",
+  "active": "67f8b21fc796ab32",
   "lastOpenFiles": [
-    "面试/CXX/手搓代码.md",
     "面试/CXX/资料.md",
+    "面试/CXX/手搓代码.md",
     "面试/CXX/参考项目.md",
     "面试/CXX/准备.md",
     "面试/CXX/设计模式.md",
