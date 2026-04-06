@@ -62,9 +62,19 @@
               "icon": "lucide-file",
               "title": "非阻塞定时器设计与实现"
             }
+          },
+          {
+            "id": "cf8f7c969d123a7c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -185,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考项目.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考项目 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -223,13 +232,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dd2669b31a6a9683",
+  "active": "cf8f7c969d123a7c",
   "lastOpenFiles": [
+    "面试/CXX/设计模式.md",
+    "面试/CXX/参考项目.md",
     "面试/CXX/资料.md",
     "面试/CXX/手搓代码.md",
-    "面试/CXX/参考项目.md",
     "面试/CXX/准备.md",
-    "面试/CXX/设计模式.md",
     "项目/C++学习项目/非阻塞定时器/非阻塞定时器设计与实现.md",
     "面试/CXX/参考.md",
     "项目/RPC框架/类声明.md",
