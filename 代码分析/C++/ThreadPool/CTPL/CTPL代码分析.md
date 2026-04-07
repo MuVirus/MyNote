@@ -20,7 +20,7 @@ CTPL是一个使用C++语言开发的一款线程池库。
 7、mutex、cv：互斥锁与条件变量，互斥锁用来操作的时候上锁的，保证线程安全，cv用来进行等待与唤醒的。
 
 ### 成员方法
-### 构造方法
+#### 构造方法/初始化方法
 有两个，一个是无参构造方法，另一个是有一个参数的构造方法。
 构造方法：
 ``` cpp
@@ -31,4 +31,38 @@ init方法：
 ``` cpp
 void init() { this->nWaiting = 0; this->isStop = false; this->isDone = false; }
 ```
-无参构造函数直接调用
+init方法将一些参数给初始化。
+通过上面可以看到，如果只构造了thread_pool对象的话，是不是额外开辟线程的，需要传入指定数量的线程数来开辟对应数量的工作线程。
+#### resize设置工作线程数量
+resize方法，用来动态设置当前工作线程的线程个数；如果大于原有线程数则会关闭一些线程，这里是直接detach，然后条件变量通知；如果小于原有线程数则会开启一部分线程数；不管是关闭还是开启，重要要达到设定的nThreads线程个数。
+``` cpp
+void resize(int nThreads) {
+    if (!this->isStop && !this->isDone) {
+        int oldNThreads = static_cast<int>(this->threads.size());
+        if (oldNThreads <= nThreads) {  // if the number of threads is increased
+            this->threads.resize(nThreads);
+            this->flags.resize(nThreads);
+            
+            for (int i = oldNThreads; i < nThreads; ++i) {
+                this->flags[i] = std::make_shared<std::atomic<bool>>(false);
+                this->set_thread(i);
+            }
+        }
+        else {  // the number of threads is decreased
+            for (int i = oldNThreads - 1; i >= nThreads; --i) {
+                *this->flags[i] = true;  // this thread will finish
+                this->threads[i]->detach();
+            }
+            {
+                // stop the detached threads that were waiting
+                std::unique_lock<std::mutex> lock(this->mutex);
+                this->cv.notify_all();
+            }
+            this->threads.resize(nThreads);  // safe to delete because the threads are detached
+            this->flags.resize(nThreads);  // safe to delete because the threads have copies of shared_ptr of the flags, not originals
+        }
+    }
+} 
+```
+
+#### push
