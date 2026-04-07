@@ -17,3 +17,18 @@ CTPL是一个使用C++语言开发的一款线程池库。
 4、isDone：
 5、isStop：
 6、nWaiting：
+7、mutex、cv：互斥锁与条件变量，互斥锁用来操作的时候上锁的，保证线程安全，cv用来进行等待与唤醒的。
+
+### 成员方法
+### 构造方法
+有两个，一个是无参构造方法，另一个是有一个参数的构造方法。
+构造方法：
+``` cpp
+thread_pool() { this->init(); }
+thread_pool(int nThreads) { this->init(); this->resize(nThreads); }
+```
+init方法：
+``` cpp
+void init() { this->nWaiting = 0; this->isStop = false; this->isDone = false; }
+```
+无参构造函数直接调用
