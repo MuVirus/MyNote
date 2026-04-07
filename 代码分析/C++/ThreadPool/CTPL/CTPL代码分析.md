@@ -14,9 +14,9 @@ CTPL是一个使用C++语言开发的一款线程池库。
 1、**任务队列**q：数据类型为`std::function<void(int)> *`，通过std::function通用可调用对象包装器去包装一个返回值为void，一个int参数的函数。
 2、**工作线程**threads：通过std::vector动态数组进行动态调整当前线程个数。
 3、flags：类型std::vector<..>表示对应的工作线程会在运行完任务后立刻退出
-4、isDone：类型为`atomic<bool>`，一般用于运行到cv.wait时唤醒工作线程，一直运行到任务队列为空时，工作线程才会出（当nWaiting为trueshi）
+4、isDone：类型为`atomic<bool>`，一般用于运行到cv.wait时唤醒工作线程，一直运行到任务队列为空时，工作线程才退出（当stop方法中的参数isWait为true时，isDone才会设置为true）
 5、isStop：`atomic<bool>`，表示该工作线程停止运行
-6、nWaiting：
+6、nWaiting：当前空闲的工作队列
 7、mutex、cv：互斥锁与条件变量，互斥锁用来操作的时候上锁的，保证线程安全，cv用来进行等待与唤醒的。
 
 ### 成员方法
@@ -66,3 +66,9 @@ void resize(int nThreads) {
 ```
 
 #### push
+
+
+
+
+#### stop
+是否等待所有任务完成时关闭工作线程；如果为true，则isDone为true，一直运行到任务队列为空，工作线程退出；如果为false，则让flags所有成员设置为true，强制让工作线程退出，并且将任务对象清除
