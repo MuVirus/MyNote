@@ -65,9 +65,38 @@ void resize(int nThreads) {
 } 
 ```
 
-#### push
-
-
+#### push 将任务放置任务队列队尾
+都是模板类，不同点是传入的函数除了第一个参数外，一个有函数参数，一个没有。传入的函数必须是第一个参数为int类型的。
+``` cpp
+template<typename F, typename... Rest>
+auto push(F && f, Rest&&... rest) ->std::future<decltype(f(0, rest...))> {
+    auto pck = std::make_shared<std::packaged_task<decltype(f(0, rest...))(int)>>(
+        std::bind(std::forward<F>(f), std::placeholders::_1, std::forward<Rest>(rest)...)
+        );
+    auto _f = new std::function<void(int id)>([pck](int id) {
+        (*pck)(id);
+    });
+    this->q.push(_f);
+    std::unique_lock<std::mutex> lock(this->mutex);
+    this->cv.notify_one();
+    return pck->get_future();
+}
+// run the user's function that excepts argument int - id of the running thread. returned value is templatized
+// operator returns std::future, where the user can get the result and rethrow the catched exceptins
+template<typename F>
+auto push(F && f) ->std::future<decltype(f(0))> {
+    auto pck = std::make_shared<std::packaged_task<decltype(f(0))(int)>>(std::forward<F>(f));
+    auto _f = new std::function<void(int id)>([pck](int id) {
+        (*pck)(id);
+    });
+    this->q.push(_f);
+    std::unique_lock<std::mutex> lock(this->mutex);
+    this->cv.notify_one();
+    return pck->get_future();
+}
+```
+1、将一个任务通过`package_task`进行包装
+#### pop 将任务从任务队列队首移除
 
 
 #### stop
