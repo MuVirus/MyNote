@@ -102,7 +102,6 @@ auto push(F && f) ->std::future<decltype(f(0))> {
 5、返回packaged_task关联的future，可以用来获取返回值。
 
 #### pop 将任务从任务队列队首移除
-
 ``` cpp
 // pops a functional wrapper to the original function
 std::function<void(int)> pop() {
@@ -115,6 +114,22 @@ std::function<void(int)> pop() {
     return f;
 }
 ```
-
-#### stop
+1、首先用用一个可调用对象包装器的指针_f获取任务队列的对头成员。
+2、然后用一个unique_ptr去接收这个_f，可以在函数结束以及之后出现异常时仍然可以销毁该指针所指向资源，避免内存泄漏。
+3、然后通过值传递给一个可调用对象包装器f，最后返回该包装器。
+#### stop关闭线程池
 是否等待所有任务完成时关闭工作线程；如果为true，则isDone为true，一直运行到任务队列为空，工作线程退出；如果为false，则让flags所有成员设置为true，强制让工作线程退出，并且将任务对象清除
+
+#### set_thread 将工作线程lambda表达式放入到线程中
+![](img/Pasted%20image%2020260408083054.png)
+set_thread部分：
+1、通过shared_ptr共享这个`this->flag[i]`给flag，之后就不需要反复使用`this->flag[i]`来获取，只需要一个`*flag`就行了。
+2、将一个lamdba表达式赋值给f，然后将f放入到相应的线程当中。
+lamdba表达式部分：
+1、将`*flag`起一个别名`_flag`。
+2、从任务队列中pop一个任务给_f，isPop表示有没有返回一个任务。
+3、while(true)死循环，表明工作线程需要一直接收任务，并且运行任务。
+while(true)部分：
+while(tr)
+4、通过一个unique_ptr接收_f，如果之后发现异常或者作用域结束，可以及时销毁资源。
+5、
