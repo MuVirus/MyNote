@@ -95,9 +95,26 @@ auto push(F && f) ->std::future<decltype(f(0))> {
     return pck->get_future();
 }
 ```
-1、将一个任务通过`package_task`进行包装
+1、将一个任务通过`package_task`进行包装起来，作为一个异步任务，之后就和调用一个普通函数一样简单。
+2、这个任务通过`bind`进行绑定，留出第一个参数，作为传入参数，之后通过`function`进行包装。
+3、将这个包装器的指针放入到任务队列中，这个期间内部会自动上锁。
+4、thread_pool全局锁进行加锁，条件变量需要用，进行唤醒其他工作线程。
+5、返回packaged_task关联的future，可以用来获取返回值。
+
 #### pop 将任务从任务队列队首移除
 
+``` cpp
+// pops a functional wrapper to the original function
+std::function<void(int)> pop() {
+    std::function<void(int id)> * _f = nullptr;
+    this->q.pop(_f);
+    std::unique_ptr<std::function<void(int id)>> func(_f);
+    std::function<void(int)> f;
+    if (_f)
+        f = *_f;
+    return f;
+}
+```
 
 #### stop
 是否等待所有任务完成时关闭工作线程；如果为true，则isDone为true，一直运行到任务队列为空，工作线程退出；如果为false，则让flags所有成员设置为true，强制让工作线程退出，并且将任务对象清除
