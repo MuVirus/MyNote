@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/CXX/资料.md",
+                "file": "操作系统/Linux/命令/资料.md",
                 "mode": "source",
                 "source": false
               },
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/资料.md",
+                "file": "操作系统/Linux/命令/资料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -224,8 +224,16 @@
   },
   "active": "67f8b21fc796ab32",
   "lastOpenFiles": [
-    "面试/CXX/参考项目.md",
+    "操作系统/Linux/基础/Makefile.md",
+    "操作系统/Linux/命令/资料.md",
+    "操作系统/Linux/命令",
+    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
+    "操作系统/Linux/基础/Linux命令入门.md",
+    "面试/Java/八股文资料.md",
     "面试/CXX/资料.md",
+    "面试/算法/二叉树.md",
+    "面试/Java",
+    "面试/CXX/参考项目.md",
     "面试/CXX/设计模式.md",
     "面试/CXX/C++并发编程.md",
     "代码分析/C++/ThreadPool/CTPL/CTPL代码分析.md",
@@ -249,18 +257,11 @@
     "Games/UE5/UE5 C++基础.md",
     "面试/算法/二分查找.md",
     "设计/CAD/AutoCAD快捷键/入门1.md",
-    "项目/RPC框架",
     "项目/智能鼠标/元器件.md",
     "项目/温湿度检测与控制系统/元件的使用.md",
     "项目/车牌识别/KNN实现全流程.md",
     "面试/CXX/C++基础.md",
     "项目/UHomeIOT/API/FastAPI.md",
-    "HTTP客户端.md",
-    "未命名.base",
-    "面试/算法/二叉树.md",
-    "计划_记录/秋招前提升.md",
-    "面试/CXX/C++智能指针.md",
-    "Games/UE5/UE5 Primer.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
