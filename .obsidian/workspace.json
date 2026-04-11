@@ -63,8 +63,7 @@
               "title": "C++并发编程"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考项目.md",
+                "file": "面试/CXX/资料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考项目 的大纲"
+              "title": "资料 的大纲"
             }
           },
           {
@@ -223,10 +222,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dd2669b31a6a9683",
+  "active": "67f8b21fc796ab32",
   "lastOpenFiles": [
-    "面试/CXX/资料.md",
     "面试/CXX/参考项目.md",
+    "面试/CXX/资料.md",
     "面试/CXX/设计模式.md",
     "面试/CXX/C++并发编程.md",
     "代码分析/C++/ThreadPool/CTPL/CTPL代码分析.md",
