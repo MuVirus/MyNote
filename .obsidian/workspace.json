@@ -62,8 +62,19 @@
               "icon": "lucide-file",
               "title": "C++并发编程"
             }
+          },
+          {
+            "id": "50da4365298f6ce2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -184,13 +195,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "操作系统/Linux/命令/资料.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "资料 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -222,10 +232,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "67f8b21fc796ab32",
+  "active": "50da4365298f6ce2",
   "lastOpenFiles": [
-    "操作系统/Linux/基础/Makefile.md",
     "操作系统/Linux/命令/资料.md",
+    "操作系统/Linux/基础/Makefile.md",
     "操作系统/Linux/命令",
     "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
     "操作系统/Linux/基础/Linux命令入门.md",
