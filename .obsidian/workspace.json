@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Android/Android Primer.md",
+                "file": "面试/CXX/设计模式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Android Primer 的大纲"
+              "title": "设计模式 的大纲"
             }
           },
           {
@@ -237,8 +237,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "50da4365298f6ce2",
+  "active": "4b724352d85a1f9b",
   "lastOpenFiles": [
+    "编程/Android/Android Primer.md",
     "操作系统/Linux/命令/资料.md",
     "操作系统/Linux/基础/Makefile.md",
     "操作系统/Linux/命令",
@@ -276,7 +277,6 @@
     "项目/温湿度检测与控制系统/元件的使用.md",
     "项目/车牌识别/KNN实现全流程.md",
     "面试/CXX/C++基础.md",
-    "项目/UHomeIOT/API/FastAPI.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
