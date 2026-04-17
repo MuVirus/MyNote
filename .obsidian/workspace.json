@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/CXX/参考项目.md",
+                "file": "面试/面试技巧/加班.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "参考项目 的大纲"
+              "title": "加班 的大纲"
             }
           },
           {
@@ -237,10 +237,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "dd2669b31a6a9683",
+  "active": "4b724352d85a1f9b",
   "lastOpenFiles": [
-    "面试/面试技巧/加班.md",
     "面试/CXX/参考项目.md",
+    "面试/面试技巧/加班.md",
     "面试/CXX/设计模式.md",
     "面试/面试技巧",
     "编程/Android/Android Primer.md",
