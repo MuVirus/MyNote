@@ -71,4 +71,4 @@ WM_QUIT 是一条特殊消息：它会导致 GetMessage 返回零，从而向消
 - **窗口过程瓶颈处理**：不应该在主线程的窗口过程中执行耗时任务，应该使用新线程、使用线程池、异步IO调用等。参考[编写窗口过程 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/writing-the-window-procedure#avoiding-bottlenecks-in-your-window-procedure)
 ### 业务线程
 - **职责**：用于处理业务代码，处理耗时任务（IO等待、CPU计算）
-- **消息处理**：业务线程bu
+- **消息处理**：业务线程不能直接操作UI，需要通过消息通知主线程。使用**PostMessage**比较合适，PostMessage天然就发送后立即返回，不会阻塞；而SendMessage的话，业务线程会挂起等待主线程处理完消息，如果当前主线程正在等待业务线程结束，就会发生死锁问题。

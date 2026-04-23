@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "欧姆龙",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -237,7 +237,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4b724352d85a1f9b",
+  "active": "68532c3565305125",
   "lastOpenFiles": [
     "编程/Windows/Win32API/img/Pasted image 20260423111515.png",
     "编程/Windows/Win32API/img/Pasted image 20260423110142.png",
