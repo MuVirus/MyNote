@@ -14,6 +14,7 @@ BOOL PostMessageA(
   [in]           LPARAM lParam
 );
 ```
+其中Msg就是要传递到消息队列的消息事件
 ### 2、SendMessage介绍
 >参考资料：
 >[sendMessage 函数 (winuser.h) - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/api/winuser/nf-winuser-sendmessage)
@@ -28,19 +29,18 @@ LRESULT SendMessage(
   [in] LPARAM lParam
 );
 ```
-
-### 3、发布消息和发送消息
+其中Msg就是要传递到窗口过程的消息事件。
+### 3、发布消息和发送消息对比
 > 参考资料：
 > [关于消息和消息队列 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/winmsg/about-messages-and-message-queues#posting-and-sending-messages)
 
-
-| 特性   | SendMessage   | PostMessage       |
-| ---- | ------------- | ----------------- |
-| 通信模式 | 同步            | 异步                |
-| 执行流程 | 直接调用目标窗口的窗口过程 | 将消息放入目标线程的消息队列    |
-| 消息队列 | 不经过，直接调用窗口过程  | 经过，通过GetMessage取出 |
-| 返回值  | LRESULT       | BOOL              |
-| 线程状态 | 阻塞，直到窗口过程执行完  | 不阻塞，继续执行后续代码      |
+| 特性   | SendMessage       | PostMessage       |
+| ---- | ----------------- | ----------------- |
+| 通信模式 | 同步                | 异步                |
+| 执行流程 | 直接调用目标窗口的窗口过程     | 将消息放入目标线程的消息队列    |
+| 消息队列 | 不经过，直接调用窗口过程      | 经过，通过GetMessage取出 |
+| 返回值  | LRESULT（窗口过程的返回值） | BOOL              |
+| 线程状态 | 阻塞，直到窗口过程执行完      | 不阻塞，继续执行后续代码      |
 ## 二、项目体现
 下面是PostMessage和SendMessage在画板项目中的简单体现
 ### 1、快捷键Q退出
@@ -56,7 +56,7 @@ LRESULT SendMessage(
 
 当然为什么不发送WM_QUIT，而要发送WM_DESTROY，是因为函数过程中switch-case中就没有WM_QUIT，所以说执行执行DefWindowProc了，会返回无法预料到的值。
 
+当然也可以想窗口过程传递WM_CLOSE，参考[关闭窗口 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/closing-the-window)
+![](img/Pasted%20image%2020260423110142.png)
 ### 2、其他PostMessage部分
-#### 
-代码中有很多地方是用到了PostMessage的
-1. 调用PostQuitMessage
+代码中有很多地方是用到了PostMessage的，比如PostQuitMessage，他相当于PostMessage(hwnd, WM_QUIT, 0, 0)，参考
