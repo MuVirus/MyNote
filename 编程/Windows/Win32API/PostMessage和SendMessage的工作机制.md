@@ -57,5 +57,6 @@ LRESULT SendMessage(
 当然为什么不发送WM_QUIT，而要发送WM_DESTROY，是因为函数过程中switch-case中就没有WM_QUIT，所以说执行执行DefWindowProc了，会返回无法预料到的值。
 
 ### 2、其他PostMessage部分
-#### 出现
-代码中有很多
+#### 
+代码中有很多地方是用到了PostMessage的
+1. 调用PostQuitMessage
