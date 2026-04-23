@@ -56,7 +56,19 @@ LRESULT SendMessage(
 
 当然为什么不发送WM_QUIT，而要发送WM_DESTROY，是因为函数过程中switch-case中就没有WM_QUIT，所以说执行执行DefWindowProc了，会返回无法预料到的值。
 
-当然也可以想窗口过程传递WM_CLOSE，参考[关闭窗口 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/closing-the-window)
-![](img/Pasted%20image%2020260423110142.png)
+当然也可以想窗口过程传递WM_CLOSE，在 WM_CLOSE的情况下， DefWindowProc 会自动调用 DestroyWindow。参考[关闭窗口 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/closing-the-window)
+![685](img/Pasted%20image%2020260423110142.png)
 ### 2、其他PostMessage部分
-代码中有很多地方是用到了PostMessage的，比如PostQuitMessage，他相当于PostMessage(hwnd, WM_QUIT, 0, 0)，参考
+代码中有很多地方是用到了PostMessage的，比如PostQuitMessage，他相当于PostMessage(hwnd, WM_QUIT, 0, 0)，参考[关闭窗口 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/closing-the-window)
+因为他是不阻塞的，直接放到目标线程的消息队列中。
+WM_QUIT 是一条特殊消息：它会导致 GetMessage 返回零，从而向消息循环的末尾发出信号。 参考[窗口消息（Win32 和 C++ 入门） - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/window-messages)
+![624](img/Pasted%20image%2020260423111515.png)
+## 三、业务线程与主线程的工作区别
+在图形界面开发当中，一般主线程用来跑UI，业务任务为了不阻塞主线程创建了业务线程，其中消息处理方面的处理涉及到程序的稳定性。
+### 主线程
+- **职责**：处理创建窗口，处理用户输入、UI操作，维护消息循环。
+- **消息处理**：可以使用Send/PostMessage，按照情况而定，SendMessage更直接，直接调用窗口过程。
+- **窗口过程瓶颈处理**：不应该在主线程的窗口过程中执行耗时任务，应该使用新线程、使用线程池、异步IO调用等。参考[编写窗口过程 - Win32 apps | Microsoft Learn](https://learn.microsoft.com/zh-cn/windows/win32/learnwin32/writing-the-window-procedure#avoiding-bottlenecks-in-your-window-procedure)
+### 业务线程
+- **职责**：用于处理业务代码，处理耗时任务（IO等待、CPU计算）
+- **消息处理**：业务线程bu
