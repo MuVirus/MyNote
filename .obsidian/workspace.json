@@ -237,20 +237,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "68532c3565305125",
+  "active": "4b724352d85a1f9b",
   "lastOpenFiles": [
+    "面试/CXX/参考项目.md",
+    "编程/Windows/Win32API/PostMessage和SendMessage的工作机制.md",
     "编程/Windows/Win32API/img/Pasted image 20260423111515.png",
     "编程/Windows/Win32API/img/Pasted image 20260423110142.png",
     "编程/Windows/Win32API/img/Pasted image 20260423100029.png",
     "编程/Windows/Win32API/img/Pasted image 20260423095619.png",
     "编程/Windows/Win32API/img",
     "编程/C_or_Cplusplus/Qt/入门.md",
-    "编程/Windows/Win32API/PostMessage和SendMessage的工作机制.md",
     "编程/Windows/Win32API",
     "编程/Windows",
     "面试/面试技巧/加班.md",
     "编程/C_or_Cplusplus/Qt",
-    "面试/CXX/参考项目.md",
     "面试/CXX/设计模式.md",
     "面试/面试技巧",
     "编程/Android/Android Primer.md",
@@ -284,7 +284,6 @@
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
     "计划_记录/img/Pasted image 20260105105803.png",
-    "嵌入式/Tools/MCU/img/Pasted image 20251229154548.png",
     "未命名.canvas"
   ]
 }
