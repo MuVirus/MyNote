@@ -4,24 +4,80 @@
     "type": "split",
     "children": [
       {
-        "id": "58c063cfec86eb8b",
-        "type": "tabs",
+        "id": "8859d17547aad288",
+        "type": "split",
         "children": [
           {
-            "id": "dd2669b31a6a9683",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "人工智能/Agents/Claude Code/使用指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "使用指南"
-            }
+            "id": "e8b456c0c22974dd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9ccce40d5476e2a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "人工智能/Agents/Claude Code/使用指南.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "使用指南"
+                }
+              }
+            ]
+          },
+          {
+            "id": "36fd10e14b66b4e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0b318f95badf2a5a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "E:\\File\\Note\\MyNote\\MyNote",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "environment": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "profileSourceId": "win32IntegratedDefault",
+                      "serial": null,
+                      "userTitle": ""
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：C:\\Windows\\System32\\conhost.exe"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -142,13 +198,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "人工智能/Agents/Claude Code/使用指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "使用指南 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -177,13 +232,16 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "dd2669b31a6a9683",
+  "active": "0b318f95badf2a5a",
   "lastOpenFiles": [
-    "README.md",
     "人工智能/Agents/Claude Code/使用指南.md",
+    "README.md",
+    "未命名.canvas",
+    "2026-06-02.md",
     "人工智能/Agents/Claude Code",
     "人工智能/Agents",
     "人工智能",
@@ -222,12 +280,9 @@
     "代码分析/C++/ThreadPool/CTPL/img/Pasted image 20260408083054.png",
     "面试/CXX/手搓代码.md",
     "面试/CXX/准备.md",
-    "项目/C++学习项目/非阻塞定时器/非阻塞定时器设计与实现.md",
-    "面试/CXX/参考.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
-    "计划_记录/img/Pasted image 20260105105803.png",
-    "未命名.canvas"
+    "计划_记录/img/Pasted image 20260105105803.png"
   ]
 }
