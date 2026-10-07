@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编程/Dart/Primer.md",
+                "file": "嵌入式/仿真/proteus/常见元器件名称.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Primer"
+              "title": "常见元器件名称"
             }
           }
         ]
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "编程/Dart/Primer.md",
+                "file": "嵌入式/仿真/proteus/常见元器件名称.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -199,8 +199,8 @@
   },
   "active": "5e8a05a11e9a7a36",
   "lastOpenFiles": [
-    "未命名.canvas",
     "编程/Dart/Primer.md",
+    "未命名.canvas",
     "未命名.base",
     "2026-10-07.md",
     "计划_记录/操盘学习.md",
