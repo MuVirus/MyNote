@@ -26,7 +26,9 @@
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "device:04f7847e-1af5-4eaf-b58e-c21f01efd1c3": "C:\\Users\\Mr.Virus\\.local\\bin\\claude.exe"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
@@ -46,9 +48,9 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "device:11df4adb-c1d3-416a-b2e4-8ec2cb739078": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
