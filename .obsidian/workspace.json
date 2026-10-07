@@ -4,50 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64c77029ed5e668e",
+        "id": "54748a58afe0f0f8",
         "type": "tabs",
         "children": [
           {
-            "id": "bbc5fa02783c8387",
+            "id": "5e8a05a11e9a7a36",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "terminal:terminal",
+              "type": "markdown",
               "state": {
-                "terminal:terminal": {
-                  "cwd": "D:\\File\\Note\\MyNote\\MyNote",
-                  "focus": false,
-                  "profile": {
-                    "args": [],
-                    "environment": [],
-                    "executable": "C:\\Windows\\System32\\cmd.exe",
-                    "followTheme": true,
-                    "name": "",
-                    "platforms": {
-                      "win32": true
-                    },
-                    "pythonExecutable": "",
-                    "restoreHistory": false,
-                    "rightClickAction": "copyPaste",
-                    "successExitCodes": [
-                      "0",
-                      "SIGINT",
-                      "SIGTERM"
-                    ],
-                    "terminalOptions": {
-                      "documentOverride": null
-                    },
-                    "type": "integrated",
-                    "win32Backend": "conpty"
-                  },
-                  "profileSourceId": "win32IntegratedDefault",
-                  "serial": null,
-                  "userTitle": ""
-                }
+                "file": "编程/Dart/Primer.md",
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "terminal",
-              "title": "C:\\Windows\\System32\\conhost.exe"
+              "icon": "lucide-file",
+              "title": "Primer"
             }
           }
         ]
@@ -100,7 +71,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "书签"
             }
@@ -125,8 +99,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/算法/二叉树.md",
-                "collapseAll": false,
+                "file": "编程/Dart/Primer.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -135,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "二叉树 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -144,12 +118,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/算法/二叉树.md",
+                "file": "编程/Dart/Primer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "二叉树 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -159,7 +133,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -173,6 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "编程/Dart/Primer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,11 +177,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 345.1666259765625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,14 +197,16 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bbc5fa02783c8387",
+  "active": "5e8a05a11e9a7a36",
   "lastOpenFiles": [
-    "计划_记录/操盘学习.md",
+    "未命名.canvas",
+    "编程/Dart/Primer.md",
     "未命名.base",
+    "2026-10-07.md",
+    "计划_记录/操盘学习.md",
     "README.md",
     "English/Grammer/五大句型.md",
     "人工智能/Agents/Claude Code/使用指南.md",
-    "未命名.canvas",
     "2026-06-02.md",
     "人工智能/Agents/Claude Code",
     "人工智能/Agents",
@@ -262,11 +239,8 @@
     "操作系统/Linux/基础/Linux命令入门.md",
     "面试/Java/八股文资料.md",
     "面试/CXX/资料.md",
-    "面试/算法/二叉树.md",
-    "代码分析/C++/ThreadPool/CTPL/CTPL代码分析.md",
     "代码分析/C++/ThreadPool/CTPL/img/Pasted image 20260408085419.png",
     "代码分析/C++/ThreadPool/CTPL/img/Pasted image 20260408083054.png",
-    "面试/CXX/手搓代码.md",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
     "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
     "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png",
