@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: Linux命令入门
+updated: '2025-07-01 11:04:51'
+---
 # 参考资料
 [UNIX / Linux 初学者教程](https://info-ee.surrey.ac.uk/Teaching/Unix/index.html)
 # 目录

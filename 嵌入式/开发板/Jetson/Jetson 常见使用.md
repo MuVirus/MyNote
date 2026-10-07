@@ -1,3 +1,9 @@
+---
+date: '2025-10-02 18:37:51'
+tags: []
+title: Jetson 常见使用
+updated: '2025-12-29 15:04:10'
+---
 # 一、品立/丽台 常见问题
 [plink-ai.com/cn/list-5-92.html](http://www.plink-ai.com/cn/list-5-92.html)
 

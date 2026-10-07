@@ -1,3 +1,9 @@
+---
+date: '2025-09-24 19:38:46'
+tags: []
+title: sqflite
+updated: '2025-09-24 19:38:46'
+---
 [sqflite | dart](https://pub.dev/packages/sqflite)
 
 用于 [Flutter](https://flutter.io/) 的 SQLite 插件。 支持 iOS、Android 和 MacOS。

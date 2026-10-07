@@ -1,3 +1,9 @@
+---
+date: '2025-08-26 19:58:09'
+tags: []
+title: FINS UDP
+updated: '2025-12-29 15:04:10'
+---
 ![](img/Pasted%20image%2020250826194709.png)
 
 FINS header（10位）

@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: LED
+updated: '2025-12-29 15:04:10'
+---
 # RGB LED
 ## XL-1615RGBC-RF
 贴片，共阳极

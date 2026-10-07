@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: ESP-IDF基础
+updated: '2025-12-29 15:04:10'
+---
 # 环境
 ## Windows 安装
 直接使用VsCode安装ESP-IDF就行了，安装后，下载自己想要的ESP-IDF版本，我是esp-idf v5.4，所以我有两个目录：一个是54_tools，一个是v5.4（其中54_tools是自己取的）。

@@ -1,3 +1,9 @@
+---
+date: '2025-09-02 11:05:40'
+tags: []
+title: Dart 核心库
+updated: '2025-09-02 11:05:40'
+---
 API文档
 [dart - Dart API 文档 文档](https://api.dart.ac.cn/index.html)
 # `dart:convert`

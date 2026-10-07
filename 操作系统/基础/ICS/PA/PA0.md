@@ -1,3 +1,9 @@
+---
+date: '2025-12-16 19:25:15'
+tags: []
+title: PA0
+updated: '2025-12-16 20:39:30'
+---
 
 最后按照下面链接做就行。
 [Getting Source Code for PAs · GitBook](https://nju-projectn.github.io/ics-pa-gitbook/ics2025/0.6.html#rtfsc-and-enjoy)

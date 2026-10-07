@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: Flutter Primer
+updated: '2025-09-29 13:52:28'
+---
 # 创建新工程
 ## 1、第一次创建
 推荐先使用Android Studio进行创建flutter工程，然后再在VsCode中打开flutter工程。如果Android Studio不能创建flutter工程，就先在Android Studio上安装flutter和dart的插件，VSCode中也需要安装flutter和dart插件，也可以安装一个flutter的提示工具。

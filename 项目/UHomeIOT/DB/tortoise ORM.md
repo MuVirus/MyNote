@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: tortoise ORM
+updated: '2025-08-30 13:59:58'
+---
 # 查询
 参考：[Query API - Tortoise ORM v0.25.1 Documentation](https://tortoise.github.io/query.html)
 ## 1、get

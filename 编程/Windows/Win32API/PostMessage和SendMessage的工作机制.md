@@ -1,3 +1,9 @@
+---
+date: '2026-04-23 09:11:50'
+tags: []
+title: PostMessage和SendMessage的工作机制
+updated: '2026-04-23 11:52:37'
+---
 
 ## 一、介绍
 ### 1、PostMessage介绍

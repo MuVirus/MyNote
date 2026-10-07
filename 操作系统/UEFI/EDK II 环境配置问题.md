@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: EDK II 环境配置问题
+updated: '2025-07-01 11:04:51'
+---
 # NMAKE : fatal error U1077: "C:\nasmnasm"
 可以发现中间的斜杆不见了，我们需要在tools_def.txt(edk2/Conf/中去找)，去搜NASM_PATH（或者直接搜ENV(NASM_PREFIX)nasm
 ），然后在nasm前面加上斜杠

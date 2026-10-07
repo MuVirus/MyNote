@@ -1,3 +1,9 @@
+---
+date: '2025-12-04 17:49:26'
+tags: []
+title: Linux文件IO基础
+updated: '2025-12-05 11:27:01'
+---
 # 前言
 
 命令使用`open`、`read`、`write`、`lseek`。

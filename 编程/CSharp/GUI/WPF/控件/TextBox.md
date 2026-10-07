@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: TextBox
+updated: '2025-07-01 11:04:51'
+---
 # 自动换行
 ```xaml
 TextWrapping="Wrap"

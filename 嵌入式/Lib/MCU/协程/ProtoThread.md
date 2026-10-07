@@ -1,3 +1,9 @@
+---
+date: '2026-01-24 10:10:13'
+tags: []
+title: ProtoThread
+updated: '2026-01-24 10:10:13'
+---
 # Protothreads 库参考
 
 本文档整理了 Protothreads 库中的各种简写、宏定义及其含义，帮助开发者快速理解和使用该库。

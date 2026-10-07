@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: 记事本（Notepad）
+updated: '2025-07-01 11:04:51'
+---
 # 前言
 ## 环境
 1. IDE：Visual Studio 2010

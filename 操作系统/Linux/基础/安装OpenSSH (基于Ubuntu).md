@@ -1,3 +1,9 @@
+---
+date: '2025-07-01 11:04:51'
+tags: []
+title: 安装OpenSSH (基于Ubuntu)
+updated: '2025-07-01 11:04:51'
+---
 参考： 
 [如何在 Ubuntu 22.04 上安装并启用 OpenSSH](https://cn.linux-console.net/?p=14853)
 
