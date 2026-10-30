@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b39c16b74d3b74d5",
+        "id": "9e2e09f851e673cd",
         "type": "tabs",
         "children": [
           {
-            "id": "8cb475749351dfd2",
+            "id": "177ea4d600110d2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,12 +197,15 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "0eb9dd056025c613",
+  "active": "177ea4d600110d2a",
   "lastOpenFiles": [
+    "项目/Moonbit/moonfig/logo/moonfig.png",
+    "项目/Moonbit/moonfig/moonfig.md",
+    "设计/推荐/架构.md",
+    "设计/推荐/img/Pasted image 20251214105345.png",
+    "项目/C++学习项目/非阻塞定时器/非阻塞定时器设计与实现.md",
     "index.md",
     "README.md",
-    "项目/Moonbit/moonfig/moonfig.md",
-    "项目/Moonbit/moonfig/logo/moonfig.png",
     "项目/Moonbit/moonfig/logo",
     "项目/Moonbit/moonfig",
     "项目/Moonbit",
@@ -238,12 +241,9 @@
     "面试/面试技巧/加班.md",
     "面试/CXX/设计模式.md",
     "操作系统/Linux/基础/Makefile.md",
-    "操作系统/Linux/基础/安装OpenSSH (基于Ubuntu).md",
-    "操作系统/Linux/基础/Linux命令入门.md",
     "代码分析/C++/ThreadPool/CTPL/img/Pasted image 20260408085419.png",
     "代码分析/C++/ThreadPool/CTPL/img/Pasted image 20260408083054.png",
     "设计/3D/SU/快捷键/img/Pasted image 20260223155640.png",
-    "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png",
-    "设计/CAD/AutoCAD快捷键/img/Pasted image 20260210152724.png"
+    "编程/C_or_Cplusplus/Qt/项目/串口助手/img/Pasted image 20260219161005.png"
   ]
 }
